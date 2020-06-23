@@ -1,12 +1,13 @@
 @charset "UTF-8";
 html {
+  font-size: 2.5vw;
   width: 100%;
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-size: 16px;
+  font-size: 0.5926rem;
   margin: 0;
   padding: 0;
 }
@@ -27,31 +28,31 @@ p {
 }
 
 .head {
-  height: 162px;
+  height: 6rem;
   background-color: #041e41;
   position: relative;
 }
 
 .head .logo {
   position: absolute;
-  top: 30px;
-  left: 57px;
+  top: 1.1111rem;
+  left: 2.1111rem;
 }
 
 .head .logo img {
-  height: 101px;
+  height: 3.7407rem;
 }
 
 .head .phone {
   position: absolute;
-  top: 49px;
-  right: 44px;
+  top: 1.8148rem;
+  right: 1.6296rem;
   color: #fff;
-  font-size: 21px;
+  font-size: 0.7778rem;
 }
 
 .head .phone img {
-  height: 62px;
+  height: 2.2963rem;
   display: block;
   float: left;
 }
@@ -59,27 +60,27 @@ p {
 .head .phone span {
   display: block;
   float: right;
-  margin-left: 20px;
-  margin-top: 3px;
+  margin-left: 0.7407rem;
+  margin-top: 0.1111rem;
 }
 
 .Nav {
-  height: 81px;
+  height: 3rem;
   width: 100%;
   background-color: #f8c301;
   display: flex;
   justify-content: space-around;
   align-items: center;
   box-sizing: border-box;
-  padding: 40px;
+  padding: 1.4815rem;
 }
 
 .Nav li {
-  font-size: 30px;
-  width: 130px;
-  height: 52px;
+  font-size: 1.1111rem;
+  width: 4.8148rem;
+  height: 1.9259rem;
   text-align: center;
-  line-height: 52px;
+  line-height: 1.9259rem;
   cursor: pointer;
 }
 
@@ -104,32 +105,32 @@ p {
 }
 
 .main .banner {
-  height: 803px;
+  height: 29.7407rem;
   background-color: #041e41;
 }
 
 .main .modular {
-  height: 313px;
+  height: 11.5926rem;
   background-color: #efefef;
-  height: 289px;
+  height: 10.7037rem;
   background-color: #fff;
-  padding: 0 36px;
+  padding: 0 1.3333rem;
 }
 
 .main .modular div {
-  padding-left: 2px;
-  height: 107px;
-  line-height: 107px;
+  padding-left: 0.0741rem;
+  height: 3.963rem;
+  line-height: 3.963rem;
 }
 
 .main .modular div :first-child {
-  font-size: 27px;
+  font-size: 1rem;
   font-weight: 600;
   color: #f8c301;
 }
 
 .main .modular div :last-child {
-  font-size: 25px;
+  font-size: 0.9259rem;
   color: #595757;
 }
 
@@ -137,39 +138,39 @@ p {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 29px;
+  font-size: 1.0741rem;
   text-align: center;
-  line-height: 137px;
+  line-height: 5.0741rem;
 }
 
 .main .modular ul li {
-  width: 328px;
-  height: 137px;
+  width: 12.1481rem;
+  height: 5.0741rem;
   background-color: #efefef;
-  border-radius: 5px;
+  border-radius: 0.1852rem;
 }
 
 .main .interval {
-  height: 24px;
+  height: 0.8889rem;
   background-color: #efefef;
 }
 
 .main .product {
   margin: 0 auto;
-  width: 1012px;
-  height: 1506px;
+  width: 37.4815rem;
+  height: 55.7778rem;
 }
 
 .main .product :first-child {
-  height: 170px;
+  height: 6.2963rem;
   box-sizing: border-box;
 }
 
 .main .product :first-child p {
-  font-size: 36px;
+  font-size: 1.3333rem;
   font-weight: 600;
   text-align: center;
-  padding-top: 56px;
+  padding-top: 2.0741rem;
   position: relative;
 }
 
@@ -177,17 +178,17 @@ p {
   content: '';
   display: block;
   position: absolute;
-  width: 79px;
-  height: 8px;
-  left: 467px;
-  bottom: 43px;
+  width: 2.9259rem;
+  height: 0.2963rem;
+  left: 17.2963rem;
+  bottom: 1.5926rem;
   background-color: #f8c301;
 }
 
 .main .product :nth-child(2) {
   margin: 0 auto;
-  width: 1012px;
-  height: 387px;
+  width: 37.4815rem;
+  height: 14.3333rem;
   background-color: #666;
   position: relative;
 }
@@ -196,10 +197,10 @@ p {
   content: '全自动是全自动是全自动是';
   display: block;
   position: absolute;
-  bottom: 16px;
+  bottom: 0.5926rem;
   right: 0;
-  padding-right: 53px;
-  font-size: 30px;
+  padding-right: 1.963rem;
+  font-size: 1.1111rem;
   font-weight: 500;
   color: #fff;
   z-index: 10;
@@ -210,43 +211,43 @@ p {
   display: block;
   position: absolute;
   width: 100%;
-  height: 67px;
+  height: 2.4815rem;
   background-color: rgba(248, 195, 1, 0.5);
   bottom: 0;
-  font-size: 30px;
+  font-size: 1.1111rem;
   z-index: 8;
 }
 
 .main .product :nth-child(3) {
   margin: 0 auto;
-  width: 1012px;
-  height: 405px;
+  width: 37.4815rem;
+  height: 15rem;
   background-color: white;
   position: relative;
-  border-bottom: 5px solid #929292;
+  border-bottom: 0.1852rem solid #929292;
 }
 
 .main .product :nth-child(4) {
-  width: 1012px;
-  height: 544px;
+  width: 37.4815rem;
+  height: 20.1481rem;
 }
 
 .main .case {
   margin: 0 auto;
-  width: 1012px;
-  height: 1576px;
+  width: 37.4815rem;
+  height: 58.3704rem;
 }
 
 .main .case :first-child {
-  height: 204px;
+  height: 7.5556rem;
   box-sizing: border-box;
 }
 
 .main .case :first-child p {
-  font-size: 36px;
+  font-size: 1.3333rem;
   font-weight: 600;
   text-align: center;
-  padding-top: 64px;
+  padding-top: 2.3704rem;
   position: relative;
 }
 
@@ -254,41 +255,41 @@ p {
   content: '';
   display: block;
   position: absolute;
-  width: 79px;
-  height: 8px;
-  left: 467px;
-  bottom: 56px;
+  width: 2.9259rem;
+  height: 0.2963rem;
+  left: 17.2963rem;
+  bottom: 2.0741rem;
   background-color: #f8c301;
 }
 
 .main .case :nth-child(2) {
-  height: 380px;
+  height: 14.0741rem;
 }
 
 .main .case :nth-child(3) {
-  height: 380px;
-  margin: 47px 0;
+  height: 14.0741rem;
+  margin: 1.7407rem 0;
 }
 
 .main .case :nth-child(4) {
-  height: 380px;
+  height: 14.0741rem;
 }
 
 .main .about {
   margin: 0 auto;
-  width: 1012px;
+  width: 37.4815rem;
 }
 
 .main .about :first-child {
-  height: 204px;
+  height: 7.5556rem;
   box-sizing: border-box;
 }
 
 .main .about :first-child p {
-  font-size: 36px;
+  font-size: 1.3333rem;
   font-weight: 600;
   text-align: center;
-  padding-top: 64px;
+  padding-top: 2.3704rem;
   position: relative;
 }
 
@@ -296,44 +297,44 @@ p {
   content: '';
   display: block;
   position: absolute;
-  width: 79px;
-  height: 8px;
-  left: 467px;
-  bottom: 56px;
+  width: 2.9259rem;
+  height: 0.2963rem;
+  left: 17.2963rem;
+  bottom: 2.0741rem;
   background-color: #f8c301;
 }
 
 .main .about :nth-child(2) {
-  height: 622px;
+  height: 23.037rem;
 }
 
 .main .about :nth-child(3) {
-  margin: 43px 7px 16px;
-  font-size: 32px;
+  margin: 1.5926rem 0.2593rem 0.5926rem;
+  font-size: 1.1852rem;
 }
 
 .main .about :nth-child(4) {
-  border-top: 1px solid #929292;
-  font-size: 30px;
+  border-top: 0.037rem solid #929292;
+  font-size: 1.1111rem;
   text-align: center;
-  line-height: 113px;
+  line-height: 4.1852rem;
 }
 
 .main .new {
   margin: 0 auto;
-  width: 1012px;
+  width: 37.4815rem;
 }
 
 .main .new div:first-child {
-  height: 204px;
+  height: 7.5556rem;
   box-sizing: border-box;
 }
 
 .main .new div:first-child p {
-  font-size: 36px;
+  font-size: 1.3333rem;
   font-weight: 600;
   text-align: center;
-  padding-top: 64px;
+  padding-top: 2.3704rem;
   position: relative;
 }
 
@@ -341,49 +342,49 @@ p {
   content: '';
   display: block;
   position: absolute;
-  width: 79px;
-  height: 8px;
-  left: 467px;
-  bottom: 56px;
+  width: 2.9259rem;
+  height: 0.2963rem;
+  left: 17.2963rem;
+  bottom: 2.0741rem;
   background-color: #f8c301;
 }
 
 .main .new div:last-child {
-  border-top: 1px solid #929292;
-  font-size: 30px;
+  border-top: 0.037rem solid #929292;
+  font-size: 1.1111rem;
   text-align: center;
-  line-height: 113px;
+  line-height: 4.1852rem;
 }
 
 .main .enterprise {
-  height: 688px;
+  height: 25.4815rem;
 }
 
 .foot {
   position: fixed;
   display: flex;
   justify-content: space-between;
-  bottom: 0px;
+  bottom: 0rem;
   z-index: 20;
   float: left;
   width: 100%;
   background-color: white;
-  font-size: 35px;
+  font-size: 1.2963rem;
   font-weight: 600;
   text-align: center;
-  line-height: 135px;
+  line-height: 5rem;
 }
 
 .foot div:first-child {
-  width: 539px;
-  height: 135px;
+  width: 19.963rem;
+  height: 5rem;
   background-color: #44b242;
   color: white;
 }
 
 .foot div:last-child {
-  width: 539px;
-  height: 135px;
+  width: 19.963rem;
+  height: 5rem;
   background-color: #44b242;
   color: white;
   position: fixed;
