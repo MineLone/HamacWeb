@@ -1,18 +1,16 @@
 @charset "UTF-8";
+@import '';
 html {
   font-size: 2.5vw;
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: #002b45;
-  box-sizing: border-box;
 }
 
 body {
   font-size: 16px;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 ul {
@@ -21,11 +19,7 @@ ul {
   padding: 0;
 }
 
-a,
-:link,
-:visited,
-:hover,
-:active {
+a {
   text-decoration: none;
 }
 
@@ -35,30 +29,31 @@ p {
 }
 
 .head {
-  height: 162px;
-  background-color: #d0edff;
+  height: 6rem;
+  background-color: #041e41;
   position: relative;
 }
 
 .head .logo {
   position: absolute;
-  top: 29px;
-  left: 65px;
+  top: 1.1111rem;
+  left: 2.1111rem;
 }
 
 .head .logo img {
-  width: 437px;
+  height: 3.7407rem;
 }
 
 .head .phone {
   position: absolute;
-  top: 92px;
-  right: 43px;
-  color: #002b45;
+  top: 1.8148rem;
+  right: 1.6296rem;
+  color: #fff;
+  font-size: 0.7778rem;
 }
 
 .head .phone img {
-  height: 46px;
+  height: 2.2963rem;
   display: block;
   float: left;
 }
@@ -66,90 +61,53 @@ p {
 .head .phone span {
   display: block;
   float: right;
-  margin-left: 24px;
-  margin-top: 0px;
-}
-
-.head .phone span div:first-child {
-  font-size: 24px;
-  line-height: 24px;
-  font-weight: 900;
-  letter-spacing: 1.1px;
-}
-
-.head .phone span div:last-child {
-  margin-top: 1px;
-  font-size: 21px;
-  line-height: 21px;
-  font-weight: 700;
-  letter-spacing: 0px;
+  margin-left: 0.7407rem;
+  margin-top: 0.1111rem;
 }
 
 .Nav {
-  position: relative;
-  height: 81px;
-  background-color: #002b45;
+  height: 3rem;
+  width: 100%;
+  background-color: #f8c301;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  justify-content: space-around;
+  align-items: center;
   box-sizing: border-box;
-  margin: 0 90px;
-  padding-bottom: 24px;
+  padding: 1.4815rem;
 }
 
 .Nav li {
-  font-size: 28px;
-  line-height: 28px;
+  font-size: 1.1111rem;
+  width: 4.8148rem;
+  height: 1.9259rem;
+  text-align: center;
+  line-height: 1.9259rem;
   cursor: pointer;
 }
 
-.Nav li a {
-  color: #ffffff;
+.Nav a {
+  color: #929292;
+}
+
+.Nav li:hover {
+  background-color: rgba(4, 30, 65, 0.9);
+}
+
+.Nav li:hover a {
+  color: #fff;
+}
+
+.Nav .activity {
+  background-color: rgba(4, 30, 65, 0.9);
 }
 
 .Nav .activity a {
-  font-size: 38px;
-  line-height: 38px;
-  color: #f8c300;
-  position: relative;
-}
-
-.Nav .activity a::after {
-  position: absolute;
-  content: '';
-  width: 0px;
-  height: 0px;
-  border: 12.5px solid transparent;
-  border-bottom: 10px solid #f8c300;
-  bottom: -7px;
-  left: 50%;
-  margin-left: -12.5px;
+  color: #fff;
 }
 
 .main .banner {
-  position: relative;
-  height: 804px;
-  background: url("../img/product/banner.png");
-  padding-top: 112px;
-}
-
-.main .banner .H1 {
-  margin: 0 auto;
-  width: 905px;
-  color: #ffffff;
-  font-size: 43px;
-  line-height: 55px;
-  font-weight: 900;
-  letter-spacing: 0px;
-  text-align: center;
-}
-
-.main .banner .H2 {
-  color: #ffffff;
-}
-
-.main .banner .exhibition > img {
-  width: 221px;
+  height: 29.7407rem;
+  background-color: #041e41;
 }
 
 .main .modular {
@@ -401,4 +359,35 @@ p {
 
 .main .enterprise {
   height: 25.4815rem;
+}
+
+.foot {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0rem;
+  z-index: 20;
+  float: left;
+  width: 100%;
+  background-color: white;
+  font-size: 1.2963rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 5rem;
+}
+
+.foot div:first-child {
+  width: 19.963rem;
+  height: 5rem;
+  background-color: #44b242;
+  color: white;
+}
+
+.foot div:last-child {
+  width: 19.963rem;
+  height: 5rem;
+  background-color: #44b242;
+  color: white;
+  position: fixed;
+  right: 0;
 }

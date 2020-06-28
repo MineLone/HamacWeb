@@ -1,0 +1,35 @@
+html {
+  $clDarkBlue: #002b45;
+  //初始化样式
+  font-size: 2.5vw; //设置根大小 27px=1rem
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: $clDarkBlue;
+  box-sizing: border-box; //盒模型边框
+}
+body {
+  //初始化样式
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; //盒模型边框
+}
+ul {
+  //初始化样式
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a,
+:link,
+:visited,
+:hover,
+:active {
+  //初始化样式
+  text-decoration: none;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
