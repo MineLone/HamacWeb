@@ -7,6 +7,17 @@ html {
   padding: 0;
   background-color: $clDarkBlue;
   box-sizing: border-box; //盒模型边框
+  //-----------------
+  /*隐藏滚动条，当IE下溢出，仍然可以滚动*/
+  -ms-overflow-style: none;
+  /*火狐下隐藏滚动条*/
+  overflow: -moz-scrollbars-none;
+  //谷歌适用
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  //-----------------
+  scrollbar-width: none;
 }
 body {
   //初始化样式
