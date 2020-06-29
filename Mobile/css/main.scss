@@ -2,45 +2,45 @@
 @import '_globals.scss';
 
 .head {
-  height: 162px;
+  height: 6rem;
   background-color: $clSkyBlue; //背景
   position: relative; //定位
   .logo {
     position: absolute; //脱离文档流
-    top: 29px;
-    left: 65px;
+    top: 1.0741rem;
+    left: 2.4074rem;
     img {
-      width: 437px;
+      width: 16.1852rem;
     }
   }
 
   .phone {
     position: absolute; //脱离文档流
-    top: 92px;
-    right: 43px;
+    top: 3.4074rem;
+    right: 1.5926rem;
     color: $clDarkBlue;
     img {
-      height: 46px;
+      height: 1.7037rem;
       display: block;
       float: left;
     }
     span {
       display: block;
       float: right;
-      margin-left: 24px;
-      margin-top: 0px;
+      margin-left: 0.8889rem;
+      margin-top: 0rem;
       div:first-child {
         font-size: $font24;
         line-height: $font24;
         font-weight: 900; //字体粗细
-        letter-spacing: 1.1px; //字体间距
+        letter-spacing: 0.0407rem; //字体间距
       }
       div:last-child {
-        margin-top: 1px;
+        margin-top: 0.037rem;
         font-size: $font21;
         line-height: $font21;
         font-weight: 700; //字体粗细
-        letter-spacing: 0px; //字体间距
+        letter-spacing: 0rem; //字体间距
       }
     }
   }
@@ -48,14 +48,14 @@
 
 .Nav {
   position: relative; //定位
-  height: 81px;
+  height: 3rem;
   background-color: $clDarkBlue;
   display: flex; //弹性盒
   justify-content: space-between; //水平排列 周围留有空白
   align-items: flex-end; //纵向居中
   box-sizing: border-box; //盒模型边框
-  margin: 0 90px; //左边距
-  padding-bottom: 24px; //下边距对齐
+  margin: 0 3.3333rem; //左边距
+  padding-bottom: 0.8889rem; //下边距对齐
   li {
     font-size: $font28;
     line-height: $font28;
@@ -75,158 +75,261 @@
         position: absolute;
         //插入三角形
         content: '';
-        width: 0px;
-        height: 0px;
-        border: 12.5px solid transparent;
-        border-bottom: 10px solid $clOrange;
+        width: 0rem;
+        height: 0rem;
+        border: 0.463rem solid transparent;
+        border-bottom: 0.3704rem solid $clOrange;
         //三角形确定位置
-        bottom: -7px; //箭头下调
+        bottom: -0.2593rem; //箭头下调
         left: 50%; //箭头居中
-        margin-left: -12.5px; //箭头居中
+        margin-left: -0.463rem; //箭头居中
       }
     }
   }
 }
 
 .main {
+  //banner
   .banner {
     position: relative;
-    height: 804px;
-    background: url('../img/product/banner.png');
-    padding-top: 112px;
+    height: 29.7407rem;
+    background: url('../img/product/banner.png') no-repeat;
+    background-size: 40rem 29.7407rem;
     .H1 {
-      margin: 0 auto;
-      width: 905px;
+      box-sizing: border-box; //盒模型边框
+      padding-top: 4.1481rem; //上边距
+      margin: 0 auto; //居中
+      text-align: center; //居中
+      width: 33.5185rem;
       color: $clWhite;
       font-size: $font43;
-      line-height: 55px;
+      line-height: 2.037rem;
       font-weight: 900;
-      letter-spacing: 0px; //字体间距
+      letter-spacing: 0rem; //字体间距
       text-align: center;
     }
+
     .H2 {
+      position: relative;
+      box-sizing: border-box; //盒模型边框
+      padding-top: 1.6667rem; //上边距
+      margin: 0 auto; //居中
+      text-align: center;
       color: $clWhite;
+      font-size: $font28;
+      line-height: $font28;
+      font-weight: 500;
+      z-index: 5;
+      &::before {
+        position: absolute;
+        content: '';
+        left: 50%;
+        bottom: 0;
+        margin-left: -12.481rem;
+        margin-bottom: -14px;
+        width: 24.962rem;
+        height: 2.074rem;
+        border-radius: 0.6667rem;
+        background-color: $clBlue;
+        z-index: -1;
+      }
     }
 
-    .exhibition > img {
-      width: 221px;
+    .exhibition {
+      box-sizing: border-box; //盒模型边框
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto; //居中
+      text-align: center;
+      padding: 2.5925rem 2.037rem 0; //上边距
+      img {
+        width: 8.1852rem;
+      }
     }
   }
-
+  //模块
   .modular {
-    height: 11.5926rem;
-    background-color: rgba(239, 239, 239, 1);
-
     height: 10.7037rem;
-    background-color: #fff;
-    padding: 0 1.3333rem;
-
+    box-sizing: border-box; //盒模型边框
+    padding: 0 1.4074rem;
     div {
-      padding-left: 0.0741rem;
       height: 3.963rem;
       line-height: 3.963rem;
-      :first-child {
-        font-size: 1rem;
-        font-weight: 600;
-        color: rgba(248, 195, 1, 1);
+      span:nth-child(1) {
+        //div下面的第一个子所有类型元素  先找第1个，再找是不是span
+        font-size: $font30;
+        font-weight: $fontW500;
+        color: $clOrange;
       }
-      :last-child {
-        font-size: 0.9259rem;
-        color: rgba(89, 87, 87, 1);
+      span:nth-of-type(2) {
+        //div下面的span元素中的第二个子元素  先找span，再找第2个
+        font-size: $font28;
+        font-weight: 100;
+        color: $clWhite;
       }
     }
     ul {
       display: flex;
-      justify-content: space-around; //水平排列
+      justify-content: space-between; //水平排列
       align-items: center; //纵向居中
-      font-size: 1.0741rem;
-      text-align: center;
-      line-height: 5.0741rem;
+      cursor: pointer; //鼠标样式
       li {
-        width: 12.1481rem;
+        position: relative;
+        // width: 12rem; //324px
+        width: 12.1852rem; //原图大小  329px
         height: 5.0741rem;
+        border-radius: 0.2963rem;
         background-color: rgba(239, 239, 239, 1);
-        border-radius: 0.1852rem;
+        img {
+          position: absolute;
+          width: 2.2222rem;
+          top: 0;
+          left: 50%;
+          margin-top: 0.5556rem;
+          margin-left: -1.1111rem;
+        }
+        span {
+          color: $clBlue;
+          font-size: $font30;
+          line-height: $font30;
+          position: absolute;
+          width: 9rem;
+          text-align: center;
+          bottom: 0;
+          left: 50%;
+          margin-bottom: 0.6667rem;
+          margin-left: -4.5rem;
+        }
+      }
+      .activity {
+        //活动样式
+        position: relative;
+        overflow: hidden;
+        img {
+          position: absolute;
+          top: -6rem;
+          -webkit-filter: drop-shadow(0 6rem 0rem $clOrange);
+          // Chrome, Safari, Opera
+          filter: drop-shadow(0 6rem 0rem $clOrange);
+        }
+        span {
+          color: $clOrange;
+        }
       }
     }
   }
-
+  //间隔
   .interval {
     //间隔
     height: 0.8889rem;
-    background-color: rgba(239, 239, 239, 1);
+    background-color: $clOrange;
   }
-  .product {
-    //推荐产品
-    margin: 0 auto;
-    width: 37.4815rem;
-    height: 55.7778rem;
-    :first-child {
-      height: 6.2963rem;
+  //处理标题
+  .mod {
+    div:nth-child(1) {
       box-sizing: border-box; //盒模型边框
+      height: 6.6667rem;
+      text-align: center;
+      font-size: $font36;
+      font-weight: 700;
+      padding-top: 2.3704rem;
+      position: relative;
+      color: $clWhite;
 
-      p {
-        font-size: 1.3333rem;
-        font-weight: 600;
-        text-align: center;
-        padding-top: 2.0741rem;
-        position: relative;
-      }
-      p::after {
+      &::after {
         content: '';
-        display: block;
         position: absolute;
-        width: 2.9259rem;
+        display: block;
+        width: 3.704rem;
         height: 0.2963rem;
-        left: 17.2963rem;
-        bottom: 1.5926rem;
+        left: 50%;
+        margin-left: -1.852rem;
+        bottom: 0;
+        margin-bottom: 1.7407rem;
         background-color: rgba(248, 195, 1, 1);
       }
     }
-    :nth-child(2) {
+  }
+  //推荐产品
+  .product {
+    //推荐产品
+    div:nth-child(2) {
+      box-sizing: border-box; //盒模型边框
       margin: 0 auto;
-      width: 37.4815rem;
-      height: 14.3333rem;
-      background-color: #666;
+      width: 37.4815rem; //width: 1012px;
+      height: 15.4444rem; //height: 417px;
+      background-color: $clSkyBlue;
       position: relative;
+      img:nth-child(1) {
+        position: absolute;
+        top: 50%;
+        left: 0.5556rem; //15px;
+        width: 1.4815rem; //40px
+        margin-top: -0.7407rem;
+      }
+      img:nth-child(2) {
+        position: absolute;
+        top: 50%;
+        right: 0.5556rem; //15px;
+        width: 1.4815rem; //40px
+        margin-top: -0.7407rem;
+      }
+      img:nth-child(3) {
+        position: absolute;
+        left: 50%;
+        margin-left: -13.5rem;
+        top: 0.2593rem;
+        width: 25.5926rem; //691px
+      }
+
+      &:nth-child(2)::before {
+        content: '全自动是全自动是全自动是';
+        display: block;
+        position: absolute;
+        bottom: 16.0002px;
+        right: 0;
+        padding-right: 53.001px;
+        font-size: 29.9997px;
+        font-weight: 500;
+        color: #fff;
+        z-index: 10;
+      }
+      &:nth-child(2)::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 67.0005px;
+        background-color: rgba(248, 195, 1, 0.5);
+        bottom: 0;
+        font-size: 29.9997px;
+        z-index: 8;
+      }
     }
-    :nth-child(2)::before {
-      content: '全自动是全自动是全自动是';
-      display: block;
+    span {
       position: absolute;
-      bottom: 0.5926rem;
+      bottom: 16.0002px;
       right: 0;
-      padding-right: 1.963rem;
-      font-size: 1.1111rem;
+      padding-right: 53.001px;
+      font-size: 29.9997px;
       font-weight: 500;
       color: #fff;
       z-index: 10;
     }
-    :nth-child(2)::after {
-      content: '';
-      display: block;
-      position: absolute;
-      width: 100%;
-      height: 2.4815rem;
-      background-color: rgba(248, 195, 1, 0.5);
-      bottom: 0;
-      font-size: 1.1111rem;
-      z-index: 8;
-    }
-
-    :nth-child(3) {
+    div:nth-child(3) {
       margin: 0 auto;
-      width: 37.4815rem;
-      height: 15rem;
+      width: 1012.0005px;
+      height: 405px;
       background-color: rgb(255, 255, 255);
       position: relative;
-      border-bottom: 0.1852rem solid #929292;
+      border-bottom: 5.0004px solid #929292;
     }
-    :nth-child(4) {
-      width: 37.4815rem;
-      height: 20.1481rem;
+    div:nth-child(4) {
+      width: 1012.0005px;
+      height: 543.9987px;
     }
   }
+  //经典案例
   .case {
     //经典案例
     margin: 0 auto;
@@ -265,6 +368,7 @@
       height: 14.0741rem;
     }
   }
+  //关于我们
   .about {
     //关于我们
     // height: 52.8148rem;
@@ -306,6 +410,7 @@
       line-height: 4.1852rem;
     }
   }
+  //新闻中心
   .new {
     //新闻中心
     // height: 52.8148rem;
@@ -340,6 +445,7 @@
       line-height: 4.1852rem;
     }
   }
+  //企业优势
   .enterprise {
     //企业优势
     height: 25.4815rem;
