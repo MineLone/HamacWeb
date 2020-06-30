@@ -586,13 +586,78 @@ div {
   background-color: #f8c301;
 }
 
-.main .new div:last-child {
-  border-top: 0.037rem solid #929292;
-  font-size: 1.1111rem;
-  text-align: center;
-  line-height: 4.1852rem;
+.main .new div:nth-child(2) {
+  margin: 0 auto;
 }
 
-.main .enterprise {
-  height: 25.4815rem;
+.main .new div:nth-child(2) img {
+  width: 37.4815rem;
+  height: 15.963rem;
+}
+
+.main .new ul li {
+  border-top: 0.037rem solid #ffffff;
+  font-size: 0.8889rem;
+  color: #d0edff;
+  line-height: 4.4444rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .new ul li p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 29.3333rem;
+}
+
+.main .new div:last-child {
+  border-top: 0.037rem solid #ffffff;
+  font-size: 1.1111rem;
+  text-align: center;
+  line-height: 4rem;
+  color: #ffffff;
+}
+
+.main .new div:last-child span {
+  color: #f8c300;
+  font-weight: 900;
+}
+
+.main .survey {
+  background-color: #d0edff;
+}
+
+.main .survey ul:first-child {
+  box-sizing: border-box;
+  height: 21.1852rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.main .survey ul:last-child {
+  box-sizing: border-box;
+  height: 7.7778rem;
+  padding-top: 0.963rem;
+  margin-bottom: 4.8148rem;
+  margin-left: 3.037rem;
+  display: flex;
+  justify-self: self-end;
+  flex-direction: column;
+}
+
+.main .survey ul:last-child li {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.1852rem;
+}
+
+.main .survey ul:last-child li img {
+  width: 1.2963rem;
+}
+
+.main .survey ul:last-child li span {
+  padding-left: 0.6296rem;
+  font-size: 0.8889rem;
+  line-height: 1.2963rem;
 }

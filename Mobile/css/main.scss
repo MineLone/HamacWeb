@@ -540,16 +540,81 @@
         background-color: rgba(248, 195, 1, 1);
       }
     }
+    div:nth-child(2) {
+      margin: 0 auto;
+      img {
+        width: 37.4815rem; //1012px;
+        height: 15.963rem; //431px;
+      }
+    }
+    ul {
+      li {
+        border-top: 0.037rem solid $clWhite;
+        font-size: $font24;
+        color: $clSkyBlue;
+        line-height: 4.4444rem; //120px
+        display: flex;
+        justify-content: space-between;
+        //文字
+        p {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          width: 29.3333rem;
+        }
+        //日期
+        span {
+        }
+      }
+    }
     div:last-child {
-      border-top: 0.037rem solid #929292;
-      font-size: 1.1111rem;
+      border-top: 0.037rem solid $clWhite;
+      font-size: $font30;
       text-align: center;
-      line-height: 4.1852rem;
+      line-height: 4rem;
+      color: $clWhite;
+      span {
+        color: $clOrange;
+        font-weight: 900;
+      }
     }
   }
-  //企业优势
-  .enterprise {
+  //公司简介
+  .survey {
     //企业优势
-    height: 25.4815rem;
+    background-color: $clSkyBlue;
+    ul:first-child {
+      box-sizing: border-box;
+      height: 21.1852rem; //572
+      background-color: $clWhite;
+      text-align: center;
+      li:first-child {
+      }
+    }
+    ul:last-child {
+      box-sizing: border-box;
+      height: 7.7778rem; //210
+      padding-top: 0.963rem; //26
+      margin-bottom: 4.8148rem; //留出按钮的高度
+      margin-left: 3.037rem; //82
+      display: flex;
+      // justify-content: space-between;
+      justify-self: self-end;
+      flex-direction: column; //垂直排列
+      li {
+        // text-align: center;
+        display: flex;
+        align-items: center;
+        padding-bottom: 0.1852rem; //5
+        img {
+          width: 1.2963rem; //35
+        }
+        span {
+          padding-left: 0.6296rem; //17
+          font-size: $font24;
+          line-height: 1.2963rem; //35
+        }
+      }
+    }
   }
 }
