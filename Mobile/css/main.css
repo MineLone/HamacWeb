@@ -635,6 +635,46 @@ div {
   text-align: center;
 }
 
+.main .survey ul:first-child li:first-child {
+  color: #002b45;
+  font-size: 1.3333rem;
+  font-weight: 900;
+  padding-top: 2.0741rem;
+}
+
+.main .survey ul:first-child li:nth-child(2) {
+  color: #767676;
+  font-size: 1.037rem;
+  font-weight: 500;
+  letter-spacing: 0.0926rem;
+  padding-top: 1.1111rem;
+}
+
+.main .survey ul:first-child li:nth-child(3) {
+  display: flex;
+  font-size: 1.1111rem;
+  font-weight: 700;
+}
+
+.main .survey ul:first-child li:last-child {
+  color: #002b45;
+  font-size: 1.1111rem;
+  position: relative;
+}
+
+.main .survey ul:first-child li:last-child::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -0.2222rem;
+  left: 9.8519rem;
+  width: 20.2963rem;
+  height: 1.8519rem;
+  border: 3px solid #002b45;
+  border-radius: 1rem;
+  z-index: 20;
+}
+
 .main .survey ul:last-child {
   box-sizing: border-box;
   height: 7.7778rem;

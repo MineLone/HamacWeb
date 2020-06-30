@@ -589,6 +589,42 @@
       background-color: $clWhite;
       text-align: center;
       li:first-child {
+        color: $clDarkBlue;
+        font-size: $font36;
+        font-weight: 900;
+        padding-top: 2.0741rem; //56
+      }
+      li:nth-child(2) {
+        color: $clDarkGrey;
+        font-size: $font28;
+        font-weight: 500;
+        letter-spacing: 0.0926rem; //字体间距
+        padding-top: 1.1111rem; //56
+      }
+      li:nth-child(3) {
+        display: flex;
+        font-size: $font30;
+        font-weight: 700;
+        p {
+        }
+      }
+      li:last-child {
+        color: $clDarkBlue;
+        font-size: $font30;
+        position: relative;
+
+        &::after {
+          content: '';
+          display: block;
+          position: absolute;
+          top: -0.2222rem;
+          left: 9.8519rem; //266
+          width: 20.2963rem; //548
+          height: 1.8519rem; //50
+          border: 3px solid $clDarkBlue;
+          border-radius: 1rem; //26
+          z-index: 20;
+        }
       }
     }
     ul:last-child {
