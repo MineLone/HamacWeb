@@ -76,6 +76,17 @@ a,
   left: 0;
   top: 0.3em;
 }
+.xMove {
+  transition: all 0.5s;
+  position: relative;
+}
+.xMove:hover {
+  transform: translate(0, -15px);
+  -ms-transform: translate(0, -15px);
+  /* IE 9 */
+  -webkit-transform: translate(0, -15px);
+  /* Safari and Chrome */
+}
 .header {
   position: absolute;
   top: 0;
@@ -132,4 +143,115 @@ a,
 }
 .index-banner img {
   width: 100%;
+}
+.index-page .index-block1 {
+  padding: 80px 0;
+}
+.index-page .index-block1 .m-title {
+  color: #002b45;
+  font-size: 2rem;
+  line-height: 40px;
+  text-align: center;
+}
+.index-page .index-block1 > :last-child {
+  display: flex;
+  flex-wrap: wrap;
+}
+.index-page .index-block1 .m-Block {
+  padding-top: 50px;
+}
+.index-page .index-block1 .m-Block .inBlock {
+  position: relative;
+}
+.index-page .index-block1 .m-Block .inBlock > :first-child {
+  position: absolute;
+}
+.index-page .index-block1 .m-Block .inBlock > :last-child {
+  font-size: 2em;
+}
+.index-block2 {
+  background-color: yellowgreen;
+}
+.index-block2 .inMain {
+  padding: 80px 0;
+}
+.index-block2 .inMain > :first-child {
+  color: #002b45;
+  font-size: 2rem;
+  line-height: 40px;
+  text-align: center;
+}
+.index-block2 .inMain > :nth-child(2) {
+  color: #ffffff;
+  font-size: 2rem;
+  line-height: 40px;
+  text-align: center;
+}
+.index-block2 .inMain > :nth-child(3) {
+  color: #ffffff;
+  font-size: 2rem;
+  line-height: 40px;
+  text-align: center;
+}
+.index-block3 {
+  background-color: yellowgreen;
+}
+.index-block3 .inMain {
+  padding: 80px 0;
+}
+.index-block3 .inMain > :first-child {
+  color: #002b45;
+  font-size: 2rem;
+  line-height: 40px;
+  text-align: center;
+}
+.index-block3 .inMain > :nth-child(2) {
+  padding-top: 20px;
+  color: #ffffff;
+  font-size: 2rem;
+  line-height: 40px;
+  text-align: center;
+}
+.index-block3 .inMain ul {
+  padding-top: 40px;
+}
+.index-block3 .inMain ul li {
+  background-color: blue;
+  width: 400px;
+  height: 200px;
+}
+.index-block3 .inMain .inb3-btn {
+  margin-top: 40px;
+  text-align: center;
+}
+.index-block3 .inMain .inb3-btn .btn-white {
+  background-color: #fff;
+  border: 1px solid #1d2088;
+  color: #1d2088;
+}
+.index-block3 .inMain .inb3-btn .btn-white .btn-white span {
+  display: inline-block;
+  padding-right: 16px;
+  background: url(https://static.westarcloud.com/5d7f31f…/images/arr-blue.png) no-repeat right center;
+}
+.index-block5 .inMain {
+  padding: 80px 0;
+}
+.index-block5 .inMain > :first-child {
+  color: #002b45;
+  font-size: 2rem;
+  line-height: 40px;
+  text-align: center;
+}
+.index-block5 .inMain .row .m-Block {
+  padding-top: 50px;
+}
+.index-block5 .inMain .row .m-Block .inBlock {
+  position: relative;
+}
+.index-block5 .inMain .row .m-Block .inBlock > :first-child {
+  position: absolute;
+}
+.index-block5 .inMain .row .m-Block .inBlock > :last-child {
+  font-size: 2em;
 }

@@ -75,3 +75,14 @@ a,
   left: 0;
   top: 0.3em;
 }
+.xMove {
+  transition: all 0.5s;
+  position: relative;
+}
+.xMove:hover {
+  transform: translate(0, -15px);
+  -ms-transform: translate(0, -15px);
+  /* IE 9 */
+  -webkit-transform: translate(0, -15px);
+  /* Safari and Chrome */
+}
