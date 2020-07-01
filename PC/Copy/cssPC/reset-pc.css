@@ -34,6 +34,8 @@ table {
 img {
   border: 0;
   display: block;
+  width: 100%;
+  height: 100%;
 }
 ol,
 ul,
@@ -64,4 +66,5 @@ a,
 :hover,
 :active {
   text-decoration: none;
+  color: #f8c300;
 }

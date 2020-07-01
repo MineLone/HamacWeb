@@ -34,8 +34,6 @@ table {
 img {
   border: 0;
   display: block;
-  width: 100%;
-  height: 100%;
 }
 ol,
 ul,
@@ -66,26 +64,4 @@ a,
 :hover,
 :active {
   text-decoration: none;
-  color: #f8c300;
-}
-.header {
-  background-color: #d0edff;
-}
-.header .inMain .ha-top {
-  border-bottom: 1px solid #767676;
-}
-.header .inMain .ha-top .l-logo {
-  width: 300px;
-}
-.header .inMain .ha-top .r-phone a {
-  font-size: 18px;
-  line-height: 28px;
-  color: #002b45;
-}
-.header .inMain .ha-nav ul {
-  height: 70px;
-  font-size: 20px;
-}
-.header .inMain .ha-nav ul li a {
-  color: #ffffff;
 }
