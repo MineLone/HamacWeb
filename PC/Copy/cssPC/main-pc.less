@@ -1,37 +1,89 @@
+@charset "utf-8";
 @import 'reset-pc.less';
 @import '../css/_globals.less';
-
-.header{
-    background-color:@clSkyBlue;
+.header {
+    position: absolute;
+    top: 0;
+    z-index: 1000; // background-color:@clSkyBlue;
     // height: 170px;
-    .inMain{
-        .ha-top{
+    .inMain {
+        .ha-top {
             border-bottom: 1px solid @clDarkGrey;
-            .l-logo{
+            .l-logo {
                 width: 300px;
             }
-            .r-phone{
-                a{
+            .r-phone {
+                a {
                     font-size: 18px;
                     line-height: 28px;
                     color: @clDarkBlue;
                 }
             }
         }
-        .ha-nav{
-            ul{
+        .ha-nav {
+            ul {
                 height: 70px;
-                font-size: 20px;
-                li{
-                    a{
+                font-size: 22px;
+                li {
+                    position: relative; // overflow: hidden;
+                    text-transform: capitalize;
+                    cursor: pointer;
+                    &:hover a::after {
+                        transform: scale(1);
+                    }
+                    a {
                         color: @clWhite;
+                        overflow: hidden;
+                        position: relative;
+                        &::after {
+                            content: "";
+                            background-color: @clUnderline;
+                            width: 100%;
+                            height: 3px;
+                            position: absolute;
+                            left: 0;
+                            bottom: -6px;
+                            transform: scaleX(0); //刚开始是没有放大的
+                            transform-origin: center bottom; //这个属性必须要在transform之后，他定义的是一个基点，具体的需要自己百度去看一看，我们这里定义的是在左下角
+                            transition: all 0.4s; //给其一个动画时间
+                        }
                     }
                 }
             }
-            
+            .search {
+                & a:first-child {
+                    img {
+                        width: 30px;
+                    }
+                }
+                & a:last-child {
+                    font-size: 22px;
+                }
+            }
         }
     }
-    
-
-    
 }
+
+.index-banner {
+    position: relative;
+    img {
+        width: 100%; // width: 1920px;
+        // height: 920px;
+    } // /* banner */
+
+}
+
+// @media screen and (max-width:768px) {
+//     .c-banner {
+//         width: 100%;
+//         height: 345px;
+//         overflow: hidden;
+//         .banner ul li img {
+//             width: 768px;
+//             height: 345px;
+//             position: absolute;
+//             left: 50%;
+//             margin-left: -384px;
+//         }
+//     }
+// }

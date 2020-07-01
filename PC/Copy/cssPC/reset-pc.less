@@ -1,10 +1,11 @@
+@import '../css/_globals.less';
 /*格式化样式*/
-html,body{ font-family:MicrosoftYaHei;font-size: 16px;}
+html,body{ font-family:MicrosoftYaHei;font-size: 16px;position: relative;}
 html,body,div,span,ol,ul,li,h1,h2,h3,h4,h5,h6,input,p,table,th,td,button{margin:0;padding:0;box-sizing: border-box;} 
 table {border-collapse:collapse;border-spacing:0;} 
 img {border:0;display: block;width: 100%;height: 100%;} 
 ol,ul,li {list-style:none} 
 h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;text-decoration: none;} 
-q:before,q:after {content:''} 
 abbr,acronym { border:0}
-a,:link,:visited,:hover,:active {text-decoration: none; color: #f8c300;}
+a,:link,:visited,:hover,:active {text-decoration: none; color: @clWhite;}
+.yLine{ &::before{content: "";display: block;background-color: #fff;width: 1px;height: 0.8em;position: absolute;left: 0;top: 0.3em;}}

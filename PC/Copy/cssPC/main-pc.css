@@ -1,8 +1,10 @@
+@charset "utf-8";
 /*格式化样式*/
 html,
 body {
   font-family: MicrosoftYaHei;
   font-size: 16px;
+  position: relative;
 }
 html,
 body,
@@ -52,10 +54,6 @@ h6 {
   font-weight: normal;
   text-decoration: none;
 }
-q:before,
-q:after {
-  content: '';
-}
 abbr,
 acronym {
   border: 0;
@@ -66,10 +64,22 @@ a,
 :hover,
 :active {
   text-decoration: none;
-  color: #f8c300;
+  color: #ffffff;
+}
+.yLine::before {
+  content: "";
+  display: block;
+  background-color: #fff;
+  width: 1px;
+  height: 0.8em;
+  position: absolute;
+  left: 0;
+  top: 0.3em;
 }
 .header {
-  background-color: #d0edff;
+  position: absolute;
+  top: 0;
+  z-index: 1000;
 }
 .header .inMain .ha-top {
   border-bottom: 1px solid #767676;
@@ -84,8 +94,42 @@ a,
 }
 .header .inMain .ha-nav ul {
   height: 70px;
-  font-size: 20px;
+  font-size: 22px;
+}
+.header .inMain .ha-nav ul li {
+  position: relative;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.header .inMain .ha-nav ul li:hover a::after {
+  transform: scale(1);
 }
 .header .inMain .ha-nav ul li a {
   color: #ffffff;
+  overflow: hidden;
+  position: relative;
+}
+.header .inMain .ha-nav ul li a::after {
+  content: "";
+  background-color: #002b45;
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transform: scaleX(0);
+  transform-origin: center bottom;
+  transition: all 0.4s;
+}
+.header .inMain .ha-nav .search a:first-child img {
+  width: 30px;
+}
+.header .inMain .ha-nav .search a:last-child {
+  font-size: 22px;
+}
+.index-banner {
+  position: relative;
+}
+.index-banner img {
+  width: 100%;
 }
