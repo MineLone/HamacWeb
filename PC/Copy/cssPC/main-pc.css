@@ -64,7 +64,7 @@ a,
 :hover,
 :active {
   text-decoration: none;
-  color: #ffffff;
+  color: #294ba2;
 }
 .yLine::before {
   content: "";
@@ -237,8 +237,11 @@ a,
 .index-block4 {
   padding: 80px 0;
 }
+.index-block5 {
+  background-color: #f6f6f6;
+}
 .index-block5 .inMain {
-  padding: 80px 0;
+  padding: 78px 0 80px;
 }
 .index-block5 .inMain > :first-child {
   color: #002b45;
@@ -257,4 +260,62 @@ a,
 }
 .index-block5 .inMain .row .m-Block .inBlock > :last-child {
   font-size: 2em;
+}
+.fastLinks {
+  height: 85px;
+  background-color: #fff;
+  padding-top: 35px;
+}
+.fastLinks .item {
+  width: 25%;
+  float: left;
+  background: url(https://static.westarcloud.com/5d7f31fa4db67f399c51d6a8/images/fastline.png) no-repeat right center;
+  box-sizing: border-box;
+  font-size: 0;
+}
+.fastLinks .item:last-child {
+  background: none;
+}
+.fastLinks i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.fastLinks .icon1 {
+  background: url(https://static.westarcloud.com/5d7f31fa4db67f399c51d6a8/images/fastlink1.png) no-repeat center center;
+}
+.fastLinks .icon2 {
+  background: url(https://static.westarcloud.com/5d7f31fa4db67f399c51d6a8/images/fastlink2.png) no-repeat center center;
+}
+.fastLinks .icon3 {
+  background: url(https://static.westarcloud.com/5d7f31fa4db67f399c51d6a8/images/fastlink3.png) no-repeat center center;
+}
+.fastLinks .icon4 {
+  background: url(https://static.westarcloud.com/5d7f31fa4db67f399c51d6a8/images/fastlink4.png) no-repeat center center;
+}
+.fastLinks .tit {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+  line-height: 28px;
+  color: #828282;
+  margin-left: 20px;
+  transition: 0.36s;
+}
+.fastLinks .tit:hover {
+  color: #1d2088;
+}
+.footer {
+  padding-top: 80px;
+  background: url(https://static.westarcloud.com/5d7f31f…/images/foot-bg1.jpg) no-repeat center top;
+  background-size: cover;
+}
+.footer .inMain .foot-logo a {
+  display: block;
+  width: 300px;
+}
+.footer .wsc-bottom {
+  border-top: 1px solid rgba(85, 85, 85, 0.5);
 }

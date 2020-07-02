@@ -63,7 +63,7 @@ a,
 :hover,
 :active {
   text-decoration: none;
-  color: #ffffff;
+  color: #294ba2;
 }
 .yLine::before {
   content: "";
