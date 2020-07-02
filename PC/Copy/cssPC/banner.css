@@ -34,7 +34,7 @@
 	position: absolute;
 	top: 50%;
 	margin-top: -53px;
-	background: #000000;
+	/* background: #000000; */
 	opacity: 0.5;
 	border-radius: 5px;
 	z-index: 10;
@@ -44,12 +44,16 @@
 	opacity: 0.8;
 }
 .c-banner .nexImg{
-	right: 0px;
+	right: 30px;
 }
-.c-banner .nexImg img,.c-banner .preImg img{
+.c-banner .preImg{
+	left: 30px;
+}
+
+/* .c-banner .nexImg img,.c-banner .preImg img{
 	
 	
-}
+} */
 .c-banner .jumpBtn{
 	width: 100%;
 	position: absolute;

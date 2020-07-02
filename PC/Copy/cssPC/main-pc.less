@@ -2,51 +2,87 @@
 @import 'reset-pc.less';
 @import '../css/_globals.less';
 
+
 @media screen and (min-width: 576px) {
     body{
-        font-size: 16px !important;
-        .inMain{
+        font-size: 14px !important;
+        .header{
+            position: absolute;
+            left: 50%;
+            margin-left: -288px;
+            .inMain{
             
-            .ha-nav{
-                ul{
-                    // font-size: 0.8em;
-                    padding-left: 12px;
+                .ha-nav{
+                    ul{
+                        padding-right: -129px;
+                        padding-left: 7px;
+                    }
                 }
             }
         }
+       
     }
     
 }
 @media screen and (min-width: 768px) {
     body{
         font-size: 18px !important;
-        .inMain{
-            
-            .ha-nav{
-                ul{
-                    padding-left: 12px;
+        .header{
+            position: absolute;
+            left: 50%;
+            margin-left: -384px;
+            .inMain{
+                .ha-nav{
+                    ul{
+                        padding-left: 12px ;
+                    }
                 }
             }
         }
+        
     }
 
 }
 @media screen and (min-width: 992px) {
     body{
+
         font-size: 20px !important;
-        
+        .header{
+            position: absolute;
+            left: 50%;
+            margin-left: -496px;
+            .inMain{
+                .ha-nav{
+                    ul{
+                        padding: 0px ;
+                    }
+                }
+            }
+        }
     }
 }
 @media screen and (min-width: 1200px) {
     body{
         font-size: 24px !important;
+        .header{
+            position: absolute;
+            left: 50%;
+            margin-left: -600px;
+            .inMain{
+                .ha-nav{
+                    ul{
+                        padding: 0px ;
+                    }
+                }
+            }
+        }
+        
     }
 }
 
 // 头部
 .header {
-    position: relative;
-    background:@bg-Header;
+    // background:@bg-Header;
     top: 0;
     z-index: 1000; 
     // background-color:@clSkyBlue;
@@ -55,7 +91,7 @@
         .ha-top {
             padding-top: 25px;
             padding-bottom: 10px;
-            border-bottom: 1px solid @clDarkGrey;
+            border-bottom: 1px solid @cl-xLine;
             position: relative;
             .l-logo{
                 padding-left: 0;
@@ -67,15 +103,37 @@
                 // top: 50%;
                 bottom: 0.5em;
                 right: 0;
+                img{
+                    display: inline-block;
+                    width: 1.2em;
+                    margin-right: 0.5em;
+                    margin-top: -0.1em;
+                }
+                a{
+                    color: @cl-H-phone;
+                    font-size: @ft-H-phone;
+                }
                 
             }
         }
         .ha-nav {
             position: relative;
+            //导航条
             ul {
                 margin: 0;
-                font-size: 1.1em;
+                // padding-left: 0;
+                font-size: @ft-H-nav;
                 line-height: 3.4em;
+                z-index: 20;
+                li{
+                    position: relative;
+                color: @cl-H-nav;
+                    
+                    &:hover &::before {
+                        transform: scale(1);
+                    }
+                    
+                }
                 .li-first{
                     padding-left: 0;
                     padding-right: 0.5em;
@@ -87,7 +145,7 @@
                         position: relative;
                         &::after {
                             content: "";
-                            background-color: @clUnderline;
+                            background: @clUnderline;
                             width: 100%;
                             height: 3px;
                             position: absolute;
@@ -99,6 +157,7 @@
                         }
                     }
                 }
+                
                 .yLine {
                     position: relative; // overflow: hidden;
                     text-transform: capitalize;
@@ -126,13 +185,27 @@
                         }
                     }
                 }
+
             }
+            //子选项框
+            .sub-nav{
+                position: absolute;
+                display: none;
+                font-size: @ft-sub-nav;
+                top: 4.5em;
+                width: 100%;
+                height: 200px;
+                background: #fff;
+                z-index: 10;
+            }
+            //搜索
             .search {
                 position: absolute;
                 // float: right;
                 // top: 50%;
                 top: 0.2em;
                 right: 0.2em;
+                color: @cl-H-search;
                 .box1 {
                     position: relative;
                     img {
@@ -145,37 +218,17 @@
                     }
                 }
                 .box2 {
-                    position: relative;
-                    font-size: 0.9em;
+                    a{
+                        position: relative;
+                        font-size: @ft-H-search;
+                        color: @cl-H-search;
+                    }
+                    
                 }
             }
         }
     }
 }
-//-------媒体查询----------------
-/*
-// Small devices (landscape phones, 576px and up)
-@media screen and (min-width: 576px) {
-
-}
-
-// Medium devices (tablets, 768px and up)
-@media screen and (min-width: 768px) {
-    ...
-}
-
-// Large devices (desktops, 992px and up)
-@media screen and (min-width: 992px) {
-    ...
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media screen and (min-width: 1200px) {
-    ...
-}
-*/
-//---------------------------
-
 
 // banner
 .index-banner {
@@ -194,13 +247,40 @@
         padding: 80px 0;
         .m-title {
             color: @clDarkBlue;
-            font-size: 2rem;
+            font-size: 1.3em;
             line-height: 40px;
             text-align: center;
         }
-        &>:last-child {
-            display: flex;
-            flex-wrap: wrap; // justify-content: center;
+        .row {
+            // display: flex;
+            // flex-wrap: wrap; // justify-content: center;
+            .box1{
+                // color: @clDarkBlue;
+                // font-size: 2rem;
+                // line-height: 40px;
+                // text-align: center;
+                .inBlock{
+                    position: relative;
+                    text-align: center;
+                    .introduce{
+                        font-size: 0.8em;
+                        position: absolute;
+                        bottom: 2em;
+                        z-index: 2;
+                        // left: ;
+                        &::before{
+                            content: "";
+                            display: inline-block;
+                            position: absolute;
+                            background:rgba(85,85,85,0.5);
+                            width: 13em;
+                            height: 3em;
+                            z-index: 1;
+                        }
+                    }
+                }
+    
+            }
         }
         .m-Block {
             padding-top: 50px;
@@ -223,23 +303,32 @@
     background-color: yellowgreen;
     .inMain{
         padding: 80px 0;
-        &>:first-child{
-            color: @clDarkBlue;
-            font-size: 2rem;
-            line-height: 40px;
-            text-align: center;
+        .box1{
+            // color: @clDarkBlue;
+            // font-size: 2rem;
+            // line-height: 40px;
+            // text-align: center;
+            .inBlock{
+                .introduce{
+                    font-size: 1em;
+                }
+            }
+
         }
-        &>:nth-child(2){
+        .box2{
             color: @clWhite;
             font-size: 2rem;
             line-height: 40px;
             text-align: center;
         }
-        &>:nth-child(3){
+        .box3{
             color: @clWhite;
             font-size: 2rem;
             line-height: 40px;
             text-align: center;
+        }
+        .box4{
+            font-size: 1em;
         }
     }
     
@@ -250,13 +339,13 @@
     background-color: yellowgreen;
     .inMain{
         padding: 80px 0;
-        &>:first-child{
+        .box1{
             color: @clDarkBlue;
             font-size: 2rem;
             line-height: 40px;
             text-align: center;
         }
-        &>:nth-child(2){
+        .box2{
             padding-top: 20px;
             color: @clWhite;
             font-size: 2rem;

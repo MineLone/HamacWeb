@@ -76,12 +76,12 @@ p {
 .yLine::before {
   content: "";
   display: block;
-  background-color: #f8c300;
-  width: 1px;
+  background: #f8c300;
+  width: 1px ;
   height: 0.8em;
   position: absolute;
   left: 0;
-  top: 1.15em;
+  top: 1.3em;
 }
 .z-Line::before {
   content: "";
@@ -112,40 +112,65 @@ p {
 }
 @media screen and (min-width: 576px) {
   body {
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
-  body .inMain .ha-nav ul {
-    padding-left: 12px;
+  body .header {
+    position: absolute;
+    left: 50%;
+    margin-left: -288px;
+  }
+  body .header .inMain .ha-nav ul {
+    padding-right: -129px;
+    padding-left: 7px;
   }
 }
 @media screen and (min-width: 768px) {
   body {
     font-size: 18px !important;
   }
-  body .inMain .ha-nav ul {
-    padding-left: 12px;
+  body .header {
+    position: absolute;
+    left: 50%;
+    margin-left: -384px;
+  }
+  body .header .inMain .ha-nav ul {
+    padding-left: 12px ;
   }
 }
 @media screen and (min-width: 992px) {
   body {
     font-size: 20px !important;
   }
+  body .header {
+    position: absolute;
+    left: 50%;
+    margin-left: -496px;
+  }
+  body .header .inMain .ha-nav ul {
+    padding: 0px ;
+  }
 }
 @media screen and (min-width: 1200px) {
   body {
     font-size: 24px !important;
   }
+  body .header {
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+  }
+  body .header .inMain .ha-nav ul {
+    padding: 0px ;
+  }
 }
 .header {
-  position: relative;
-  background: #d0edff;
   top: 0;
   z-index: 1000;
 }
 .header .inMain .ha-top {
   padding-top: 25px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #767676;
+  border-bottom: 1px solid #002b45;
   position: relative;
 }
 .header .inMain .ha-top .l-logo {
@@ -157,6 +182,16 @@ p {
   bottom: 0.5em;
   right: 0;
 }
+.header .inMain .ha-top .r-phone img {
+  display: inline-block;
+  width: 1.2em;
+  margin-right: 0.5em;
+  margin-top: -0.1em;
+}
+.header .inMain .ha-top .r-phone a {
+  color: #ffffff;
+  font-size: 0.8em;
+}
 .header .inMain .ha-nav {
   position: relative;
 }
@@ -164,6 +199,14 @@ p {
   margin: 0;
   font-size: 1.1em;
   line-height: 3.4em;
+  z-index: 20;
+}
+.header .inMain .ha-nav ul li {
+  position: relative;
+  color: #294ba2;
+}
+.header .inMain .ha-nav ul li:hover .header .inMain .ha-nav ul li::before {
+  transform: scale(1);
 }
 .header .inMain .ha-nav ul .li-first {
   padding-left: 0;
@@ -178,7 +221,7 @@ p {
 }
 .header .inMain .ha-nav ul .li-first a::after {
   content: "";
-  background-color: #002b45;
+  background: #002b45;
   width: 100%;
   height: 3px;
   position: absolute;
@@ -214,10 +257,21 @@ p {
   transform-origin: center bottom;
   transition: all 0.4s;
 }
+.header .inMain .ha-nav .sub-nav {
+  position: absolute;
+  display: none;
+  font-size: 0.7em;
+  top: 4.5em;
+  width: 100%;
+  height: 200px;
+  background: #fff;
+  z-index: 10;
+}
 .header .inMain .ha-nav .search {
   position: absolute;
   top: 0.2em;
   right: 0.2em;
+  color: #f8c300;
 }
 .header .inMain .ha-nav .search .box1 {
   position: relative;
@@ -230,31 +284,11 @@ p {
   width: 1.6em;
   padding-right: 0.5em;
 }
-.header .inMain .ha-nav .search .box2 {
+.header .inMain .ha-nav .search .box2 a {
   position: relative;
   font-size: 0.9em;
+  color: #f8c300;
 }
-/*
-// Small devices (landscape phones, 576px and up)
-@media screen and (min-width: 576px) {
-
-}
-
-// Medium devices (tablets, 768px and up)
-@media screen and (min-width: 768px) {
-    ...
-}
-
-// Large devices (desktops, 992px and up)
-@media screen and (min-width: 992px) {
-    ...
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media screen and (min-width: 1200px) {
-    ...
-}
-*/
 .index-banner {
   position: relative;
 }
@@ -266,13 +300,28 @@ p {
 }
 .index-page .index-block1 .m-title {
   color: #002b45;
-  font-size: 2rem;
+  font-size: 1.3em;
   line-height: 40px;
   text-align: center;
 }
-.index-page .index-block1 > :last-child {
-  display: flex;
-  flex-wrap: wrap;
+.index-page .index-block1 .row .box1 .inBlock {
+  position: relative;
+  text-align: center;
+}
+.index-page .index-block1 .row .box1 .inBlock .introduce {
+  font-size: 0.8em;
+  position: absolute;
+  bottom: 2em;
+  z-index: 2;
+}
+.index-page .index-block1 .row .box1 .inBlock .introduce::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  background: rgba(85, 85, 85, 0.5);
+  width: 13em;
+  height: 3em;
+  z-index: 1;
 }
 .index-page .index-block1 .m-Block {
   padding-top: 50px;
@@ -292,23 +341,23 @@ p {
 .index-block2 .inMain {
   padding: 80px 0;
 }
-.index-block2 .inMain > :first-child {
-  color: #002b45;
-  font-size: 2rem;
-  line-height: 40px;
-  text-align: center;
+.index-block2 .inMain .box1 .inBlock .introduce {
+  font-size: 1em;
 }
-.index-block2 .inMain > :nth-child(2) {
+.index-block2 .inMain .box2 {
   color: #ffffff;
   font-size: 2rem;
   line-height: 40px;
   text-align: center;
 }
-.index-block2 .inMain > :nth-child(3) {
+.index-block2 .inMain .box3 {
   color: #ffffff;
   font-size: 2rem;
   line-height: 40px;
   text-align: center;
+}
+.index-block2 .inMain .box4 {
+  font-size: 1em;
 }
 .index-block3 {
   background-color: yellowgreen;
@@ -316,13 +365,13 @@ p {
 .index-block3 .inMain {
   padding: 80px 0;
 }
-.index-block3 .inMain > :first-child {
+.index-block3 .inMain .box1 {
   color: #002b45;
   font-size: 2rem;
   line-height: 40px;
   text-align: center;
 }
-.index-block3 .inMain > :nth-child(2) {
+.index-block3 .inMain .box2 {
   padding-top: 20px;
   color: #ffffff;
   font-size: 2rem;
