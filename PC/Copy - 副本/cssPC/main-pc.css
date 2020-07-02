@@ -1,9 +1,5 @@
 @charset "utf-8";
 /*格式化样式*/
-html {
-  overflow-x: hidden;
-  overflow-y: auto;
-}
 html,
 body {
   font-family: MicrosoftYaHei;
@@ -67,31 +63,18 @@ a,
 :visited,
 :hover,
 :active {
-  text-decoration: none !important;
+  text-decoration: none;
   color: #294ba2;
-}
-p {
-  font-size: 1em;
 }
 .yLine::before {
   content: "";
   display: block;
-  background-color: #f8c300;
+  background-color: #fff;
   width: 1px;
   height: 0.8em;
   position: absolute;
   left: 0;
-  top: 1.15em;
-}
-.z-Line::before {
-  content: "";
-  display: block;
-  background-color: #f8c300;
-  width: 1px;
-  height: 0.8em;
-  position: absolute;
-  right: 0.5em;
-  top: 0.25em;
+  top: 0.3em;
 }
 .xMove {
   transition: all 0.5s;
@@ -104,38 +87,6 @@ p {
   -webkit-transform: translate(0, -15px);
   /* Safari and Chrome */
 }
-.fl-left {
-  float: left;
-}
-.fl-right {
-  float: right;
-}
-@media screen and (min-width: 576px) {
-  body {
-    font-size: 16px !important;
-  }
-  body .inMain .ha-nav ul {
-    padding-left: 12px;
-  }
-}
-@media screen and (min-width: 768px) {
-  body {
-    font-size: 18px !important;
-  }
-  body .inMain .ha-nav ul {
-    padding-left: 12px;
-  }
-}
-@media screen and (min-width: 992px) {
-  body {
-    font-size: 20px !important;
-  }
-}
-@media screen and (min-width: 1200px) {
-  body {
-    font-size: 24px !important;
-  }
-}
 .header {
   position: relative;
   background: #d0edff;
@@ -143,66 +94,31 @@ p {
   z-index: 1000;
 }
 .header .inMain .ha-top {
-  padding-top: 25px;
-  padding-bottom: 10px;
   border-bottom: 1px solid #767676;
-  position: relative;
 }
-.header .inMain .ha-top .l-logo {
-  padding-left: 0;
-  float: left;
-}
-.header .inMain .ha-top .r-phone {
-  position: absolute;
-  bottom: 0.5em;
-  right: 0;
-}
-.header .inMain .ha-nav {
-  position: relative;
+.header .inMain .ha-top .r-phone a {
+  font-size: 18px;
+  line-height: 28px;
+  color: #002b45;
 }
 .header .inMain .ha-nav ul {
-  margin: 0;
-  font-size: 1.1em;
-  line-height: 3.4em;
+  height: 70px;
+  font-size: 22px;
 }
-.header .inMain .ha-nav ul .li-first {
-  padding-left: 0;
-  padding-right: 0.5em;
-}
-.header .inMain .ha-nav ul .li-first:hover a::after {
-  transform: scale(1);
-}
-.header .inMain .ha-nav ul .li-first a {
-  overflow: hidden;
-  position: relative;
-}
-.header .inMain .ha-nav ul .li-first a::after {
-  content: "";
-  background-color: #002b45;
-  width: 100%;
-  height: 3px;
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  transform: scaleX(0);
-  transform-origin: center bottom;
-  transition: all 0.4s;
-}
-.header .inMain .ha-nav ul .yLine {
+.header .inMain .ha-nav ul li {
   position: relative;
   text-transform: capitalize;
   cursor: pointer;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
 }
-.header .inMain .ha-nav ul .yLine:hover a::after {
+.header .inMain .ha-nav ul li:hover a::after {
   transform: scale(1);
 }
-.header .inMain .ha-nav ul .yLine a {
+.header .inMain .ha-nav ul li a {
+  color: #ffffff;
   overflow: hidden;
   position: relative;
 }
-.header .inMain .ha-nav ul .yLine a::after {
+.header .inMain .ha-nav ul li a::after {
   content: "";
   background-color: #002b45;
   width: 100%;
@@ -214,25 +130,11 @@ p {
   transform-origin: center bottom;
   transition: all 0.4s;
 }
-.header .inMain .ha-nav .search {
-  position: absolute;
-  top: 0.2em;
-  right: 0.2em;
+.header .inMain .ha-nav .search a:first-child img {
+  width: 30px;
 }
-.header .inMain .ha-nav .search .box1 {
-  position: relative;
-}
-.header .inMain .ha-nav .search .box1 img {
-  position: relative;
-  top: -2px;
-  right: 18px;
-  display: inline-block;
-  width: 1.6em;
-  padding-right: 0.5em;
-}
-.header .inMain .ha-nav .search .box2 {
-  position: relative;
-  font-size: 0.9em;
+.header .inMain .ha-nav .search a:last-child {
+  font-size: 22px;
 }
 /*
 // Small devices (landscape phones, 576px and up)

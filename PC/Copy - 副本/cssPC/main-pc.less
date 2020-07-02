@@ -2,114 +2,65 @@
 @import 'reset-pc.less';
 @import '../css/_globals.less';
 
+// Small devices (landscape phones, 576px and up)
 @media screen and (min-width: 576px) {
-    body{
-        font-size: 16px !important;
-        .inMain{
-            
-            .ha-nav{
-                ul{
-                    // font-size: 0.8em;
-                    padding-left: 12px;
-                }
-            }
-        }
-    }
-    
-}
-@media screen and (min-width: 768px) {
-    body{
-        font-size: 18px !important;
-        .inMain{
-            
-            .ha-nav{
-                ul{
-                    padding-left: 12px;
-                }
-            }
-        }
-    }
 
 }
+
+// Medium devices (tablets, 768px and up)
+@media screen and (min-width: 768px) {
+    ...
+}
+
+// Large devices (desktops, 992px and up)
 @media screen and (min-width: 992px) {
-    body{
-        font-size: 20px !important;
-        
+    a {
+        font-size: 16px;
+        line-height: 28px;
+        color: @clDarkBlue;
     }
 }
+
+// Extra large devices (large desktops, 1200px and up)
 @media screen and (min-width: 1200px) {
-    body{
-        font-size: 24px !important;
-    }
+    ...
 }
 
 // 头部
 .header {
     position: relative;
-    background:@bg-Header;
+    background:@bgHeader;
     top: 0;
     z-index: 1000; 
     // background-color:@clSkyBlue;
     // height: 170px;
     .inMain {
         .ha-top {
-            padding-top: 25px;
-            padding-bottom: 10px;
             border-bottom: 1px solid @clDarkGrey;
-            position: relative;
-            .l-logo{
-                padding-left: 0;
-                float: left;
+            .l-logo {
+                // width: 300px;
             }
-            .r-phone{
-                position: absolute;
-                // float: right;
-                // top: 50%;
-                bottom: 0.5em;
-                right: 0;
-                
+            .r-phone {
+                a {
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: @clDarkBlue;
+                }
             }
         }
         .ha-nav {
-            position: relative;
             ul {
-                margin: 0;
-                font-size: 1.1em;
-                line-height: 3.4em;
-                .li-first{
-                    padding-left: 0;
-                    padding-right: 0.5em;
-                    &:hover a::after {
-                        transform: scale(1);
-                    }
-                    a {
-                        overflow: hidden;
-                        position: relative;
-                        &::after {
-                            content: "";
-                            background-color: @clUnderline;
-                            width: 100%;
-                            height: 3px;
-                            position: absolute;
-                            left: 0;
-                            bottom: -6px;   //下划线位置
-                            transform: scaleX(0); //刚开始是没有放大的
-                            transform-origin: center bottom; //这个属性必须要在transform之后，他定义的是一个基点，具体的需要自己百度去看一看，我们这里定义的是在左下角
-                            transition: all 0.4s; //给其一个动画时间
-                        }
-                    }
-                }
-                .yLine {
+                height: 70px;
+                font-size: 22px;
+                li {
                     position: relative; // overflow: hidden;
                     text-transform: capitalize;
                     cursor: pointer;
-                    padding-left: 0.5em;
-                    padding-right: 0.5em;
                     &:hover a::after {
                         transform: scale(1);
                     }
-                    
                     a {
+                        color: @clWhite;
                         overflow: hidden;
                         position: relative;
                         &::after {
@@ -128,25 +79,13 @@
                 }
             }
             .search {
-                position: absolute;
-                // float: right;
-                // top: 50%;
-                top: 0.2em;
-                right: 0.2em;
-                .box1 {
-                    position: relative;
+                & a:first-child {
                     img {
-                        position: relative;
-                        top: -2px;
-                        right: 18px;
-                        display: inline-block;
-                        width: 1.6em;
-                        padding-right:0.5em ;
+                        width: 30px;
                     }
                 }
-                .box2 {
-                    position: relative;
-                    font-size: 0.9em;
+                & a:last-child {
+                    font-size: 22px;
                 }
             }
         }

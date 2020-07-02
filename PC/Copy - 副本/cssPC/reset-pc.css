@@ -1,8 +1,4 @@
 /*格式化样式*/
-html {
-  overflow-x: hidden;
-  overflow-y: auto;
-}
 html,
 body {
   font-family: MicrosoftYaHei;
@@ -66,31 +62,18 @@ a,
 :visited,
 :hover,
 :active {
-  text-decoration: none !important;
+  text-decoration: none;
   color: #294ba2;
-}
-p {
-  font-size: 1em;
 }
 .yLine::before {
   content: "";
   display: block;
-  background-color: #f8c300;
+  background-color: #fff;
   width: 1px;
   height: 0.8em;
   position: absolute;
   left: 0;
-  top: 1.15em;
-}
-.z-Line::before {
-  content: "";
-  display: block;
-  background-color: #f8c300;
-  width: 1px;
-  height: 0.8em;
-  position: absolute;
-  right: 0.5em;
-  top: 0.25em;
+  top: 0.3em;
 }
 .xMove {
   transition: all 0.5s;
@@ -102,10 +85,4 @@ p {
   /* IE 9 */
   -webkit-transform: translate(0, -15px);
   /* Safari and Chrome */
-}
-.fl-left {
-  float: left;
-}
-.fl-right {
-  float: right;
 }
