@@ -9,6 +9,9 @@ body {
   font-size: 16px;
   position: relative;
 }
+body {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif, sans-serif, "PingFang SC", "Microsoft Yahei", "Heiti SC";
+}
 html,
 body,
 div,
@@ -108,4 +111,42 @@ p {
 }
 .fl-right {
   float: right;
+}
+.pro-a {
+  background: #f6f6f6;
+}
+.pro-a .centres .type-main {
+  background: #ffffff;
+}
+.pro-b {
+  background: #ffffff;
+}
+.pro-b .centres .type-main {
+  background: #f6f6f6;
+}
+@media (max-width: 767px) {
+  .centres {
+    max-width: 100% !important;
+  }
+}
+@media (min-width: 768px) {
+  .centres {
+    max-width: 720px !important;
+    width: 720px !important;
+  }
+}
+@media (min-width: 992px) {
+  .centres {
+    max-width: 960px !important;
+    width: 960px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .centres {
+    max-width: 1180px !important;
+    width: 1180px !important;
+  }
+}
+.none-hide {
+  display: none;
 }

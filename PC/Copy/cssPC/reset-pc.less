@@ -2,6 +2,7 @@
 /*格式化样式*/
 html { overflow-x: hidden; overflow-y: auto; }//隐藏横向滚动，垂直滚动根据内容自适应
 html,body{ font-family:MicrosoftYaHei;font-size: 16px;position: relative;}
+body{font-family: "Helvetica Neue","Helvetica","Arial",sans-serif,sans-serif,"PingFang SC","Microsoft Yahei","Heiti SC";}
 html,body,div,span,ol,ul,li,h1,h2,h3,h4,h5,h6,input,p,table,th,td,button{margin:0;padding:0;box-sizing: border-box;} 
 table {border-collapse:collapse;border-spacing:0;} 
 img {border:0;display: block;width: 100%;height: 100%;} 
@@ -23,3 +24,13 @@ p{font-size: 1em;}
 
 //产品样式-products
 // .Center{display: flex;justify-content: center;}
+.pro-a{background: rgba(246,246,246,1); .centres { .type-main{background:rgba(255,255,255,1);} } }
+.pro-b{background: rgba(255,255,255,1); .centres { .type-main{background:rgba(246,246,246,1);} } }
+.centres{
+  @media (max-width: 767px) { max-width: 100% !important; }
+  @media (min-width: 768px) { max-width: 720px !important; width: 720px !important; }
+  @media (min-width: 992px) { max-width: 960px !important; width: 960px !important; }
+  @media (min-width: 1200px){ max-width: 1180px !important;width: 1180px !important;}
+}
+//隐藏模块
+.none-hide{display: none;}
