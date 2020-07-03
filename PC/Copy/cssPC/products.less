@@ -15,9 +15,12 @@
       @media (min-width: 1200px){padding: 15px 0;}
       //版心
       .centres{
+        //主要内容
         .pro-bread{
           display: -webkit-flex; display: flex;  height: 26px; line-height: 26px;
+          //home图标
           strong{ width: 26px; height: 26px; background: url("../ico/bread-icon.webp") no-repeat 0 6px;}
+          //箭头图标 》
           span{ margin: 0 8px; width: 7px; height: 26px; background: url("../ico/bread-arr.png") no-repeat center center;} }
       }
       
@@ -64,21 +67,24 @@
               
                 } //内容最后一列
               .sub-more {
-                  display: -webkit-flex; display: none; -webkit-flex-direction: column; flex-direction: column; justify-content: space-between;
-                  font-size: 20px;line-height: 26px; 
+
+                  display: -webkit-flex; display: none; -webkit-flex-direction: column; flex-direction: column; justify-content: space-between;font-size: 20px;line-height: 26px; 
                   @media (min-width: 1200px){ width: 228px;  position: relative; opacity: 1; display: -webkit-flex; display: flex;} 
+
                   //子项1
                   .sub-more1{
-                    background-color: rgba(235, 234, 241, 1);position: relative; color: #909BA6;
-                    p{margin: 35px 25px 0; width: 180px; background: url(../ico/prohb1-arr.png) no-repeat right 5px; }
+
+                    background-color: rgba(235, 234, 241, 1);position: relative; color: #909BA6;p{margin: 35px 25px 0; width: 180px; background: url(../ico/prohb1-arr.png) no-repeat right 5px; }
+                    
                     @media (min-width: 1200px) {height: 145px; border-radius: 8px;}
                     
                   }
                   //子项2
                   .sub-more2{
-                    background-color: rgba(235, 234, 241, 1);position: relative; color: #909BA6;
-                    p{margin: 35px 25px 0; width: 180px; background: url(../ico/prohb1-arr.png) no-repeat right 5px; }
+
+                    background-color: rgba(235, 234, 241, 1);position: relative; color: #909BA6;p{margin: 35px 25px 0; width: 180px; background: url(../ico/prohb1-arr.png) no-repeat right 5px; }
                     @media (min-width: 1200px) {height: 145px; border-radius: 8px;}
+
                   }
               }
           }
@@ -118,20 +124,21 @@
 
               //图片
               .type-sub1 {
-                  background-color: rgba(235, 234, 241, 1); position: relative; color: #909BA6;font-size: 18px;line-height: 26px;
+                  background-color: rgba(235, 234, 241, 1); position: relative; color: #909BA6;font-size: 18px;line-height: 26px; width: 50%;
                   @media (max-width: 767px) {margin-bottom: 20px; width: 45%; height:52vw; border-radius: 4px;}
-                  @media (min-width: 768px) { width: 50%; height: 230px; }
-                  @media (min-width: 992px) { width: 50%; height: 336px; }
-                  @media (min-width: 1200px){ width: 50%;height: 420px; }
+                  @media (min-width: 768px) { height: 230px; }
+                  @media (min-width: 992px) { height: 336px; }
+                  @media (min-width: 1200px){ height: 420px; }
                   
               } 
               
               //内容最后一列
               .type-sub2 {
-                    @media (max-width: 767px){padding: 45px 50px 0; width: 50%;}
-                    @media (min-width: 768px){padding: 22px 25px 0; width: 50%;}
-                    @media (min-width: 992px){padding: 34px 40px 0; width: 50%;}
-                    @media (min-width: 1200px){padding: 45px 50px 0; width: 50%;}
+                    width: 50%;
+                    @media (max-width: 767px){ padding: 45px 50px 0; }
+                    @media (min-width: 768px){ padding: 22px 25px 0; }
+                    @media (min-width: 992px){ padding: 34px 40px 0; }
+                    @media (min-width: 1200px){padding: 45px 50px 0; }
                   //文字
                   .type-content {
                     color: #828282; 
@@ -143,8 +150,7 @@
 
                   //子项2
                   .type-btn{
-                     text-align: center; 
-                    a { color: rgba(255,255,255,1);background-color: #1d2088; display: block;}
+                     text-align: center; a { color: rgba(255,255,255,1);background-color: #1d2088; display: block;}
                     @media (min-width: 768px) {  margin-top: 10px; font-size: 14px; line-height: 30px; a { width: 120px; height: 30px;}}
                     @media (min-width: 992px) {  margin-top: 20px; font-size: 18px; line-height: 34px; a { width: 160px; height: 36px;}}
                     @media (min-width: 1200px) { margin-top: 45px; font-size: 20px; line-height: 38px; a { width: 180px; height: 40px;}  }

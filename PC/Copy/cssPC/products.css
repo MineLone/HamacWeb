@@ -485,6 +485,7 @@ p {
   color: #909BA6;
   font-size: 18px;
   line-height: 26px;
+  width: 50%;
 }
 @media (max-width: 767px) {
   .pro-mian .pro-type .centres .type-main .type-sub1 {
@@ -496,44 +497,40 @@ p {
 }
 @media (min-width: 768px) {
   .pro-mian .pro-type .centres .type-main .type-sub1 {
-    width: 50%;
     height: 230px;
   }
 }
 @media (min-width: 992px) {
   .pro-mian .pro-type .centres .type-main .type-sub1 {
-    width: 50%;
     height: 336px;
   }
 }
 @media (min-width: 1200px) {
   .pro-mian .pro-type .centres .type-main .type-sub1 {
-    width: 50%;
     height: 420px;
   }
+}
+.pro-mian .pro-type .centres .type-main .type-sub2 {
+  width: 50%;
 }
 @media (max-width: 767px) {
   .pro-mian .pro-type .centres .type-main .type-sub2 {
     padding: 45px 50px 0;
-    width: 50%;
   }
 }
 @media (min-width: 768px) {
   .pro-mian .pro-type .centres .type-main .type-sub2 {
     padding: 22px 25px 0;
-    width: 50%;
   }
 }
 @media (min-width: 992px) {
   .pro-mian .pro-type .centres .type-main .type-sub2 {
     padding: 34px 40px 0;
-    width: 50%;
   }
 }
 @media (min-width: 1200px) {
   .pro-mian .pro-type .centres .type-main .type-sub2 {
     padding: 45px 50px 0;
-    width: 50%;
   }
 }
 .pro-mian .pro-type .centres .type-main .type-sub2 .type-content {
