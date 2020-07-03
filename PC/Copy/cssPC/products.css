@@ -1,0 +1,329 @@
+@charset "utf-8";
+/*格式化样式*/
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+html,
+body {
+  font-family: MicrosoftYaHei;
+  font-size: 16px;
+  position: relative;
+}
+html,
+body,
+div,
+span,
+ol,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+p,
+table,
+th,
+td,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+img {
+  border: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+  text-decoration: none;
+}
+abbr,
+acronym {
+  border: 0;
+}
+a,
+:link,
+:visited,
+:hover,
+:active {
+  text-decoration: none !important;
+  color: #294ba2;
+}
+p {
+  font-size: 1em;
+}
+.yLine::before {
+  content: "";
+  display: block;
+  background: #f8c300;
+  width: 1px ;
+  height: 0.8em;
+  position: absolute;
+  left: 0;
+  top: 1.3em;
+}
+.z-Line::before {
+  content: "";
+  display: block;
+  background-color: #f8c300;
+  width: 1px;
+  height: 0.8em;
+  position: absolute;
+  right: 0.5em;
+  top: 0.25em;
+}
+.xMove {
+  transition: all 0.5s;
+  position: relative;
+}
+.xMove:hover {
+  transform: translate(0, -15px);
+  -ms-transform: translate(0, -15px);
+  /* IE 9 */
+  -webkit-transform: translate(0, -15px);
+  /* Safari and Chrome */
+}
+.fl-left {
+  float: left;
+}
+.fl-right {
+  float: right;
+}
+.pro-mian {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 576px) {
+  .pro-mian .centres {
+    max-width: 100%;
+    margin: 0 20px;
+  }
+}
+@media (min-width: 768px) {
+  .pro-mian .centres {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .pro-mian .centres {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .pro-mian .centres {
+    max-width: 1180px;
+  }
+}
+.pro-mian .centres .pro-black1 .bk-text {
+  text-align: center;
+  color: #555;
+}
+@media (min-width: 576px) {
+  .pro-mian .centres .pro-black1 .bk-text {
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .pro-mian .centres .pro-black1 .bk-text {
+    font-size: 14px;
+    margin-top: 30px;
+    line-height: 24px;
+  }
+}
+@media (min-width: 992px) {
+  .pro-mian .centres .pro-black1 .bk-text {
+    font-size: 16px;
+    margin-top: 40px;
+    line-height: 26px;
+  }
+}
+@media (min-width: 1200px) {
+  .pro-mian .centres .pro-black1 .bk-text {
+    font-size: 18px;
+    margin-top: 60px;
+    line-height: 28px;
+  }
+}
+.pro-mian .centres .pro-black1 .bk-main {
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: wrap ;
+}
+@media (min-width: 576px) {
+  .pro-mian .centres .pro-black1 .bk-main {
+    padding: 20px 0;
+  }
+}
+@media (min-width: 768px) {
+  .pro-mian .centres .pro-black1 .bk-main {
+    padding: 30px 0;
+  }
+}
+@media (min-width: 992px) {
+  .pro-mian .centres .pro-black1 .bk-main {
+    padding: 40px 0;
+  }
+}
+@media (min-width: 1200px) {
+  .pro-mian .centres .pro-black1 .bk-main {
+    padding: 60px 0;
+  }
+}
+.pro-mian .centres .pro-black1 .bk-main .sub {
+  background-color: #ebeaf1;
+  position: relative;
+  overflow: hidden;
+  color: #909BA6;
+  font-size: 18px;
+  line-height: 26px;
+}
+@media (min-width: 576px) {
+  .pro-mian .centres .pro-black1 .bk-main .sub {
+    width: 228px;
+    height: 300px;
+    border-radius: 4px;
+  }
+  .pro-mian .centres .pro-black1 .bk-main .sub p {
+    margin: 40px 0 0 25px;
+    width: 180px;
+    background: url(../ico/prohb1-arr.png) no-repeat right 5px;
+  }
+}
+@media (min-width: 768px) {
+  .pro-mian .centres .pro-black1 .bk-main .sub {
+    width: 170px;
+    height: 230px;
+    border-radius: 6px;
+  }
+  .pro-mian .centres .pro-black1 .bk-main .sub p {
+    margin: 28px 0 0;
+    padding: 0 10px;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    background: none;
+  }
+}
+@media (min-width: 992px) {
+  .pro-mian .centres .pro-black1 .bk-main .sub {
+    width: 228px;
+    height: 300px;
+    border-radius: 8px;
+  }
+  .pro-mian .centres .pro-black1 .bk-main .sub p {
+    margin: 40px 0 0 25px;
+    width: 180px;
+    font-size: 18px;
+    text-align: left;
+    background: url(../ico/prohb1-arr.png) no-repeat right 5px;
+  }
+}
+@media (min-width: 1200px) {
+  .pro-mian .centres .pro-black1 .bk-main .sub {
+    width: 228px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  .pro-mian .centres .pro-black1 .bk-main .sub p {
+    margin: 40px 0 0 25px;
+    width: 180px;
+    font-size: 18px;
+    background: url(../ico/prohb1-arr.png) no-repeat right 5px;
+  }
+}
+.pro-mian .centres .pro-black1 .bk-main .sub-more {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 18px;
+  line-height: 26px;
+}
+@media (min-width: 576px) {
+  .pro-mian .centres .pro-black1 .bk-main .sub-more {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .pro-mian .centres .pro-black1 .bk-main .sub-more {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .pro-mian .centres .pro-black1 .bk-main .sub-more {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .pro-mian .centres .pro-black1 .bk-main .sub-more {
+    width: 228px;
+    position: relative;
+    opacity: 1;
+    display: -webkit-flex;
+    display: flex;
+  }
+}
+.pro-mian .centres .pro-black1 .bk-main .sub-more .sub-more1 {
+  background-color: #ebeaf1;
+  position: relative;
+  color: #909BA6;
+  font-size: 18px;
+  line-height: 26px;
+}
+.pro-mian .centres .pro-black1 .bk-main .sub-more .sub-more1 p {
+  margin: 35px 25px 0;
+  width: 180px;
+  background: url(../ico/prohb1-arr.png) no-repeat right 5px;
+}
+@media (min-width: 1200px) {
+  .pro-mian .centres .pro-black1 .bk-main .sub-more .sub-more1 {
+    height: 145px;
+    border-radius: 8px;
+  }
+}
+.pro-mian .centres .pro-black1 .bk-main .sub-more .sub-more2 {
+  background-color: #ebeaf1;
+  position: relative;
+  color: #909BA6;
+  font-size: 18px;
+  line-height: 26px;
+}
+.pro-mian .centres .pro-black1 .bk-main .sub-more .sub-more2 p {
+  margin: 35px 25px 0;
+  width: 180px;
+  background: url(../ico/prohb1-arr.png) no-repeat right 5px;
+}
+@media (min-width: 1200px) {
+  .pro-mian .centres .pro-black1 .bk-main .sub-more .sub-more2 {
+    height: 145px;
+    border-radius: 8px;
+  }
+}

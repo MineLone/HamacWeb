@@ -335,96 +335,96 @@ p {
 .index-page .index-block1 .m-Block .inBlock > :last-child {
   font-size: 2em;
 }
-.index-block2 {
+.index-page .index-block2 {
   background-color: yellowgreen;
 }
-.index-block2 .inMain {
+.index-page .index-block2 .inMain {
   padding: 80px 0;
 }
-.index-block2 .inMain .box1 .inBlock .introduce {
+.index-page .index-block2 .inMain .box1 .inBlock .introduce {
   font-size: 1em;
 }
-.index-block2 .inMain .box2 {
+.index-page .index-block2 .inMain .box2 {
   color: #ffffff;
   font-size: 2rem;
   line-height: 40px;
   text-align: center;
 }
-.index-block2 .inMain .box3 {
+.index-page .index-block2 .inMain .box3 {
   color: #ffffff;
   font-size: 2rem;
   line-height: 40px;
   text-align: center;
 }
-.index-block2 .inMain .box4 {
+.index-page .index-block2 .inMain .box4 {
   font-size: 1em;
 }
-.index-block3 {
+.index-page .index-block3 {
   background-color: yellowgreen;
 }
-.index-block3 .inMain {
+.index-page .index-block3 .inMain {
   padding: 80px 0;
 }
-.index-block3 .inMain .box1 {
+.index-page .index-block3 .inMain .box1 {
   color: #002b45;
   font-size: 2rem;
   line-height: 40px;
   text-align: center;
 }
-.index-block3 .inMain .box2 {
+.index-page .index-block3 .inMain .box2 {
   padding-top: 20px;
   color: #ffffff;
   font-size: 2rem;
   line-height: 40px;
   text-align: center;
 }
-.index-block3 .inMain ul {
+.index-page .index-block3 .inMain ul {
   padding-top: 40px;
 }
-.index-block3 .inMain ul li {
+.index-page .index-block3 .inMain ul li {
   background-color: blue;
   width: 400px;
   height: 200px;
 }
-.index-block3 .inMain .inb3-btn {
+.index-page .index-block3 .inMain .inb3-btn {
   margin-top: 40px;
   text-align: center;
 }
-.index-block3 .inMain .inb3-btn .btn-white {
+.index-page .index-block3 .inMain .inb3-btn .btn-white {
   background-color: #fff;
   border: 1px solid #1d2088;
   color: #1d2088;
 }
-.index-block3 .inMain .inb3-btn .btn-white .btn-white span {
+.index-page .index-block3 .inMain .inb3-btn .btn-white .btn-white span {
   display: inline-block;
   padding-right: 16px;
   background: url(https://static.westarcloud.com/5d7f31f…/images/arr-blue.png) no-repeat right center;
 }
-.index-block4 {
+.index-page .index-block4 {
   padding: 80px 0;
 }
-.index-block5 {
+.index-page .index-block5 {
   background-color: #f6f6f6;
 }
-.index-block5 .inMain {
+.index-page .index-block5 .inMain {
   padding: 78px 0 80px;
 }
-.index-block5 .inMain > :first-child {
+.index-page .index-block5 .inMain > :first-child {
   color: #002b45;
   font-size: 2rem;
   line-height: 40px;
   text-align: center;
 }
-.index-block5 .inMain .row .m-Block {
+.index-page .index-block5 .inMain .row .m-Block {
   padding-top: 50px;
 }
-.index-block5 .inMain .row .m-Block .inBlock {
+.index-page .index-block5 .inMain .row .m-Block .inBlock {
   position: relative;
 }
-.index-block5 .inMain .row .m-Block .inBlock > :first-child {
+.index-page .index-block5 .inMain .row .m-Block .inBlock > :first-child {
   position: absolute;
 }
-.index-block5 .inMain .row .m-Block .inBlock > :last-child {
+.index-page .index-block5 .inMain .row .m-Block .inBlock > :last-child {
   font-size: 2em;
 }
 .fastLinks {

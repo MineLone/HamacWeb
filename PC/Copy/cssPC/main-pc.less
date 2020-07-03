@@ -7,6 +7,7 @@
     body{
         font-size: 14px !important;
         .header{
+            //浮动定位
             position: absolute;
             left: 50%;
             margin-left: -288px;
@@ -28,6 +29,7 @@
     body{
         font-size: 18px !important;
         .header{
+            //浮动定位
             position: absolute;
             left: 50%;
             margin-left: -384px;
@@ -48,6 +50,7 @@
 
         font-size: 20px !important;
         .header{
+            //浮动定位
             position: absolute;
             left: 50%;
             margin-left: -496px;
@@ -65,6 +68,7 @@
     body{
         font-size: 24px !important;
         .header{
+            //浮动定位
             position: absolute;
             left: 50%;
             margin-left: -600px;
@@ -254,32 +258,30 @@
         .row {
             // display: flex;
             // flex-wrap: wrap; // justify-content: center;
-            .box1{
+            .box1 {
                 // color: @clDarkBlue;
                 // font-size: 2rem;
                 // line-height: 40px;
                 // text-align: center;
-                .inBlock{
+                .inBlock {
                     position: relative;
                     text-align: center;
-                    .introduce{
+                    .introduce {
                         font-size: 0.8em;
                         position: absolute;
                         bottom: 2em;
-                        z-index: 2;
-                        // left: ;
-                        &::before{
+                        z-index: 2; // left: ;
+                        &::before {
                             content: "";
                             display: inline-block;
                             position: absolute;
-                            background:rgba(85,85,85,0.5);
+                            background: rgba(85, 85, 85, 0.5);
                             width: 13em;
                             height: 3em;
                             z-index: 1;
                         }
                     }
                 }
-    
             }
         }
         .m-Block {
@@ -295,124 +297,124 @@
                 }
             }
         }
-    }
-}
+    } 
 
-// <!-- 模块2 -->
-.index-block2{
-    background-color: yellowgreen;
-    .inMain{
-        padding: 80px 0;
-        .box1{
-            // color: @clDarkBlue;
-            // font-size: 2rem;
-            // line-height: 40px;
-            // text-align: center;
-            .inBlock{
-                .introduce{
-                    font-size: 1em;
-                }
-            }
 
-        }
-        .box2{
-            color: @clWhite;
-            font-size: 2rem;
-            line-height: 40px;
-            text-align: center;
-        }
-        .box3{
-            color: @clWhite;
-            font-size: 2rem;
-            line-height: 40px;
-            text-align: center;
-        }
-        .box4{
-            font-size: 1em;
-        }
-    }
-    
-}
-
-// <!-- 模块3 -->
-.index-block3{
-    background-color: yellowgreen;
-    .inMain{
-        padding: 80px 0;
-        .box1{
-            color: @clDarkBlue;
-            font-size: 2rem;
-            line-height: 40px;
-            text-align: center;
-        }
-        .box2{
-            padding-top: 20px;
-            color: @clWhite;
-            font-size: 2rem;
-            line-height: 40px;
-            text-align: center;
-        }
-        ul{ 
-            padding-top: 40px;
-            li{
-                background-color: blue;
-                width: 400px;
-                height: 200px;
-            }
-        }
-        .inb3-btn{
-            margin-top: 40px;
-            text-align: center;
-            .btn-white {
-                background-color: #fff;
-                border: 1px solid #1d2088;
-                color: #1d2088;
-                .btn-white span {
-                    display: inline-block;
-                    padding-right: 16px;
-                    background: url(https://static.westarcloud.com/5d7f31f…/images/arr-blue.png) no-repeat right center;
-                }
-            }
-        }
-    }
-    
-}
-
-// <!-- 模块4 -->
-.index-block4{
-    padding: 80px 0;
-}
-
-// <!-- 模块5 -->
-.index-block5{
-    background-color: #f6f6f6;
-    
-    .inMain{
-
-        padding: 78px 0 80px;
-        &>:first-child {
-            color: @clDarkBlue;
-            font-size: 2rem;
-            line-height: 40px;
-            text-align: center;
-        }
-        .row{
-            .m-Block {
-                padding-top: 50px;
-                ;
+    // <!-- 模块2 -->
+    .index-block2 {
+        background-color: yellowgreen;
+        .inMain {
+            padding: 80px 0;
+            .box1 {
+                // color: @clDarkBlue;
+                // font-size: 2rem;
+                // line-height: 40px;
+                // text-align: center;
                 .inBlock {
-                    position: relative;
-                    &>:first-child {
-                        position: absolute;
+                    .introduce {
+                        font-size: 1em;
                     }
-                    &>:last-child {
-                        font-size: 2em;
+                }
+            }
+            .box2 {
+                color: @clWhite;
+                font-size: 2rem;
+                line-height: 40px;
+                text-align: center;
+            }
+            .box3 {
+                color: @clWhite;
+                font-size: 2rem;
+                line-height: 40px;
+                text-align: center;
+            }
+            .box4 {
+                font-size: 1em;
+            }
+        }
+    } 
+
+
+    // <!-- 模块3 -->
+    .index-block3 {
+        background-color: yellowgreen;
+        .inMain {
+            padding: 80px 0;
+            .box1 {
+                color: @clDarkBlue;
+                font-size: 2rem;
+                line-height: 40px;
+                text-align: center;
+            }
+            .box2 {
+                padding-top: 20px;
+                color: @clWhite;
+                font-size: 2rem;
+                line-height: 40px;
+                text-align: center;
+            }
+            ul {
+                padding-top: 40px;
+                li {
+                    background-color: blue;
+                    width: 400px;
+                    height: 200px;
+                }
+            }
+            .inb3-btn {
+                margin-top: 40px;
+                text-align: center;
+                .btn-white {
+                    background-color: #fff;
+                    border: 1px solid #1d2088;
+                    color: #1d2088;
+                    .btn-white span {
+                        display: inline-block;
+                        padding-right: 16px;
+                        background: url(https://static.westarcloud.com/5d7f31f…/images/arr-blue.png) no-repeat right center;
+                    }
+                }
+            }
+        }
+    }
+
+
+    // <!-- 模块4 -->
+    .index-block4 {
+        padding: 80px 0;
+    }
+
+
+    // <!-- 模块5 -->
+    .index-block5 {
+        background-color: #f6f6f6;
+        .inMain {
+            padding: 78px 0 80px;
+            &>:first-child {
+                color: @clDarkBlue;
+                font-size: 2rem;
+                line-height: 40px;
+                text-align: center;
+            }
+            .row {
+                .m-Block {
+                    padding-top: 50px;
+                    ;
+                    .inBlock {
+                        position: relative;
+                        &>:first-child {
+                            position: absolute;
+                        }
+                        &>:last-child {
+                            font-size: 2em;
+                        }
                     }
                 }
             }
         }
     }
 }
+
 
 // <!-- 联系方式 -->
 .fastLinks{
