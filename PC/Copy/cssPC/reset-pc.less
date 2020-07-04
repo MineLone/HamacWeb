@@ -1,7 +1,7 @@
 @import '../css/_globals.less';
 /*格式化样式*/
 html { overflow-x: hidden; overflow-y: auto; }//隐藏横向滚动，垂直滚动根据内容自适应
-html,body{ font-family:MicrosoftYaHei;font-size: 16px;position: relative;}
+html,body{ font-family:MicrosoftYaHei;position: relative;}
 body{font-family: "Helvetica Neue","Helvetica","Arial",sans-serif,sans-serif,"PingFang SC","Microsoft Yahei","Heiti SC";}
 html,body,div,span,ol,ul,li,h1,h2,h3,h4,h5,h6,input,p,table,th,td,button{margin:0;padding:0;box-sizing: border-box;} 
 table {border-collapse:collapse;border-spacing:0;} 
@@ -10,7 +10,12 @@ ol,ul,li {list-style:none}
 h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;text-decoration: none;} 
 abbr,acronym { border:0}
 a,:link,:visited,:hover,:active {text-decoration: none !important; color: @clBlue;}
-p{font-size: 1em;}
+
+//适配手机端
+ html { font-size:50px;} body{ font-size:0.32rem ;}
+//PC端
+@media (min-width: 768px){ html,body { font-size: 16px;} p{font-size: 1em;}}
+
 
 // 间隔线类
 .yLine{ &::before{content: "";display: block;background: @cl-yLine; width: 1px ; height: 0.8em; position: absolute; left: 0; top:1.3em;}}
@@ -27,7 +32,7 @@ p{font-size: 1em;}
 .pro-a{background: rgba(246,246,246,1); .centres { .type-main{background:rgba(255,255,255,1);} } }
 .pro-b{background: rgba(255,255,255,1); .centres { .type-main{background:rgba(246,246,246,1);} } }
 .centres{
-  @media (max-width: 767px) { max-width: 100% !important; }
+  @media (max-width: 767px) { max-width: 92% !important; width: 92% !important;}
   @media (min-width: 768px) { max-width: 720px !important; width: 720px !important; }
   @media (min-width: 992px) { max-width: 960px !important; width: 960px !important; }
   @media (min-width: 1200px){ max-width: 1180px !important;width: 1180px !important;}

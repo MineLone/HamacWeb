@@ -6,7 +6,6 @@ html {
 html,
 body {
   font-family: MicrosoftYaHei;
-  font-size: 16px;
   position: relative;
 }
 body {
@@ -72,8 +71,20 @@ a,
   text-decoration: none !important;
   color: #294ba2;
 }
-p {
-  font-size: 1em;
+html {
+  font-size: 50px;
+}
+body {
+  font-size: 0.32rem;
+}
+@media (min-width: 768px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+  p {
+    font-size: 1em;
+  }
 }
 .yLine::before {
   content: "";
@@ -126,7 +137,8 @@ p {
 }
 @media (max-width: 767px) {
   .centres {
-    max-width: 100% !important;
+    max-width: 92% !important;
+    width: 92% !important;
   }
 }
 @media (min-width: 768px) {

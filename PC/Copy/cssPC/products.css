@@ -7,7 +7,6 @@ html {
 html,
 body {
   font-family: MicrosoftYaHei;
-  font-size: 16px;
   position: relative;
 }
 body {
@@ -73,8 +72,20 @@ a,
   text-decoration: none !important;
   color: #294ba2;
 }
-p {
-  font-size: 1em;
+html {
+  font-size: 50px;
+}
+body {
+  font-size: 0.32rem;
+}
+@media (min-width: 768px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+  p {
+    font-size: 1em;
+  }
 }
 .yLine::before {
   content: "";
@@ -127,7 +138,8 @@ p {
 }
 @media (max-width: 767px) {
   .centres {
-    max-width: 100% !important;
+    max-width: 92% !important;
+    width: 92% !important;
   }
 }
 @media (min-width: 768px) {
@@ -152,19 +164,10 @@ p {
   display: none;
 }
 .pro-mian .pro-banbt {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
   background-color: #f6f6f6;
-}
-@media (max-width: 767px) {
-  .pro-mian .pro-banbt {
-    display: none ;
-  }
-}
-@media (min-width: 768px) {
-  .pro-mian .pro-banbt {
-    display: -webkit-flex;
-    display: flex;
-    justify-content: center;
-  }
 }
 @media (min-width: 768px) {
   .pro-mian .pro-banbt {
@@ -181,16 +184,35 @@ p {
     padding: 15px 0;
   }
 }
+@media (max-width: 767px) {
+  .pro-mian .pro-banbt .centres {
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    height: 0.76rem;
+  }
+}
 .pro-mian .pro-banbt .centres .pro-bread {
   display: -webkit-flex;
   display: flex;
   height: 26px;
   line-height: 26px;
 }
+@media (max-width: 767px) {
+  .pro-mian .pro-banbt .centres .pro-bread {
+    font-size: 0.28rem;
+    align-items: center;
+  }
+}
 .pro-mian .pro-banbt .centres .pro-bread strong {
   width: 26px;
   height: 26px;
   background: url("../ico/bread-icon.webp") no-repeat 0 6px;
+}
+@media (max-width: 767px) {
+  .pro-mian .pro-banbt .centres .pro-bread strong {
+    display: none;
+  }
 }
 .pro-mian .pro-banbt .centres .pro-bread span {
   margin: 0 8px;
@@ -203,21 +225,13 @@ p {
   display: flex;
   justify-content: center;
 }
-@media (max-width: 767px) {
-  .pro-mian .pro-black1 .centres {
-    margin: 0 15px;
-  }
-}
 .pro-mian .pro-black1 .centres .bk-text {
   text-align: left;
   color: #555;
 }
 @media (max-width: 767px) {
   .pro-mian .pro-black1 .centres .bk-text {
-    font-size: 18px;
-    margin: 20px 0 20px;
-    line-height: 28px;
-    padding: 0 15px;
+    display: none;
   }
 }
 @media (min-width: 768px) {
@@ -251,7 +265,9 @@ p {
 }
 @media (max-width: 767px) {
   .pro-mian .pro-black1 .centres .bk-main {
-    justify-content: space-around;
+    margin: 0.4rem 0 0.5rem;
+    font-size: 0.28rem;
+    line-height: 0.4rem;
   }
 }
 @media (min-width: 768px) {
@@ -274,22 +290,19 @@ p {
   position: relative;
   overflow: hidden;
   color: #909BA6;
-  font-size: 18px;
-  line-height: 26px;
 }
 @media (max-width: 767px) {
   .pro-mian .pro-black1 .centres .bk-main .sub {
-    margin-bottom: 20px;
-    width: 45%;
-    height: 52vw;
-    border-radius: 4px;
+    border-radius: 0.1rem;
+    margin-top: 0.1rem;
+    width: 3.4rem;
+    height: 3.6rem;
+    padding: 0.4rem 0.3rem 0;
   }
   .pro-mian .pro-black1 .centres .bk-main .sub p {
-    margin: 40px 0 0;
     width: 100%;
-    font-size: 18px;
-    text-align: center;
-    background: none;
+    background: url('../ico/prohb1-arr.png') no-repeat right 0.04rem;
+    background-size: 0.32rem auto;
   }
 }
 @media (min-width: 768px) {
@@ -343,6 +356,18 @@ p {
   justify-content: space-between;
   font-size: 20px;
   line-height: 26px;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .pro-mian .pro-black1 .centres .bk-main .sub-more {
+    display: flex;
+    justify-content: space-between;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    margin-top: 0.1rem;
+    font-size: 0.28rem;
+    line-height: 0.4rem;
+  }
 }
 @media (min-width: 1200px) {
   .pro-mian .pro-black1 .centres .bk-main .sub-more {
@@ -354,7 +379,7 @@ p {
   }
 }
 .pro-mian .pro-black1 .centres .bk-main .sub-more .sub-more1 {
-  background-color: #ebeaf1;
+  background-color: #e8ecf1;
   position: relative;
   color: #909BA6;
 }
@@ -363,6 +388,15 @@ p {
   width: 180px;
   background: url(../ico/prohb1-arr.png) no-repeat right 5px;
 }
+@media (max-width: 767px) {
+  .pro-mian .pro-black1 .centres .bk-main .sub-more .sub-more1 {
+    background: url('../ico/prohb1-arr.png') no-repeat right 0.04rem;
+    background-size: 0.32rem auto;
+    height: 2rem;
+    width: 3.4rem;
+    border-radius: 0.1rem;
+  }
+}
 @media (min-width: 1200px) {
   .pro-mian .pro-black1 .centres .bk-main .sub-more .sub-more1 {
     height: 145px;
@@ -370,14 +404,23 @@ p {
   }
 }
 .pro-mian .pro-black1 .centres .bk-main .sub-more .sub-more2 {
-  background-color: #ebeaf1;
+  background-color: #e8ecf1;
   position: relative;
   color: #909BA6;
+}
+@media (max-width: 767px) {
+  .pro-mian .pro-black1 .centres .bk-main .sub-more .sub-more2 {
+    background: url('../ico/prohb1-arr.png') no-repeat right 0.04rem;
+    background-size: 0.32rem auto;
+    height: 2rem;
+    width: 3.4rem;
+    border-radius: 0.1rem;
+  }
 }
 .pro-mian .pro-black1 .centres .bk-main .sub-more .sub-more2 p {
   margin: 35px 25px 0;
   width: 180px;
-  background: url(../ico/prohb1-arr.png) no-repeat right 5px;
+  background: url('../ico/prohb1-arr.png') no-repeat right 5px;
 }
 @media (min-width: 1200px) {
   .pro-mian .pro-black1 .centres .bk-main .sub-more .sub-more2 {
