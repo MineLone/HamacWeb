@@ -1,0 +1,486 @@
+@charset "utf-8";
+@import 'reset-pc.less';
+@import '../css/_globals.less';
+
+
+@media screen and (min-width: 576px) {
+    body{
+        font-size: 14px !important;
+        .header{
+            //浮动定位
+            position: absolute;
+            left: 50%;
+            margin-left: -288px;
+            .inMain{
+            
+                .ha-nav{
+                    ul{
+                        padding-right: -129px;
+                        padding-left: 7px;
+                    }
+                }
+            }
+        }
+       
+    }
+    
+}
+@media screen and (min-width: 768px) {
+    body{
+        font-size: 18px !important;
+        .header{
+            //浮动定位
+            position: absolute;
+            left: 50%;
+            margin-left: -384px;
+            .inMain{
+                .ha-nav{
+                    ul{
+                        padding-left: 12px ;
+                    }
+                }
+            }
+        }
+        
+    }
+
+}
+@media screen and (min-width: 992px) {
+    body{
+
+        font-size: 20px !important;
+        .header{
+            //浮动定位
+            position: absolute;
+            left: 50%;
+            margin-left: -496px;
+            .inMain{
+                .ha-nav{
+                    ul{
+                        padding: 0px ;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 1200px) {
+    body{
+        font-size: 24px !important;
+        .header{
+            //浮动定位
+            position: absolute;
+            left: 50%;
+            margin-left: -600px;
+            .inMain{
+                .ha-nav{
+                    ul{
+                        padding: 0px ;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+// 头部
+.index-header {
+  position: relative;
+  z-index: 1000; 
+    // background:@bg-Header;
+    top: 0;
+    
+    // background-color:@clSkyBlue;
+    // height: 170px;
+    .inMain {
+        .ha-top {
+            padding-top: 25px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid @cl-xLine;
+            position: relative;
+            .l-logo{
+                padding-left: 0;
+                float: left;
+            }
+            .r-phone{
+                position: absolute;
+                // float: right;
+                // top: 50%;
+                bottom: 0.5em;
+                right: 0;
+                img{
+                    display: inline-block;
+                    width: 1.2em;
+                    margin-right: 0.5em;
+                    margin-top: -0.1em;
+                }
+                a{
+                    color: @cl-H-phone;
+                    font-size: @ft-H-phone;
+                }
+                
+            }
+        }
+        .ha-nav {
+            position: relative;
+            //导航条
+            ul {
+                margin: 0;
+                // padding-left: 0;
+                font-size: @ft-H-nav;
+                line-height: 3.4em;
+                z-index: 20;
+                li{
+                    position: relative;
+                color: @cl-H-nav;
+                    
+                    &:hover &::before {
+                        transform: scale(1);
+                    }
+                    
+                }
+                .li-first{
+                    padding-left: 0;
+                    padding-right: 0.5em;
+                    &:hover a::after {
+                        transform: scale(1);
+                    }
+                    a {
+                        overflow: hidden;
+                        position: relative;
+                        &::after {
+                            content: "";
+                            background: @clUnderline;
+                            width: 100%;
+                            height: 3px;
+                            position: absolute;
+                            left: 0;
+                            bottom: -6px;   //下划线位置
+                            transform: scaleX(0); //刚开始是没有放大的
+                            transform-origin: center bottom; //这个属性必须要在transform之后，他定义的是一个基点，具体的需要自己百度去看一看，我们这里定义的是在左下角
+                            transition: all 0.4s; //给其一个动画时间
+                        }
+                    }
+                }
+                
+                .yLine {
+                    position: relative; // overflow: hidden;
+                    text-transform: capitalize;
+                    cursor: pointer;
+                    padding-left: 0.5em;
+                    padding-right: 0.5em;
+                    &:hover a::after {
+                        transform: scale(1);
+                    }
+                    
+                    a {
+                        overflow: hidden;
+                        position: relative;
+                        &::after {
+                            content: "";
+                            background-color: @clUnderline;
+                            width: 100%;
+                            height: 3px;
+                            position: absolute;
+                            left: 0;
+                            bottom: -6px;
+                            transform: scaleX(0); //刚开始是没有放大的
+                            transform-origin: center bottom; //这个属性必须要在transform之后，他定义的是一个基点，具体的需要自己百度去看一看，我们这里定义的是在左下角
+                            transition: all 0.4s; //给其一个动画时间
+                        }
+                    }
+                }
+
+            }
+            //子选项框
+            .sub-nav{
+                position: absolute;
+                display: none;
+                font-size: @ft-sub-nav;
+                top: 4.5em;
+                width: 100%;
+                height: 200px;
+                background: #fff;
+                z-index: 10;
+            }
+            //搜索
+            .search {
+                position: absolute;
+                // float: right;
+                // top: 50%;
+                top: 0.2em;
+                right: 0.2em;
+                color: @cl-H-search;
+                .box1 {
+                    position: relative;
+                    img {
+                        position: relative;
+                        top: -2px;
+                        right: 18px;
+                        display: inline-block;
+                        width: 1.6em;
+                        padding-right:0.5em ;
+                    }
+                }
+                .box2 {
+                    a{
+                        position: relative;
+                        font-size: @ft-H-search;
+                        color: @cl-H-search;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+// banner
+.index-banner {
+    position: relative;
+    img {
+        width: 100%; // width: 1920px;
+        // height: 920px;
+    } // /* banner */
+
+}
+
+//主要页面
+.index-page {
+    // 产品展示模块
+    .index-block1 {
+        padding: 80px 0;
+        .m-title {
+            color: @clDarkBlue;
+            font-size: 1.3em;
+            line-height: 40px;
+            text-align: center;
+        }
+        .row {
+            // display: flex;
+            // flex-wrap: wrap; // justify-content: center;
+            .box1 {
+                // color: @clDarkBlue;
+                // font-size: 2rem;
+                // line-height: 40px;
+                // text-align: center;
+                .inBlock {
+                    position: relative;
+                    text-align: center;
+                    .introduce {
+                        font-size: 0.8em;
+                        position: absolute;
+                        bottom: 2em;
+                        z-index: 2; // left: ;
+                        &::before {
+                            content: "";
+                            display: inline-block;
+                            position: absolute;
+                            background: rgba(85, 85, 85, 0.5);
+                            width: 13em;
+                            height: 3em;
+                            z-index: 1;
+                        }
+                    }
+                }
+            }
+        }
+        .m-Block {
+            padding-top: 50px;
+            ;
+            .inBlock {
+                position: relative;
+                &>:first-child {
+                    position: absolute;
+                }
+                &>:last-child {
+                    font-size: 2em;
+                }
+            }
+        }
+    } 
+
+
+    // <!-- 模块2 -->
+    .index-block2 {
+        background-color: yellowgreen;
+        .inMain {
+            padding: 80px 0;
+            .box1 {
+                // color: @clDarkBlue;
+                // font-size: 2rem;
+                // line-height: 40px;
+                // text-align: center;
+                .inBlock {
+                    .introduce {
+                        font-size: 1em;
+                    }
+                }
+            }
+            .box2 {
+                color: @clWhite;
+                font-size: 2rem;
+                line-height: 40px;
+                text-align: center;
+            }
+            .box3 {
+                color: @clWhite;
+                font-size: 2rem;
+                line-height: 40px;
+                text-align: center;
+            }
+            .box4 {
+                font-size: 1em;
+            }
+        }
+    } 
+
+
+    // <!-- 模块3 -->
+    .index-block3 {
+        background-color: yellowgreen;
+        .inMain {
+            padding: 80px 0;
+            .box1 {
+                color: @clDarkBlue;
+                font-size: 2rem;
+                line-height: 40px;
+                text-align: center;
+            }
+            .box2 {
+                padding-top: 20px;
+                color: @clWhite;
+                font-size: 2rem;
+                line-height: 40px;
+                text-align: center;
+            }
+            ul {
+                padding-top: 40px;
+                li {
+                    background-color: blue;
+                    width: 400px;
+                    height: 200px;
+                }
+            }
+            .inb3-btn {
+                margin-top: 40px;
+                text-align: center;
+                .btn-white {
+                    background-color: #fff;
+                    border: 1px solid #1d2088;
+                    color: #1d2088;
+                    .btn-white span {
+                        display: inline-block;
+                        padding-right: 16px;
+                        background: url(https://static.westarcloud.com/5d7f31f…/images/arr-blue.png) no-repeat right center;
+                    }
+                }
+            }
+        }
+    }
+
+
+    // <!-- 模块4 -->
+    .index-block4 {
+        padding: 80px 0;
+    }
+
+
+    // <!-- 模块5 -->
+    .index-block5 {
+        background-color: #f6f6f6;
+        .inMain {
+            padding: 78px 0 80px;
+            &>:first-child {
+                color: @clDarkBlue;
+                font-size: 2rem;
+                line-height: 40px;
+                text-align: center;
+            }
+            .row {
+                .m-Block {
+                    padding-top: 50px;
+                    ;
+                    .inBlock {
+                        position: relative;
+                        &>:first-child {
+                            position: absolute;
+                        }
+                        &>:last-child {
+                            font-size: 2em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// <!-- 联系方式 -->
+.fastLinks{
+    height: 85px;
+    background-color: #fff;
+    padding-top: 35px;
+    .item{
+        width: 25%;
+        float: left;
+        background: url(https://static.westarcloud.com/5d7f31fa4db67f399c51d6a8/images/fastline.png) no-repeat right center;
+        box-sizing: border-box;
+        font-size: 0;
+        &:last-child{
+            background: none;
+        }
+    }
+    i{
+        display: inline-block;
+        vertical-align: middle;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+    .icon1{
+        background: url(https://static.westarcloud.com/5d7f31fa4db67f399c51d6a8/images/fastlink1.png) no-repeat center center;
+    }
+    .icon2{
+        background: url(https://static.westarcloud.com/5d7f31fa4db67f399c51d6a8/images/fastlink2.png) no-repeat center center;
+    }
+    .icon3{
+        background: url(https://static.westarcloud.com/5d7f31fa4db67f399c51d6a8/images/fastlink3.png) no-repeat center center;
+    }
+    .icon4{
+        background: url(https://static.westarcloud.com/5d7f31fa4db67f399c51d6a8/images/fastlink4.png) no-repeat center center;
+    }
+    .tit{
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 18px;
+        line-height: 28px;
+        color: #828282;
+        margin-left: 20px;
+        transition: 0.36s;
+        &:hover{
+            color: #1d2088;
+        }
+    }
+}
+
+// <!-- 底部信息 -->
+.footer{
+    padding-top: 80px;
+    background: url(https://static.westarcloud.com/5d7f31f…/images/foot-bg1.jpg) no-repeat center top;
+    background-size: cover;
+    .inMain{
+        .foot-logo{
+            
+            a{ 
+                display: block;
+                width: 300px;
+            }
+        }
+    }
+    .wsc-bottom{
+        border-top: 1px solid rgba(85,85,85,0.5);
+    }
+}

@@ -1,20 +1,19 @@
+//加载变量库
 @import '../css/_globals.less';
+
 /*格式化样式*/
 html { overflow-x: hidden; overflow-y: auto; }//隐藏横向滚动，垂直滚动根据内容自适应
-html,body{ font-family:MicrosoftYaHei;position: relative;}
-body{font-family: "Helvetica Neue","Helvetica","Arial",sans-serif,sans-serif,"PingFang SC","Microsoft Yahei","Heiti SC";}
-html,body,div,span,ol,ul,li,h1,h2,h3,h4,h5,h6,input,p,table,th,td,button{margin:0;padding:0;box-sizing: border-box;} 
-table {border-collapse:collapse;border-spacing:0;} 
-img {border:0;display: block;width: 100%;height: 100%;} 
+html,body{ font-family:"Helvetica Neue","Helvetica","Arial",sans-serif,sans-serif,"PingFang SC","Microsoft Yahei","Heiti SC",Roboto;position: relative;}
+html,body,div,span,ol,ul,li,h1,h2,h3,h4,h5,h6,input,p,button{margin:0;padding:0;box-sizing: border-box;} 
+img {display: block;width: 100%;height: 100%;border:0;} 
 ol,ul,li {list-style:none} 
-h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;text-decoration: none;} 
-abbr,acronym { border:0}
-a,:link,:visited,:hover,:active {text-decoration: none !important; color: @clBlue;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;text-decoration: none;}
+a,:link,:visited,:hover,:active {text-decoration: none;}
 
 //适配手机端
- html { font-size:13.3333vw;} body{ font-size:0.32rem ;}
+html { font-size:13.3333vw;} body{ font-size:0.32rem ;}
 //PC端
-@media (min-width: 768px){ html,body { font-size: 16px;} p{font-size: 1em;}}
+@media (min-width: 768px){html,body { font-size: 16px;} p {font-size: 1em;}}
 
 
 // 间隔线类
@@ -24,19 +23,21 @@ a,:link,:visited,:hover,:active {text-decoration: none !important; color: @clBlu
 .fl-left{float: left;}
 .fl-right{float: right;}
 
-//导航面板
 
 
-//产品样式-products
-// .Center{display: flex;justify-content: center;}
 
-@media (min-width: 768px) { .pro-a {background: rgba(246,246,246,1); .centres { .type-main{background:rgba(255,255,255,1);} } }}
-@media (min-width: 768px) { .pro-b {background: rgba(255,255,255,1); .centres { .type-main{background:rgba(246,246,246,1);} } }} 
+//中间版心-版心适配方案
 .centres{
-  @media (max-width: 767px) { max-width: 92% !important; width: 92% !important; transition: 0.36s;}
-  @media (min-width: 768px) { max-width: 720px !important; width: 720px !important; transition: 0.36s;}
-  @media (min-width: 992px) { max-width: 960px !important; width: 960px !important; transition: 0.36s;}
-  @media (min-width: 1200px){ max-width: 1180px !important;width: 1180px !important;transition: 0.36s;}
+  @media (max-width: 767px ) { max-width: 92% !important; width: 92% !important; transition: 0.36s;}
+  @media (min-width: 768px ) { max-width: 720px !important; width: 720px !important; transition: 0.36s;}
+  @media (min-width: 992px ) { max-width: 960px !important; width: 960px !important; transition: 0.36s;}
+  @media (min-width: 1200px) { max-width: 1180px !important;width: 1180px !important;transition: 0.36s;}
+  @media (min-width: 1652px) { max-width: 1400px !important;width: 1400px !important;transition: 0.36s;}
+  @media (min-width: 1980px) { max-width: 1630px !important;width: 1400px !important;transition: 0.36s;}
+
 }
+
+//主页宽屏适配
+.index-centres { @media (min-width: 1200px){ max-width: 1180px !important;width: 1180px !important;transition: 0.36s;}}
 //隐藏模块
 .none-hide{display: none;}

@@ -6,11 +6,8 @@ html {
 }
 html,
 body {
-  font-family: MicrosoftYaHei;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif, sans-serif, "PingFang SC", "Microsoft Yahei", "Heiti SC", Roboto;
   position: relative;
-}
-body {
-  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif, sans-serif, "PingFang SC", "Microsoft Yahei", "Heiti SC";
 }
 html,
 body,
@@ -27,23 +24,16 @@ h5,
 h6,
 input,
 p,
-table,
-th,
-td,
 button {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
 img {
-  border: 0;
   display: block;
   width: 100%;
   height: 100%;
+  border: 0;
 }
 ol,
 ul,
@@ -60,17 +50,12 @@ h6 {
   font-weight: normal;
   text-decoration: none;
 }
-abbr,
-acronym {
-  border: 0;
-}
 a,
 :link,
 :visited,
 :hover,
 :active {
-  text-decoration: none !important;
-  color: #294ba2;
+  text-decoration: none;
 }
 html {
   font-size: 13.3333vw;
@@ -124,20 +109,11 @@ body {
 .fl-right {
   float: right;
 }
-@media (min-width: 768px) {
-  .pro-a {
-    background: #f6f6f6;
-  }
-  .pro-a .centres .type-main {
-    background: #ffffff;
-  }
-}
-@media (min-width: 768px) {
-  .pro-b {
-    background: #ffffff;
-  }
-  .pro-b .centres .type-main {
-    background: #f6f6f6;
+@media (min-width: 1200px) {
+  .index-centres {
+    max-width: 1180px !important;
+    width: 1180px !important;
+    transition: 0.36s;
   }
 }
 @media (max-width: 767px) {
@@ -163,6 +139,13 @@ body {
 }
 @media (min-width: 1200px) {
   .centres {
+    max-width: 1180px !important;
+    width: 1180px !important;
+    transition: 0.36s;
+  }
+}
+@media (min-width: 1200px) {
+  .index-centres {
     max-width: 1180px !important;
     width: 1180px !important;
     transition: 0.36s;
@@ -432,6 +415,22 @@ body {
   .pro-mian .pro-black1 .centres .bk-main .sub-more .sub-more1 {
     height: 145px;
     border-radius: 8px;
+  }
+}
+@media (min-width: 768px) {
+  .pro-mian .pro-a {
+    background: #f6f6f6;
+  }
+  .pro-mian .pro-a .centres .type-main {
+    background: #ffffff;
+  }
+}
+@media (min-width: 768px) {
+  .pro-mian .pro-b {
+    background: #ffffff;
+  }
+  .pro-mian .pro-b .centres .type-main {
+    background: #f6f6f6;
   }
 }
 .pro-mian .pro-type {
