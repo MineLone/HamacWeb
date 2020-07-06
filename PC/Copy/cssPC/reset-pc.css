@@ -72,7 +72,7 @@ a,
   color: #294ba2;
 }
 html {
-  font-size: 50px;
+  font-size: 13.3333vw;
 }
 body {
   font-size: 0.32rem;
@@ -123,40 +123,48 @@ body {
 .fl-right {
   float: right;
 }
-.pro-a {
-  background: #f6f6f6;
+@media (min-width: 768px) {
+  .pro-a {
+    background: #f6f6f6;
+  }
+  .pro-a .centres .type-main {
+    background: #ffffff;
+  }
 }
-.pro-a .centres .type-main {
-  background: #ffffff;
-}
-.pro-b {
-  background: #ffffff;
-}
-.pro-b .centres .type-main {
-  background: #f6f6f6;
+@media (min-width: 768px) {
+  .pro-b {
+    background: #ffffff;
+  }
+  .pro-b .centres .type-main {
+    background: #f6f6f6;
+  }
 }
 @media (max-width: 767px) {
   .centres {
     max-width: 92% !important;
     width: 92% !important;
+    transition: 0.36s;
   }
 }
 @media (min-width: 768px) {
   .centres {
     max-width: 720px !important;
     width: 720px !important;
+    transition: 0.36s;
   }
 }
 @media (min-width: 992px) {
   .centres {
     max-width: 960px !important;
     width: 960px !important;
+    transition: 0.36s;
   }
 }
 @media (min-width: 1200px) {
   .centres {
     max-width: 1180px !important;
     width: 1180px !important;
+    transition: 0.36s;
   }
 }
 .none-hide {
