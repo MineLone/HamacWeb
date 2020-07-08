@@ -2,95 +2,44 @@
 @import 'reset-pc.less';
 @import '../css/_globals.less';
 
-
-@media screen and (min-width: 576px) {
-    body{
-        font-size: 14px !important;
-        .header{
-            //浮动定位
-            position: absolute;
-            left: 50%;
-            margin-left: -288px;
-            .inMain{
-            
-                .ha-nav{
-                    ul{
-                        padding-right: -129px;
-                        padding-left: 7px;
-                    }
-                }
-            }
-        }
-       
-    }
-    
-}
-@media screen and (min-width: 768px) {
-    body{
-        font-size: 18px !important;
-        .header{
-            //浮动定位
-            position: absolute;
-            left: 50%;
-            margin-left: -384px;
-            .inMain{
-                .ha-nav{
-                    ul{
-                        padding-left: 12px ;
-                    }
-                }
-            }
-        }
-        
-    }
-
-}
-@media screen and (min-width: 992px) {
-    body{
-
-        font-size: 20px !important;
-        .header{
-            //浮动定位
-            position: absolute;
-            left: 50%;
-            margin-left: -496px;
-            .inMain{
-                .ha-nav{
-                    ul{
-                        padding: 0px ;
-                    }
-                }
-            }
-        }
-    }
-}
-@media screen and (min-width: 1200px) {
-    body{
-        font-size: 24px !important;
-        .header{
-            //浮动定位
-            position: absolute;
-            left: 50%;
-            margin-left: -600px;
-            .inMain{
-                .ha-nav{
-                    ul{
-                        padding: 0px ;
-                    }
-                }
-            }
-        }
-        
-    }
-}
-
 // 头部
 .index-header {
   position: relative;
   z-index: 1000; 
     // background:@bg-Header;
     top: 0;
-    
+    .centres{
+        .ha-top{
+            border-bottom:1px solid #666666;
+            height: 85px;
+            .l-logo{ width: 300px; margin: auto 0;}
+            .r-phone{ 
+                margin: auto 0 0;
+                .sub-phone{ 
+                    width: 265px;
+                    font-size: 16px;line-height: 30px;
+                    img{margin: auto 0; width: 25px; }
+                    a {margin: auto 0;}
+                }
+
+            }
+        }
+        .ha-nav{
+            height: 60px;
+            .list-inline{
+                margin: auto 0;
+                font-size: 20px;line-height: 30px;
+                width: 950px;
+            }
+            .search{
+                // font-size: 16px;line-height: 30px;
+                margin: auto 0 ;
+                .box1{ width: 30px;}
+            }
+        }
+
+
+    }
     // background-color:@clSkyBlue;
     // height: 170px;
     .inMain {
