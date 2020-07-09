@@ -191,12 +191,15 @@ Pagination Styles
 
 .wsc-top{
     height: 80px;
+    /* height: 100px; */
+    padding: 5px 0 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .wsc-logo{
     float: left;
-    width: 150px;
+    /* //150px */
+    width: 600px;
     margin-top: 12px;
 }
 .wsc-logo img{

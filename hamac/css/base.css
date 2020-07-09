@@ -10,7 +10,7 @@
 
 .wsc-header{
     background-color: #1d2088;
-    height: 140px;
+    height: 150px;
 }
 .wsc-header a:hover{
     
@@ -29,12 +29,13 @@
 
 .wsc-top{
     height: 80px;
+    padding: 5px 0 ;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .wsc-logo{
     float: left;
-    width: 150px;
+    width: 600px;
     margin-top: 12px;
 }
 .wsc-logo img{
