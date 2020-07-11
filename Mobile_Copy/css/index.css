@@ -905,7 +905,6 @@ button.swiper-pagination-bullet {
     position: fixed;
     left: 0;
     top: 0;
-    height: 3rem;
     width: 6.9rem;
     padding: 0 0.3rem;
     z-index: 999999;
