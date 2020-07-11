@@ -3,10 +3,10 @@
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {margin: 0;padding: 0}
 
 body {
-    font-family: "Helvetica Neue","Helvetica","Arial","PingFang SC",Roboto,sans-serif;
+    font-family: "Microsoft Yahei","PingFang SC",sans-serif,sans-serif,"Heiti SC","Helvetica Neue","Helvetica","Arial";
     -webkit-text-size-adjust: none;
     background-color: #fff;
-    font-size: 0.32rem;
+    font-size: 0.28rem;
     color: #828282;
     line-height: 0.48rem;
 }
@@ -57,15 +57,14 @@ button, input, textarea,select {
     border-radius: 0;
     box-sizing: content-box;
     border: 0;
-    font-size: 0.32rem;
+    font-size: 0.28rem;
     color: #828282;
     line-height: 0.48rem;
-    font-family: "Helvetica Neue","Helvetica","Arial",sans-serif,sans-serif,"PingFang SC","Microsoft Yahei","Heiti SC";
+    font-family: "Microsoft Yahei","PingFang SC",sans-serif,sans-serif,"Heiti SC","Helvetica Neue","Helvetica","Arial";
 }
 textarea{
     resize: none;
 }
-
 
 table{
     border-collapse: collapse !important;

@@ -64,28 +64,28 @@
     display: block;
 }
 .partnersTab .tabs-nav li .icon-01 {
-    background: url("../image/m-parters-icon1.png") no-repeat center top;
+    background: url("../images/m-parters-icon1.png") no-repeat center top;
     background-size: 0.67rem 0.44rem;
 }
 .partnersTab .tabs-nav li .icon-02 {
     
-    background: url("../image/m-parters-icon3.png") no-repeat center -0.1rem;
+    background: url("../images/m-parters-icon3.png") no-repeat center -0.1rem;
     background-size: 0.6rem 0.6rem;
 }
 .partnersTab .tabs-nav li .icon-03 {
-    background: url("../image/m-parters-icon41.png") no-repeat center top;
+    background: url("../images/m-parters-icon41.png") no-repeat center top;
     background-size: 0.44rem 0.44rem;
 }
 .partnersTab .tabs-nav .active .icon-01 {
-    background: url("../image/m-parters-icon1-hover.png") no-repeat center top;
+    background: url("../images/m-parters-icon1-hover.png") no-repeat center top;
     background-size: 0.67rem 0.44rem;
 }
 .partnersTab .tabs-nav .active .icon-02 {
-    background: url("../image/m-parters-icon3-hover.png") no-repeat center -0.1rem;
+    background: url("../images/m-parters-icon3-hover.png") no-repeat center -0.1rem;
     background-size: 0.6rem 0.6rem;
 }
 .partnersTab .tabs-nav .active .icon-03 {
-    background: url("../image/m-parters-icon4-hover.png") no-repeat center top;
+    background: url("../images/m-parters-icon4-hover.png") no-repeat center top;
     background-size: 0.44rem 0.44rem;
 }
 .partnersTab .tabs-item {
@@ -105,152 +105,152 @@
     border: 0.08rem solid #F6F6F6;
 }
 .partnersTab .tabs-gl-01 {
-     background: #fff url("../image/icon-gl-01.jpg") no-repeat center center;
+     background: #fff url("../images/icon-gl-01.jpg") no-repeat center center;
      background-size: contain;
  }
 .partnersTab .tabs-gl-02 {
-    background: #fff url("../image/icon-gl-02.jpg") no-repeat center center;
+    background: #fff url("../images/icon-gl-02.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-gl-03 {
-    background: #fff url("../image/icon-gl-03.jpg") no-repeat center center;
+    background: #fff url("../images/icon-gl-03.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-gl-04 {
-    background: #fff url("../image/icon-gl-04.jpg") no-repeat center center;
+    background: #fff url("../images/icon-gl-04.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-gl-05 {
-    background: #fff url("../image/icon-gl-05.jpg") no-repeat center center;
+    background: #fff url("../images/icon-gl-05.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-gl-06 {
-    background: #fff url("../image/icon-gl-03.jpg") no-repeat center center;
+    background: #fff url("../images/icon-gl-03.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-gl-07 {
-    background: #fff url("../image/icon-gl-07.jpg") no-repeat center center;
+    background: #fff url("../images/icon-gl-07.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-gl-08 {
-    background: #fff url("../image/icon-gl-08.jpg") no-repeat center center;
+    background: #fff url("../images/icon-gl-08.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-gl-09 {
-    background: #fff url("../image/icon-gl-09.jpg") no-repeat center center;
+    background: #fff url("../images/icon-gl-09.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-gl-10 {
-    background: #fff url("../image/icon-gl-10.jpg") no-repeat center center;
+    background: #fff url("../images/icon-gl-10.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-gl-11 {
-    background: #fff url("../image/icon-gl-11.jpg") no-repeat center center;
+    background: #fff url("../images/icon-gl-11.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-gl-12 {
-    background: #fff url("../image/icon-gl-121.jpg") no-repeat center center;
+    background: #fff url("../images/icon-gl-121.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-jx-01 {
-    background: #fff url("../image/icon-jx-011.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-011.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-jx-02 {
-    background: #fff url("../image/icon-jx-021.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-021.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-jx-03 {
-    background: #fff url("../image/icon-jx-03.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-03.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-jx-04 {
-    background: #fff url("../image/icon-jx-04.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-04.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-jx-05 {
-    background: #fff url("../image/icon-jx-05.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-05.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-jx-06 {
-    background: #fff url("../image/icon-jx-06.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-06.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-jx-07 {
-    background: #fff url("../image/icon-jx-07.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-07.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-jx-08 {
-    background: #fff url("../image/icon-jx-08.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-08.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-jx-09 {
-    background: #fff url("../image/icon-jx-09.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-09.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-jx-10 {
-    background: #fff url("../image/icon-jx-10.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-10.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-jx-11 {
-    background: #fff url("../image/icon-jx-11.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-11.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-jx-12 {
-    background: #fff url("../image/icon-jx-12.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-12.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-qt-01 {
-    background: #fff url("../image/icon-qt-01.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-01.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-qt-02 {
-    background: #fff url("../image/icon-qt-02.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-02.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-qt-03 {
-    background: #fff url("../image/icon-qt-03.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-03.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-qt-04 {
-    background: #fff url("../image/icon-qt-04.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-04.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-qt-05 {
-    background: #fff url("../image/icon-qt-05.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-05.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-qt-06 {
-    background: #fff url("../image/icon-qt-06.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-06.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-qt-07 {
-    background: #fff url("../image/icon-qt-07.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-07.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-qt-08 {
-    background: #fff url("../image/icon-qt-08.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-08.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-qt-09 {
-    background: #fff url("../image/icon-qt-091.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-091.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-qt-10 {
-    background: #fff url("../image/icon-qt-101.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-101.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-qt-11 {
-    background: #fff url("../image/icon-qt-11.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-11.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersTab .tabs-qt-12 {
-    background: #fff url("../image/icon-qt-12.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-12.jpg") no-repeat center center;
     background-size: contain;
 }
 .partnersCredit {
     width: 100%;
-    background: url("../image/m-parters-credit-bg1.jpg") no-repeat center top;
+    background: url("../images/m-parters-credit-bg1.jpg") no-repeat center top;
     background-size: cover;
 }
 .partnersCredit .wrap {
@@ -330,7 +330,7 @@
 
 .Support-part1,.Support-part2,.Support-part3 {
     width: 100%;
-    background: url("../image/m-support-item-bg1.png") no-repeat center top;
+    background: url("../images/m-support-item-bg1.png") no-repeat center top;
     background-size: 7.5rem 3.56rem;
 }
 .Support-part1 .wrap,.Support-part2 .wrap,.Support-part3 .wrap {
@@ -361,15 +361,15 @@
     height: 1.2rem;
 }
 .pci-art .icon01 {
-    background: url("../image/m-support-item-icon1.png") no-repeat left top;
+    background: url("../images/m-support-item-icon1.png") no-repeat left top;
     background-size: 1rem 1.2rem;
 }
 .pci-art .icon02 {
-    background: url("../image/m-support-item-icon2.png") no-repeat left top;
+    background: url("../images/m-support-item-icon2.png") no-repeat left top;
     background-size: 1rem 1.2rem;
 }
 .pci-art .icon03 {
-    background: url("../image/m-support-item-icon3.png") no-repeat left top;
+    background: url("../images/m-support-item-icon3.png") no-repeat left top;
     background-size: 1rem 1.2rem;
 }
 .pci-ev {
@@ -400,7 +400,7 @@
 }
 .Support-more {
     width: 100%;
-    background: url("../image/m-support-more-bg.jpg") no-repeat center top;
+    background: url("../images/m-support-more-bg.jpg") no-repeat center top;
     background-size: cover;
 }
 .Support-more-cont {
@@ -489,19 +489,19 @@
     display: block;
 }
 .Innovation-head-icon1 {
-    background: url("../image/m-innovation-head-icon11.png") no-repeat center bottom;
+    background: url("../images/m-innovation-head-icon11.png") no-repeat center bottom;
     background-size: 1.28rem auto;
 }
 .Innovation-head-icon2 {
-    background: url("../image/m-innovation-head-icon21.png") no-repeat center bottom;
+    background: url("../images/m-innovation-head-icon21.png") no-repeat center bottom;
     background-size: 1.28rem auto;
 }
 .Innovation-head-icon3 {
-    background: url("../image/m-innovation-head-icon31.png") no-repeat center bottom;
+    background: url("../images/m-innovation-head-icon31.png") no-repeat center bottom;
     background-size: 1.28rem auto;
 }
 .Innovation-head-icon4 {
-    background: url("../image/m-innovation-head-icon41.png") no-repeat center bottom;
+    background: url("../images/m-innovation-head-icon41.png") no-repeat center bottom;
     background-size: 1.28rem auto;
 }
 .Innovation-head-tit {
@@ -552,7 +552,7 @@
     position: absolute;
     width: 100%;
     height: 9.42rem;
-    background: url("../image/m-innovation-founder.png") no-repeat center top;
+    background: url("../images/m-innovation-founder.png") no-repeat center top;
     background-size: 6.9rem 9.42rem;
     top: -6.64rem;
 }
@@ -703,7 +703,7 @@
 }
 .global-why {
     width: 100%;
-    background: url("../image/global-technology-bg1.jpg") no-repeat center top;
+    background: url("../images/global-technology-bg1.jpg") no-repeat center top;
     background-size: cover ;
 }
 .global-why .wrap {
@@ -753,7 +753,7 @@
     padding-left: 1.66rem;
 }
 .gtl-icon1 {
-    background: url("../image/m-global-technology-list-icon21.png") no-repeat left center;
+    background: url("../images/m-global-technology-list-icon21.png") no-repeat left center;
     background-size: 1.28rem 1.28rem;
 }
 .gtl-ev-text {
@@ -773,15 +773,15 @@
     opacity:0.4;
 }
 .gtl-icon2 {
-    background: url("../image/m-global-technology-list-icon21.png") no-repeat left center;
+    background: url("../images/m-global-technology-list-icon21.png") no-repeat left center;
     background-size: 1.28rem 1.28rem;
 }
 .gtl-icon3 {
-    background: url("../image/m-global-technology-list-icon3.png") no-repeat left center;
+    background: url("../images/m-global-technology-list-icon3.png") no-repeat left center;
     background-size: 1.28rem 1.28rem;
 }
 .gtl-icon4 {
-    background: url("../image/m-global-technology-list-icon4.png") no-repeat left center;
+    background: url("../images/m-global-technology-list-icon4.png") no-repeat left center;
     background-size: 1.28rem 1.28rem;
 }
 .global-technology-btn {
@@ -884,11 +884,11 @@
     padding-left: 1.6rem;
 }
 .Team-head-icon01 {
-    background: url("../image/m-team-head-icon01.png") no-repeat left center;
+    background: url("../images/m-team-head-icon01.png") no-repeat left center;
     background-size: 1.3rem 1.02rem;
 }
 .Team-head-icon02 {
-    background: url("../image/m-team-head-icon02.png") no-repeat left center;
+    background: url("../images/m-team-head-icon02.png") no-repeat left center;
     background-size: 1.04rem 1.04rem;
 }
 .Team-head-tit {
@@ -938,7 +938,7 @@
 }
 .Team-main-btn .btn span {
     padding-right: 0.54rem;
-    background: url("../image/m-team-main-btn1.png") no-repeat right center;
+    background: url("../images/m-team-main-btn1.png") no-repeat right center;
     background-size:  0.17rem 0.27rem;
 }
 .TeamCont-top-img {
@@ -964,7 +964,7 @@
 }
 .TeamCont-center .Team-main-btn .btn span {
     padding-right: 0.5rem;
-    background: url("../image/m-team-main-btn2.png") no-repeat right center;
+    background: url("../images/m-team-main-btn2.png") no-repeat right center;
     background-size:  0.17rem 0.27rem;
 }
 .TeamCont-center .TeamCont-top-img {
@@ -1015,7 +1015,7 @@
 }
 .CareerWhy {
     width: 100%;
-    background: url("../image/m-career-bg.jpg") no-repeat center top;
+    background: url("../images/m-career-bg.jpg") no-repeat center top;
     background-size: cover;
 }
 .CareerWhy .wrap {
@@ -1081,19 +1081,19 @@
     width: 100%;
 }
 .CareerWhy-icon1 {
-    background: url("../image/m-career-why-icon1.png") no-repeat 0.04rem center;
+    background: url("../images/m-career-why-icon1.png") no-repeat 0.04rem center;
     background-size: 0.64rem 0.78rem;
 }
 .CareerWhy-icon2 {
-    background: url("../image/m-career-why-icon2.png") no-repeat right center;
+    background: url("../images/m-career-why-icon2.png") no-repeat right center;
     background-size: 0.8rem 0.78rem;
 }
 .CareerWhy-icon3 {
-    background: url("../image/m-career-why-icon31.png") no-repeat left bottom;
+    background: url("../images/m-career-why-icon31.png") no-repeat left bottom;
     background-size: 0.64rem 0.54rem;
 }
 .CareerWhy-icon4 {
-    background: url("../image/m-career-why-icon4.png") no-repeat 0.7rem bottom;
+    background: url("../images/m-career-why-icon4.png") no-repeat 0.7rem bottom;
     background-size: 0.78rem 0.61rem;
 }
 .CareerWhy-cont-bri {
@@ -1120,11 +1120,11 @@
     padding-left: 0.72rem;
 }
 .brandBeh li .xy {
-    background: url("../image/m-tab-xy.png") no-repeat left center;
+    background: url("../images/m-tab-xy.png") no-repeat left center;
     background-size: 0.52rem auto;
 }
 .brandBeh li .sh {
-    background: url("../image/m-tab-sh.png") no-repeat left center;
+    background: url("../images/m-tab-sh.png") no-repeat left center;
     background-size: 0.52rem auto;
 }
 .brandBeh .active {
@@ -1132,11 +1132,11 @@
     color:rgba(255,255,255,1);
 }
 .brandBeh .active .xy {
-    background: url("../image/m-tab-xy-hover.png") no-repeat left center;
+    background: url("../images/m-tab-xy-hover.png") no-repeat left center;
     background-size: 0.52rem auto;
 }
 .brandBeh .active .sh {
-    background: url("../image/m-tab-sh-hover.png") no-repeat left center;
+    background: url("../images/m-tab-sh-hover.png") no-repeat left center;
     background-size: 0.52rem auto;
 }
 .brandUse {
@@ -1246,7 +1246,7 @@
     width: 6.9rem;
     height: 6.8rem;
     margin: 0.5rem 0.3rem;
-    background: url("../image/m-history-head-bg.jpg") no-repeat center top;
+    background: url("../images/m-history-head-bg.jpg") no-repeat center top;
     background-size: cover;
 }
 .historyHead-tit {
@@ -1262,7 +1262,7 @@
     margin: 0.78rem 0.42rem 0 0.42rem;
     width: 6.07rem;
     height: 4.10rem;
-    background: url("../image/m-history-head-ebico.png") no-repeat center top;
+    background: url("../images/m-history-head-ebico.png") no-repeat center top;
     background-size: cover;
 }
 .historyHead-ev {
@@ -1288,16 +1288,16 @@
 .historyMain {
     margin-top: 0.5rem;
     padding-bottom: 0.36rem;
-    background: url("../image/m-history-round.png") no-repeat left bottom;
+    background: url("../images/m-history-round.png") no-repeat left bottom;
     background-size: 0.36rem 0.36rem;
 }
 .historyMain-top {
-    background: url("../image/m-history-line_01.png") repeat-y 0.16rem top;
+    background: url("../images/m-history-line_01.png") repeat-y 0.16rem top;
 }
 .historyMain-item {
     margin-top: 0.6rem;
     padding-left: 0.76rem;
-    background: url("../image/m-history-round.png") no-repeat left top;
+    background: url("../images/m-history-round.png") no-repeat left top;
     background-size: 0.36rem 0.36rem;
 }
 .historyMain-item:first-child {
@@ -1362,7 +1362,7 @@
     cursor: pointer;
     right: 0;
     top: 0;
-    background: #1d2088 url("../image/m-questions-head-search.png") no-repeat center center;
+    background: #1d2088 url("../images/m-questions-head-search.png") no-repeat center center;
     background-size: 0.28rem 0.28rem;
 }
 .questions-center {
@@ -1447,7 +1447,7 @@
 }
 .questions-art {
     padding-left: 1.1rem;
-    background: url("../image/m-questions-art-wt1.png") no-repeat left top;
+    background: url("../images/m-questions-art-wt1.png") no-repeat left top;
     background-size: 0.8rem auto;
 }
 .questions-tit {
@@ -1510,7 +1510,7 @@
 .question-more a {
     color: #3f6ddd;
     padding-right: 0.2rem ;
-    background: url("../image/m-questions-text-lj.png") no-repeat right center;
+    background: url("../images/m-questions-text-lj.png") no-repeat right center;
     background-size: 0.13rem auto;
 }
 .questions-label {
@@ -1521,7 +1521,7 @@
 }
 .questions-label-ev {
     float: left;
-    background: url("../image/m-bp-top_01.png") no-repeat left center;
+    background: url("../images/m-bp-top_01.png") no-repeat left center;
     background-size: auto 0.52rem;
     line-height: 0.52rem;
     color: #90a7ba;
@@ -1533,7 +1533,7 @@
 .questions-label-ev span {
     float: left;
     padding-right: 0.4rem;
-    background: url("../image/m-bp-bot_03.png") no-repeat right center;
+    background: url("../images/m-bp-bot_03.png") no-repeat right center;
     background-size: auto 0.52rem;
     height: 0.52rem;
     max-width: 5rem;
@@ -1547,8 +1547,8 @@
 .paging-inner span,.paging-inner a{display: inline-block;vertical-align: top;text-align: center;color: #555;}
 
 .page-ellipsis {width: 0.92rem;}
-.paging-inner .prev{background: #f6f6f6 url("../image/m-pagePrev.png") no-repeat center center;background-size: 0.14rem 0.2rem;}
-.paging-inner .next{background: #f6f6f6 url("../image/m-pageNext1.png") no-repeat center center;background-size: 0.14rem 0.2rem;}
+.paging-inner .prev{background: #f6f6f6 url("../images/m-pagePrev.png") no-repeat center center;background-size: 0.14rem 0.2rem;}
+.paging-inner .next{background: #f6f6f6 url("../images/m-pageNext1.png") no-repeat center center;background-size: 0.14rem 0.2rem;}
 .Solution-bottom {
     width: 100%;
     background-color: #fff;
@@ -1600,7 +1600,7 @@
     transition: 0.36s;
 }
 .Solution-bottom-cont .list-info .list-more a {
-    background: url("../image/m-solution-bottom-list-more.png") no-repeat right center;
+    background: url("../images/m-solution-bottom-list-more.png") no-repeat right center;
     background-size: 0.16rem 0.24rem;
     padding-right: 0.28rem;
     transition: 0.36s;
@@ -1697,7 +1697,7 @@
 
 .Solution-top {
     width: 100%;
-    background: url("../image/m-solution-top-bg1.png") no-repeat center bottom;
+    background: url("../images/m-solution-top-bg1.png") no-repeat center bottom;
     background-size: cover;
 }
 .Solution-top .wrap {
@@ -1725,36 +1725,36 @@
     margin-right: 0.2rem;
 }
 .Solution-top .item-01 {
-    background: url("../image/m-solution-top-item11.png") no-repeat center center;
+    background: url("../images/m-solution-top-item11.png") no-repeat center center;
     background-size: cover;
 }
 .Solution-top .item-02 {
-    background: url("../image/m-solution-top-item21.png") no-repeat center center;
+    background: url("../images/m-solution-top-item21.png") no-repeat center center;
     background-size: cover;
 }
 .Solution-top .item-03 {
-    background: url("../image/m-solution-top-item31.png") no-repeat center center;
+    background: url("../images/m-solution-top-item31.png") no-repeat center center;
     background-size: cover;
 }
 .Solution-top .item-04 {
-    background: url("../image/m-solution-top-item41.png") no-repeat center center;
+    background: url("../images/m-solution-top-item41.png") no-repeat center center;
     background-size: cover;
 }
 .Solution-top .item-05 {
-    background: url("../image/m-solution-top-item51.png") no-repeat center center;
+    background: url("../images/m-solution-top-item51.png") no-repeat center center;
     background-size: cover;
 }
 .Solution-top .item-06 {
-    background: url("../image/m-solution-top-item61.png") no-repeat center center;
+    background: url("../images/m-solution-top-item61.png") no-repeat center center;
     background-size: cover;
 }
 .Solution-top .item-07 {
-    background: url("../image/m-solution-top-item71.png") no-repeat center center;
+    background: url("../images/m-solution-top-item71.png") no-repeat center center;
     background-size: cover;
     margin-left: 1.1rem;
 }
 .Solution-top .item-08 {
-    background: url("../image/m-solution-top-item81.png") no-repeat center center;
+    background: url("../images/m-solution-top-item81.png") no-repeat center center;
     background-size: cover;
 }
 .Solution-top-item-tit {
@@ -1765,7 +1765,7 @@
 }
 .Solution-center {
     width: 100%;
-    background: url("../image/m-solution-center-bg1.jpg") no-repeat center top;
+    background: url("../images/m-solution-center-bg1.jpg") no-repeat center top;
     background-size: cover;
 }
 .Solution-center .wrap {
@@ -1785,7 +1785,7 @@
     font-size: 0.28rem;
     line-height: 0.38rem;
     color: #fff;
-    background: url(../image/m-solhb2-line.png) no-repeat 0 center;
+    background: url(../images/m-solhb2-line.png) no-repeat 0 center;
     text-align: center;
     background-size: 0.02rem auto;
     float: left;
@@ -1805,15 +1805,15 @@
     border-radius: 50%;
 }
 .Solution-center-text .icon1{
-    background: url(../image/m-solhb2-ico1.png) no-repeat center center;
+    background: url(../images/m-solhb2-ico1.png) no-repeat center center;
     background-size: cover;
 }
 .Solution-center-text .icon2{
-    background: url(../image/m-solhb2-ico2.png) no-repeat center center;
+    background: url(../images/m-solhb2-ico2.png) no-repeat center center;
     background-size: cover;
 }
 .Solution-center-text .icon3{
-    background: url(../image/m-solhb2-ico3.png) no-repeat center center;
+    background: url(../images/m-solhb2-ico3.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -2019,35 +2019,35 @@
     overflow: hidden;
 }
 .caseHead-list-01 {
-    background: url("../image/m-casehead-list-011.jpg") no-repeat center top;
+    background: url("../images/m-casehead-list-011.jpg") no-repeat center top;
     background-size: 3.4rem auto;
 }
 .caseHead-list-02 {
-    background: url("../image/m-casehead-list-021.jpg") no-repeat center top;
+    background: url("../images/m-casehead-list-021.jpg") no-repeat center top;
     background-size: 3.4rem auto;
 }
 .caseHead-list-03 {
-    background: url("../image/m-casehead-list-031.jpg") no-repeat center top;
+    background: url("../images/m-casehead-list-031.jpg") no-repeat center top;
     background-size: 3.4rem auto;
 }
 .caseHead-list-04 {
-    background: url("../image/m-casehead-list-041.jpg") no-repeat center top;
+    background: url("../images/m-casehead-list-041.jpg") no-repeat center top;
     background-size: 3.4rem auto;
 }
 .caseHead-list-05 {
-    background: url("../image/m-casehead-list-051.jpg") no-repeat center top;
+    background: url("../images/m-casehead-list-051.jpg") no-repeat center top;
     background-size: 3.4rem auto;
 }
 .caseHead-list-06 {
-    background: url("../image/m-casehead-list-061.jpg") no-repeat center top;
+    background: url("../images/m-casehead-list-061.jpg") no-repeat center top;
     background-size: 3.4rem auto;
 }
 .caseHead-list-07 {
-    background: url("../image/m-casehead-list-071.jpg") no-repeat center top;
+    background: url("../images/m-casehead-list-071.jpg") no-repeat center top;
     background-size: 3.4rem auto;
 }
 .caseHead-list-08 {
-    background: url("../image/m-casehead-list-081.jpg") no-repeat center top;
+    background: url("../images/m-casehead-list-081.jpg") no-repeat center top;
     background-size: 3.4rem auto;
 }
 .caseHead-tit {
@@ -2106,7 +2106,7 @@
 .caseCont .list-text p {
     padding-left: 0.54rem;
     margin-top: 0.18rem;
-    background: url("../image/case-picon2_03.png") no-repeat left center;
+    background: url("../images/case-picon2_03.png") no-repeat left center;
     background-size: 0.3rem auto;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -2114,7 +2114,7 @@
 
 }
 .caseCont .list-text p:first-child {
-    background: url("../image/case-picon1_03.png") no-repeat left center;
+    background: url("../images/case-picon1_03.png") no-repeat left center;
     background-size: 0.3rem auto;
     margin-top: 0;
 }
@@ -2161,7 +2161,7 @@
 .technical-date-dow span {
     display: inline-block;
     padding-left: 0.4rem;
-    background: url("../image/m-dow-logo.png") no-repeat left center;
+    background: url("../images/m-dow-logo.png") no-repeat left center;
     background-size: 0.28rem auto;
 }
 .technical-det-date {
@@ -2186,7 +2186,7 @@
 }
 .technical-det-dow span {
     padding-left: 0.58rem;
-    background: url("../image/m-dow-logo.png") no-repeat left center;
+    background: url("../images/m-dow-logo.png") no-repeat left center;
     background-size: 0.36rem 0.32rem;
 }
 .technical-det .pdEdit-main {
@@ -2234,7 +2234,7 @@
     color: #1D2088;
 }
 .caseDet-head-text-bot .tz-cpxq-jt {
-    background: url("../image/arr-blue1.png") no-repeat right center;
+    background: url("../images/arr-blue1.png") no-repeat right center;
     background-size: 0.16rem 0.25rem;
     padding-left: 0.3rem;
 }
@@ -2283,7 +2283,7 @@
 }
 .caseDet-foot .wrap {
     padding: 1.6rem 0.52rem 0.56rem 0.4rem;
-    background: url(../image/m-case-det-foot-bg.png) no-repeat 0.4rem 0.4rem;
+    background: url(../images/m-case-det-foot-bg.png) no-repeat 0.4rem 0.4rem;
     background-size: 2rem auto;
 }
 .caseDet-foot-text {
@@ -2298,7 +2298,7 @@
     line-height: 0.42rem;
     margin-top: 0.5rem;
     padding-left: 1.1rem;
-    background: url("../image/caseDet-foot-hf_03.png") no-repeat left center;
+    background: url("../images/caseDet-foot-hf_03.png") no-repeat left center;
     background-size: 0.78rem auto;
 }
 .caseDet-center {
@@ -2318,7 +2318,7 @@
 .caseDet-center .swiper-prev {
     width: 0.6rem;
     height: 1.2rem;
-    background: url("../image/m-case-swiper-prev.png") no-repeat center top;
+    background: url("../images/m-case-swiper-prev.png") no-repeat center top;
     background-size: 0.6rem 1.2rem;
     left: 0.4rem;
     margin-top: -0.6rem;
@@ -2329,13 +2329,13 @@
     width: 0.17rem;
     height: 0.25rem;
     display: inline-block;
-    background: url("../image/m-case-next.png") no-repeat center center;
+    background: url("../images/m-case-next.png") no-repeat center center;
     background-size: 0.17rem 0.25rem;
 }
 .caseDet-center .swiper-next {
     width: 0.6rem;
     height: 1.2rem;
-    background: url("../image/m-case-swiper-next.png") no-repeat center top;
+    background: url("../images/m-case-swiper-next.png") no-repeat center top;
     background-size: 0.6rem 1.2rem;
     right: 0.4rem;
     margin-top: -0.6rem;
@@ -2346,7 +2346,7 @@
     width: 0.17rem;
     height: 0.25rem;
     display: inline-block;
-    background: url("../image/m-case-prev.png") no-repeat center center;
+    background: url("../images/m-case-prev.png") no-repeat center center;
     background-size: 0.17rem 0.25rem;
 }
 
@@ -2364,7 +2364,7 @@
 }
 
 .newsMedia {
-    background: url("../image/m-newsMedia-bg1.jpg") no-repeat center top;
+    background: url("../images/m-newsMedia-bg1.jpg") no-repeat center top;
     background-size: cover;
     padding: 0.5rem 0.3rem;
 }
@@ -2375,7 +2375,7 @@
     color: #f6f6f6;
 }
 .newsMedia .rTit .rTitMore span {
-    background: url(../image/m-news-more_031.png) no-repeat right center;
+    background: url(../images/m-news-more_031.png) no-repeat right center;
     background-size: 0.3rem auto;
 }
 .newsMedia-main {
@@ -2420,7 +2420,7 @@
 }
 .newsHot-main .list-time{
     color: #fff;
-    background: url(../image/m-news-hot-time1.png) no-repeat left center;
+    background: url(../images/m-news-hot-time1.png) no-repeat left center;
     background-size: 0.32rem 0.32rem;
 }
 
@@ -2443,7 +2443,7 @@
 }
 .newsReport-main .list-time {
     color: #999;
-    background: url(../image/m-technical-date-icon11.png) no-repeat left center;
+    background: url(../images/m-technical-date-icon11.png) no-repeat left center;
     background-size: 0.32rem 0.32rem;
 }
 .news-item .pd-main{
@@ -2520,15 +2520,15 @@
     margin: 0 0.1rem;
 }
 .questions-det-ev .share-tw {
-    background: url("../image/m-news-tw.png") no-repeat center center;
+    background: url("../images/m-news-tw.png") no-repeat center center;
     background-size: 0.32rem 0.26rem;
 }
 .questions-det-ev .share-fb {
-    background: url("../image/m-news-fb.png") no-repeat center center;
+    background: url("../images/m-news-fb.png") no-repeat center center;
     background-size: 0.14rem 0.28rem;
 }
 .questions-det-ev .share-ins {
-    background: url("../image/m-news-ins.png") no-repeat center center;
+    background: url("../images/m-news-ins.png") no-repeat center center;
     background-size: 0.24rem 0.25rem;
 }
 .wsc-detlink {
@@ -2561,14 +2561,14 @@
     float: left;
     height: 1rem;
     width: 0.74rem;
-    background: url(../image/m-news-pagePrev.png) no-repeat left center;
+    background: url(../images/m-news-pagePrev.png) no-repeat left center;
     background-size: 0.5rem 0.5rem;
 }
 .dl-next a i {
     float: right;
     height: 1rem;
     width: 0.74rem;
-    background: url(../image/m-news-pageNext.png) no-repeat right center;
+    background: url(../images/m-news-pageNext.png) no-repeat right center;
     background-size: 0.5rem 0.5rem;
 }
 .wsc-detlink i {
@@ -2716,14 +2716,14 @@
     margin-top: 0.3rem;
     width: 100%;
     height: 2rem;
-    background: url("../image/m-job-xy.jpg") no-repeat center top;
+    background: url("../images/m-job-xy.jpg") no-repeat center top;
     background-size: cover;
     border-radius: 0.08rem;
     line-height: 2rem;
     text-align: center;
 }
 .jobList-shbg{
-    background-image: url(../image/m-job-sh.jpg) !important;
+    background-image: url(../images/m-job-sh.jpg) !important;
 }
 .jobList-tit {
     display: inline-block;
@@ -2733,7 +2733,7 @@
     color: #ffffff;
     font-weight: bold;
     padding-top: 0.8rem;
-    background: url("../image/m-icon-xy.png") no-repeat center top;
+    background: url("../images/m-icon-xy.png") no-repeat center top;
     background-size: 0.72rem auto;
 }
 .jobList-main {
@@ -2813,7 +2813,7 @@
     margin-top: 0.3rem;
     width: 100%;
     height: 3.6rem;
-    background: url("../image/m-job-bg.jpg") no-repeat center top;
+    background: url("../images/m-job-bg.jpg") no-repeat center top;
     background-size: cover;
 }
 .jobLc-mes-tit {
@@ -2839,7 +2839,7 @@
 }
 .jobLc-mes-btn .btn-red span {
     padding-left: 0.46rem;
-    background: url("../image/m-icon-mes.png") no-repeat left center;
+    background: url("../images/m-icon-mes.png") no-repeat left center;
     background-size: 0.32rem auto;
 }
 .jobLc-mes-btn .email {
@@ -3145,27 +3145,27 @@
     height: 1.4rem;
 }
 .innop1_list1 {
-    background: url("../image/m-innop1-img1.jpg") no-repeat center;
+    background: url("../images/m-innop1-img1.jpg") no-repeat center;
     background-size: cover;
 }
 .innop1_list2 {
-    background: url("../image/m-innop1-img2.jpg") no-repeat center;
+    background: url("../images/m-innop1-img2.jpg") no-repeat center;
     background-size: cover;
 }
 .innop1_list3 {
-    background: url("../image/m-innop1-img3.jpg") no-repeat center;
+    background: url("../images/m-innop1-img3.jpg") no-repeat center;
     background-size: cover;
 }
 .innop1_list1 .innop1_icon {
-    background: url("../image/m-innop1-icon1.png") no-repeat center top;
+    background: url("../images/m-innop1-icon1.png") no-repeat center top;
     background-size: 1.4rem auto;
 }
 .innop1_list2 .innop1_icon {
-    background: url("../image/m-innop1-icon2.png") no-repeat center top;
+    background: url("../images/m-innop1-icon2.png") no-repeat center top;
     background-size: 1.4rem auto;
 }
 .innop1_list3 .innop1_icon {
-    background: url("../image/m-innop1-icon3.png") no-repeat center top;
+    background: url("../images/m-innop1-icon3.png") no-repeat center top;
     background-size: 1.4rem auto;
 }
 .innop1_tit {
@@ -3209,19 +3209,19 @@
     margin-top: 0.2rem;
 }
 .innop2_list1 {
-    background: url("../image/m-innop2-img1.jpg") no-repeat center;
+    background: url("../images/m-innop2-img1.jpg") no-repeat center;
     background-size: cover;
 }
 .innop2_list2 {
-    background: url("../image/m-innop2-img2.jpg") no-repeat center;
+    background: url("../images/m-innop2-img2.jpg") no-repeat center;
     background-size: cover;
 }
 .innop2_list3 {
-    background: url("../image/m-innop2-img3.jpg") no-repeat center;
+    background: url("../images/m-innop2-img3.jpg") no-repeat center;
     background-size: cover;
 }
 .innop2_list4 {
-    background: url("../image/m-innop2-img4.jpg") no-repeat center;
+    background: url("../images/m-innop2-img4.jpg") no-repeat center;
     background-size: cover;
 }
 .innop2_info {
@@ -3311,7 +3311,7 @@
 .envp2_zx_main {
     width: 100%;
     height: 4.12rem;
-    background: url("../image/m-envp3-bg1.jpg") no-repeat center top;
+    background: url("../images/m-envp3-bg1.jpg") no-repeat center top;
     background-size: cover;
 }
 .envp2_zx_info {
@@ -3405,7 +3405,7 @@
 }
 .zgCent {
     height: 6rem;
-    background: url("../image/m-zgc-bg.jpg") no-repeat center top;
+    background: url("../images/m-zgc-bg.jpg") no-repeat center top;
     background-size: cover;
 }
 .zgCent_text {
@@ -3438,19 +3438,19 @@
     margin-top: 0.5rem;
 }
 .zgBot_icon1 {
-    background: url("../image/m-zgb-icon1.png") no-repeat center;
+    background: url("../images/m-zgb-icon1.png") no-repeat center;
     background-size: 1.6rem auto;
 }
 .zgBot_icon2 {
-    background: url("../image/m-zgb-icon2.png") no-repeat center;
+    background: url("../images/m-zgb-icon2.png") no-repeat center;
     background-size: 1.6rem auto;
 }
 .zgBot_icon3 {
-    background: url("../image/m-zgb-icon3.png") no-repeat center;
+    background: url("../images/m-zgb-icon3.png") no-repeat center;
     background-size: 1.6rem auto;
 }
 .zgBot_icon4 {
-    background: url("../image/m-zgb-icon4.png") no-repeat center;
+    background: url("../images/m-zgb-icon4.png") no-repeat center;
     background-size: 1.6rem auto;
 }
 .zgBot_tit {
@@ -3461,6 +3461,6 @@
 }
 .zgBot_tit em {
     padding-right: 0.34rem;
-    background: url("../image/m-arr-blue.png") no-repeat right center;
+    background: url("../images/m-arr-blue.png") no-repeat right center;
     background-size: 0.16rem 0.24rem;
 }

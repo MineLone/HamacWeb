@@ -1,8 +1,6 @@
 /* 
 Adapter v3.0.0
 手机wap页面retina适配，基于rem,使用方法：设计稿如果是750 不需要更改。如果是其他尺寸的设计稿，改动设计稿的宽度即可。
-www.q-ui.cn
-2017.07.05
 */
 function baseFont(){
 	var designWidth = 750;//设计稿宽度,可以自由更改

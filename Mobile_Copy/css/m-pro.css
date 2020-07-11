@@ -64,28 +64,28 @@
     display: block;
 }
 .partnersTab .tabs-nav li .icon-01 {
-    background: url("../image/m-parters-icon1.png") no-repeat center top;
+    background: url("../images/m-parters-icon1.png") no-repeat center top;
     background-size: 0.67rem 0.44rem;
 }
 .partnersTab .tabs-nav li .icon-02 {
     margin: 0.16rem auto 0;
-    background: url("../image/m-parters-icon3.png") no-repeat center -0.1rem;
+    background: url("../images/m-parters-icon3.png") no-repeat center -0.1rem;
     background-size: 0.6rem 0.6rem;
 }
 .partnersTab .tabs-nav li .icon-03 {
-    background: url("../image/m-parters-icon4.png") no-repeat center top;
+    background: url("../images/m-parters-icon4.png") no-repeat center top;
     background-size: 0.44rem 0.44rem;
 }
 .partnersTab .tabs-nav .active .icon-01 {
-    background: url("../image/m-parters-icon1-hover.png") no-repeat center top;
+    background: url("../images/m-parters-icon1-hover.png") no-repeat center top;
     background-size: 0.67rem 0.44rem;
 }
 .partnersTab .tabs-nav .active .icon-02 {
-    background: url("../image/m-parters-icon3-hover.png") no-repeat center -0.1rem;
+    background: url("../images/m-parters-icon3-hover.png") no-repeat center -0.1rem;
     background-size: 0.6rem 0.6rem;
 }
 .partnersTab .tabs-nav .active .icon-03 {
-    background: url("../image/m-parters-icon4-hover.png") no-repeat center top;
+    background: url("../images/m-parters-icon4-hover.png") no-repeat center top;
     background-size: 0.44rem 0.44rem;
 }
 .partnersTab .tabs-item {
@@ -105,152 +105,152 @@
     border: 0.08rem solid #F6F6F6;
 }
 .partnersTab .tabs-gl-01 {
-    background: #fff url("../image/icon-gl-01.jpg") no-repeat center center;
+    background: #fff url("../images/icon-gl-01.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-gl-02 {
-    background: #fff url("../image/icon-gl-02.jpg") no-repeat center center;
+    background: #fff url("../images/icon-gl-02.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-gl-03 {
-    background: #fff url("../image/icon-gl-03.jpg") no-repeat center center;
+    background: #fff url("../images/icon-gl-03.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-gl-04 {
-    background: #fff url("../image/icon-gl-04.jpg") no-repeat center center;
+    background: #fff url("../images/icon-gl-04.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-gl-05 {
-    background: #fff url("../image/icon-gl-05.jpg") no-repeat center center;
+    background: #fff url("../images/icon-gl-05.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-gl-06 {
-    background: #fff url("../image/icon-gl-06.jpg") no-repeat center center;
+    background: #fff url("../images/icon-gl-06.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-gl-07 {
-    background: #fff url("../image/icon-gl-07.jpg") no-repeat center center;
+    background: #fff url("../images/icon-gl-07.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-gl-08 {
-    background: #fff url("../image/icon-gl-08.jpg") no-repeat center center;
+    background: #fff url("../images/icon-gl-08.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-gl-09 {
-    background: #fff url("../image/icon-gl-09.jpg") no-repeat center center;
+    background: #fff url("../images/icon-gl-09.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-gl-10 {
-    background: #fff url("../image/icon-gl-10.jpg") no-repeat center center;
+    background: #fff url("../images/icon-gl-10.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-gl-11 {
-    background: #fff url("../image/icon-gl-11.jpg") no-repeat center center;
+    background: #fff url("../images/icon-gl-11.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-gl-12 {
-    background: #fff url("../image/icon-gl-12.jpg") no-repeat center center;
+    background: #fff url("../images/icon-gl-12.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-jx-01 {
-    background: #fff url("../image/icon-jx-01.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-01.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-jx-02 {
-    background: #fff url("../image/icon-jx-02.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-02.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-jx-03 {
-    background: #fff url("../image/icon-jx-03.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-03.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-jx-04 {
-    background: #fff url("../image/icon-jx-04.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-04.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-jx-05 {
-    background: #fff url("../image/icon-jx-05.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-05.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-jx-06 {
-    background: #fff url("../image/icon-jx-06.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-06.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-jx-07 {
-    background: #fff url("../image/icon-jx-07.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-07.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-jx-08 {
-    background: #fff url("../image/icon-jx-08.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-08.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-jx-09 {
-    background: #fff url("../image/icon-jx-09.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-09.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-jx-10 {
-    background: #fff url("../image/icon-jx-10.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-10.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-jx-11 {
-    background: #fff url("../image/icon-jx-11.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-11.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-jx-12 {
-    background: #fff url("../image/icon-jx-12.jpg") no-repeat center center;
+    background: #fff url("../images/icon-jx-12.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-qt-01 {
-    background: #fff url("../image/icon-qt-01.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-01.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-qt-02 {
-    background: #fff url("../image/icon-qt-02.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-02.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-qt-03 {
-    background: #fff url("../image/icon-qt-03.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-03.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-qt-04 {
-    background: #fff url("../image/icon-qt-04.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-04.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-qt-05 {
-    background: #fff url("../image/icon-qt-05.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-05.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-qt-06 {
-    background: #fff url("../image/icon-qt-06.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-06.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-qt-07 {
-    background: #fff url("../image/icon-qt-07.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-07.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-qt-08 {
-    background: #fff url("../image/icon-qt-08.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-08.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-qt-09 {
-    background: #fff url("../image/icon-qt-09.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-09.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-qt-10 {
-    background: #fff url("../image/icon-qt-10.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-10.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-qt-11 {
-    background: #fff url("../image/icon-qt-11.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-11.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersTab .tabs-qt-12 {
-    background: #fff url("../image/icon-qt-12.jpg") no-repeat center center;
+    background: #fff url("../images/icon-qt-12.jpg") no-repeat center center;
     background-size: 2.2rem auto;
 }
 .partnersCredit {
     width: 100%;
-    background: url("../image/m-parters-credit-bg.jpg") no-repeat center top;
+    background: url("../images/m-parters-credit-bg.jpg") no-repeat center top;
     background-size: cover;
 }
 .partnersCredit .wrap {
@@ -330,7 +330,7 @@
 
 .Support-part1,.Support-part2,.Support-part3 {
     width: 100%;
-    background: url("../image/m-support-item-bg1.png") no-repeat center top;
+    background: url("../images/m-support-item-bg1.png") no-repeat center top;
     background-size: 7.5rem 3.56rem;
 }
 .Support-part1 .wrap,.Support-part2 .wrap,.Support-part3 .wrap {
@@ -361,15 +361,15 @@
     height: 1.2rem;
 }
 .pci-art .icon01 {
-    background: url("../image/m-support-item-icon1.png") no-repeat left top;
+    background: url("../images/m-support-item-icon1.png") no-repeat left top;
     background-size: 1rem 1.2rem;
 }
 .pci-art .icon02 {
-    background: url("../image/m-support-item-icon2.png") no-repeat left top;
+    background: url("../images/m-support-item-icon2.png") no-repeat left top;
     background-size: 1rem 1.2rem;
 }
 .pci-art .icon03 {
-    background: url("../image/m-support-item-icon3.png") no-repeat left top;
+    background: url("../images/m-support-item-icon3.png") no-repeat left top;
     background-size: 1rem 1.2rem;
 }
 .pci-ev {
@@ -400,7 +400,7 @@
 }
 .Support-more {
     width: 100%;
-    background: url("../image/m-support-more-bg.jpg") no-repeat center top;
+    background: url("../images/m-support-more-bg.jpg") no-repeat center top;
     background-size: cover;
 }
 .Support-more-cont {
@@ -489,19 +489,19 @@
     display: block;
 }
 .Innovation-head-icon1 {
-    background: url("../image/m-innovation-head-icon1.png") no-repeat center bottom;
+    background: url("../images/m-innovation-head-icon1.png") no-repeat center bottom;
     background-size: 1.28rem auto;
 }
 .Innovation-head-icon2 {
-    background: url("../image/m-innovation-head-icon2.png") no-repeat center bottom;
+    background: url("../images/m-innovation-head-icon2.png") no-repeat center bottom;
     background-size: 1.28rem auto;
 }
 .Innovation-head-icon3 {
-    background: url("../image/m-innovation-head-icon3.png") no-repeat center bottom;
+    background: url("../images/m-innovation-head-icon3.png") no-repeat center bottom;
     background-size: 1.28rem auto;
 }
 .Innovation-head-icon4 {
-    background: url("../image/m-innovation-head-icon4.png") no-repeat center bottom;
+    background: url("../images/m-innovation-head-icon4.png") no-repeat center bottom;
     background-size: 1.28rem auto;
 }
 .Innovation-head-tit {
@@ -552,7 +552,7 @@
     position: absolute;
     width: 100%;
     height: 9.42rem;
-    background: url("../image/m-innovation-founder.png") no-repeat center top;
+    background: url("../images/m-innovation-founder.png") no-repeat center top;
     background-size: 6.9rem 9.42rem;
     top: -6.64rem;
 }
@@ -653,7 +653,7 @@
 .global-what {
     width: 100%;
     padding-top: 2rem;
-    background: url("../image/m-global-what-bg.jpg") no-repeat center top;
+    background: url("../images/m-global-what-bg.jpg") no-repeat center top;
     background-size: 7.5rem 2rem;
 }
 .global-what .wrap {
@@ -706,7 +706,7 @@
 }
 .global-why {
     width: 100%;
-    background: url("../image/global-technology-bg.jpg") no-repeat center top;
+    background: url("../images/global-technology-bg.jpg") no-repeat center top;
     background-size: cover ;
 }
 .global-why .wrap {
@@ -756,7 +756,7 @@
     padding-left: 1.66rem;
 }
 .gtl-icon1 {
-    background: url("../image/m-global-technology-list-icon2.png") no-repeat left center;
+    background: url("../images/m-global-technology-list-icon2.png") no-repeat left center;
     background-size: 1.28rem 1.28rem;
 }
 .gtl-ev-text {
@@ -774,15 +774,15 @@
     opacity:0.4;
 }
 .gtl-icon2 {
-    background: url("../image/m-global-technology-list-icon2.png") no-repeat left center;
+    background: url("../images/m-global-technology-list-icon2.png") no-repeat left center;
     background-size: 1.28rem 1.28rem;
 }
 .gtl-icon3 {
-    background: url("../image/m-global-technology-list-icon3.png") no-repeat left center;
+    background: url("../images/m-global-technology-list-icon3.png") no-repeat left center;
     background-size: 1.28rem 1.28rem;
 }
 .gtl-icon4 {
-    background: url("../image/m-global-technology-list-icon4.png") no-repeat left center;
+    background: url("../images/m-global-technology-list-icon4.png") no-repeat left center;
     background-size: 1.28rem 1.28rem;
 }
 .global-technology-btn {
@@ -882,11 +882,11 @@
     padding-left: 1.6rem;
 }
 .Team-head-icon01 {
-    background: url("../image/m-team-head-icon01.png") no-repeat left center;
+    background: url("../images/m-team-head-icon01.png") no-repeat left center;
     background-size: 1.3rem 1.02rem;
 }
 .Team-head-icon02 {
-    background: url("../image/m-team-head-icon02.png") no-repeat left center;
+    background: url("../images/m-team-head-icon02.png") no-repeat left center;
     background-size: 1.04rem 1.04rem;
 }
 .Team-head-tit {
@@ -936,7 +936,7 @@
 }
 .Team-main-btn .btn span {
     padding-right: 0.54rem;
-    background: url("../image/m-team-main-btn1.png") no-repeat right center;
+    background: url("../images/m-team-main-btn1.png") no-repeat right center;
     background-size:  0.17rem 0.27rem;
 }
 .TeamCont-top-img {
@@ -962,7 +962,7 @@
 }
 .TeamCont-center .Team-main-btn .btn span {
     padding-right: 0.5rem;
-    background: url("../image/m-team-main-btn2.png") no-repeat right center;
+    background: url("../images/m-team-main-btn2.png") no-repeat right center;
     background-size:  0.17rem 0.27rem;
 }
 .TeamCont-center .TeamCont-top-img {
@@ -1012,19 +1012,19 @@
     vertical-align: middle;
 }
 .CareerHead-contact-face {
-    background: url("../image/m-career-face.png") no-repeat center top;
+    background: url("../images/m-career-face.png") no-repeat center top;
     background-size: 0.72rem 0.72rem;
 }
 .CareerHead-contact-tw {
-    background: url("../image/m-career-twitter.png") no-repeat center top;
+    background: url("../images/m-career-twitter.png") no-repeat center top;
     background-size: 0.72rem 0.72rem;
 }
 .CareerHead-contact-ins {
-    background: url("../image/m-career-link.png") no-repeat center top;
+    background: url("../images/m-career-link.png") no-repeat center top;
     background-size: 0.72rem 0.72rem;
 }
 .CareerHead-contact-gg {
-    background: url("../image/m-career-google.png") no-repeat center top;
+    background: url("../images/m-career-google.png") no-repeat center top;
     background-size: 0.72rem 0.72rem;
 }
 .CareerWhy {
@@ -1079,19 +1079,19 @@
     width: 100%;
 }
 .CareerWhy-icon1 {
-    background: url("../image/m-career-why-icon1.png") no-repeat center center;
+    background: url("../images/m-career-why-icon1.png") no-repeat center center;
     background-size: 0.64rem 0.78rem;
 }
 .CareerWhy-icon2 {
-    background: url("../image/m-career-why-icon2.png") no-repeat center center;
+    background: url("../images/m-career-why-icon2.png") no-repeat center center;
     background-size: 0.8rem 0.78rem;
 }
 .CareerWhy-icon3 {
-    background: url("../image/m-career-why-icon3.png") no-repeat center center;
+    background: url("../images/m-career-why-icon3.png") no-repeat center center;
     background-size: 0.64rem 0.54rem;
 }
 .CareerWhy-icon4 {
-    background: url("../image/m-career-why-icon4.png") no-repeat center center;
+    background: url("../images/m-career-why-icon4.png") no-repeat center center;
     background-size: 0.78rem 0.61rem;
 }
 .CareerWhy-cont-bri {
@@ -1184,7 +1184,7 @@
 
 .historyHead {
     height: 5.12rem;
-    background: url("../image/m-history-head-bg.png") no-repeat center top;
+    background: url("../images/m-history-head-bg.png") no-repeat center top;
     background-size: cover;
     margin-bottom: 0.42rem;
 }
@@ -1201,19 +1201,19 @@
 }
 .historyMain {
     margin-top: 0.16rem;
-    background: url("../image/m-history-round_03.png") no-repeat center top;
+    background: url("../images/m-history-round_03.png") no-repeat center top;
     background-size: 0.62rem auto;
     padding-top: 0.62rem;
 }
 .historyMain-top {
     margin-top: 0.04rem;
     padding-top: 0.6rem;
-    background: url("../image/m-history-top-line_03.png") no-repeat center top;
+    background: url("../images/m-history-top-line_03.png") no-repeat center top;
     background-size: 0.04rem auto;
 }
 .historyMain-list {
     padding-top: 0.8rem;
-    background: url("../image/m-history-top-line_03.png") no-repeat center 0.2rem;
+    background: url("../images/m-history-top-line_03.png") no-repeat center 0.2rem;
     background-size: 0.04rem auto;
 }
 .historyMain-list:first-child {
@@ -1277,7 +1277,7 @@
     cursor: pointer;
     right: 0;
     top: 0;
-    background: #1d2088 url("../image/m-questions-head-search.png") no-repeat center center;
+    background: #1d2088 url("../images/m-questions-head-search.png") no-repeat center center;
     background-size: 0.28rem 0.28rem;
 }
 .questions-center {
@@ -1358,7 +1358,7 @@
 .questions-art {
     min-height: 1.6rem;
     padding-left: 1.88rem;
-    background: url("../image/m-questions-art-wt.png") no-repeat left center;
+    background: url("../images/m-questions-art-wt.png") no-repeat left center;
     background-size: 1.6rem 1.6rem;
 }
 .questions-tit {
@@ -1392,7 +1392,7 @@
 }
 .dow-time {
     padding-left: 0.44rem;
-    background: url("../image/m-technical-date-icon1.png") no-repeat left center;
+    background: url("../images/m-technical-date-icon1.png") no-repeat left center;
     background-size: 0.32rem 0.32rem;
 }
 .questions-center .pdEdit-main {
@@ -1421,7 +1421,7 @@
 .question-more a {
     color: #3f6ddd;
     padding-right: 0.2rem ;
-    background: url("../image/m-questions-text-lj.png") no-repeat right center;
+    background: url("../images/m-questions-text-lj.png") no-repeat right center;
     background-size: 0.13rem auto;
 }
 .questions-label {
@@ -1429,7 +1429,7 @@
 }
 .questions-label-ev {
     float: left;
-    background: url("../image/m-bp-top_01.png") no-repeat left center;
+    background: url("../images/m-bp-top_01.png") no-repeat left center;
     background-size: auto 0.52rem;
     line-height: 0.52rem;
     color: #90a7ba;
@@ -1441,7 +1441,7 @@
 .questions-label-ev span {
     float: left;
     padding-right: 0.4rem;
-    background: url("../image/m-bp-bot_03.png") no-repeat right center;
+    background: url("../images/m-bp-bot_03.png") no-repeat right center;
     background-size: auto 0.52rem;
     height: 0.52rem;
     max-width: 5rem;
@@ -1455,8 +1455,8 @@
 .paging-inner span,.paging-inner a{display: inline-block;vertical-align: top;text-align: center;color: #555;}
 
 .page-ellipsis {width: 0.92rem;}
-.paging-inner .prev{background: #f6f6f6 url("../image/m-pagePrev.png") no-repeat center center;background-size: 0.14rem 0.2rem;}
-.paging-inner .next{background: #f6f6f6 url("../image/m-pageNext.png") no-repeat center center;background-size: 0.14rem 0.2rem;}
+.paging-inner .prev{background: #f6f6f6 url("../images/m-pagePrev.png") no-repeat center center;background-size: 0.14rem 0.2rem;}
+.paging-inner .next{background: #f6f6f6 url("../images/m-pageNext.png") no-repeat center center;background-size: 0.14rem 0.2rem;}
 .Solution-bottom {
     width: 100%;
     background-color: #fff;
@@ -1508,7 +1508,7 @@
     transition: 0.36s;
 }
 .Solution-bottom-cont .list-info .list-more a {
-    background: url("../image/m-solution-bottom-list-more.png") no-repeat right center;
+    background: url("../images/m-solution-bottom-list-more.png") no-repeat right center;
     background-size: 0.16rem 0.24rem;
     padding-right: 0.28rem;
     transition: 0.36s;
@@ -1605,7 +1605,7 @@
 
 .Solution-top {
     width: 100%;
-    background: url("../image/m-solution-top-bg.png") no-repeat center top;
+    background: url("../images/m-solution-top-bg.png") no-repeat center top;
     background-size: cover;
 }
 .Solution-top .wrap {
@@ -1633,35 +1633,35 @@
     margin-right: 0.3rem;
 }
 .Solution-top .item-01 {
-    background: url("../image/m-solution-top-item1.png") no-repeat center center;
+    background: url("../images/m-solution-top-item1.png") no-repeat center center;
     background-size: 2.4rem 2.97rem;
 }
 .Solution-top .item-02 {
-    background: url("../image/m-solution-top-item2.png") no-repeat center center;
+    background: url("../images/m-solution-top-item2.png") no-repeat center center;
     background-size: 2.4rem 2.97rem;
 }
 .Solution-top .item-03 {
-    background: url("../image/m-solution-top-item3.png") no-repeat center center;
+    background: url("../images/m-solution-top-item3.png") no-repeat center center;
     background-size: 2.4rem 2.97rem;
 }
 .Solution-top .item-04 {
-    background: url("../image/m-solution-top-item4.png") no-repeat center center;
+    background: url("../images/m-solution-top-item4.png") no-repeat center center;
     background-size: 2.4rem 2.97rem;
 }
 .Solution-top .item-05 {
-    background: url("../image/m-solution-top-item5.png") no-repeat center center;
+    background: url("../images/m-solution-top-item5.png") no-repeat center center;
     background-size: 2.4rem 2.97rem;
 }
 .Solution-top .item-06 {
-    background: url("../image/m-solution-top-item6.png") no-repeat center center;
+    background: url("../images/m-solution-top-item6.png") no-repeat center center;
     background-size: 2.4rem 2.97rem;
 }
 .Solution-top .item-07 {
-    background: url("../image/m-solution-top-item7.png") no-repeat center center;
+    background: url("../images/m-solution-top-item7.png") no-repeat center center;
     background-size: 2.4rem 2.97rem;
 }
 .Solution-top .item-08 {
-    background: url("../image/m-solution-top-item8.png") no-repeat center center;
+    background: url("../images/m-solution-top-item8.png") no-repeat center center;
     background-size: 2.4rem 2.97rem;
 }
 .Solution-top-item-tit {
@@ -1693,7 +1693,7 @@
 }
 .Solution-center {
     width: 100%;
-    background: url("../image/m-solution-center-bg.jpg") no-repeat center top;
+    background: url("../images/m-solution-center-bg.jpg") no-repeat center top;
     background-size: cover;
 }
 .Solution-center .wrap {
@@ -1741,7 +1741,7 @@
     width: 6.7rem;
     border: 0.1rem solid #F6F6F6;
     border-radius:0.4rem;
-    background: url("../image/m-solution-det-top-main-bg.png") no-repeat center bottom;
+    background: url("../images/m-solution-det-top-main-bg.png") no-repeat center bottom;
     background-size: 6.7rem 9rem;
 }
 .Solution-det-top-text {
@@ -1900,35 +1900,35 @@
     background: rgba(29,32,136,0.8);
 }
 .caseHead-list-01 {
-    background: url("../image/m-casehead-list-01.jpg") no-repeat center top;
+    background: url("../images/m-casehead-list-01.jpg") no-repeat center top;
     background-size: 3.4rem auto;
 }
 .caseHead-list-02 {
-    background: url("../image/m-casehead-list-02.jpg") no-repeat center top;
+    background: url("../images/m-casehead-list-02.jpg") no-repeat center top;
     background-size: 3.4rem auto;
 }
 .caseHead-list-03 {
-    background: url("../image/m-casehead-list-03.jpg") no-repeat center top;
+    background: url("../images/m-casehead-list-03.jpg") no-repeat center top;
     background-size: 3.4rem auto;
 }
 .caseHead-list-04 {
-    background: url("../image/m-casehead-list-04.jpg") no-repeat center top;
+    background: url("../images/m-casehead-list-04.jpg") no-repeat center top;
     background-size: 3.4rem auto;
 }
 .caseHead-list-05 {
-    background: url("../image/m-casehead-list-05.jpg") no-repeat center top;
+    background: url("../images/m-casehead-list-05.jpg") no-repeat center top;
     background-size: 3.4rem auto;
 }
 .caseHead-list-06 {
-    background: url("../image/m-casehead-list-06.jpg") no-repeat center top;
+    background: url("../images/m-casehead-list-06.jpg") no-repeat center top;
     background-size: 3.4rem auto;
 }
 .caseHead-list-07 {
-    background: url("../image/m-casehead-list-07.jpg") no-repeat center top;
+    background: url("../images/m-casehead-list-07.jpg") no-repeat center top;
     background-size: 3.4rem auto;
 }
 .caseHead-list-08 {
-    background: url("../image/m-casehead-list-08.jpg") no-repeat center top;
+    background: url("../images/m-casehead-list-08.jpg") no-repeat center top;
     background-size: 3.4rem auto;
 }
 .caseHead-icon {
@@ -1938,35 +1938,35 @@
     left: 0;
 }
 .caseHead-icon-06 {
-    background: url("../image/m-caseHead-icon-6.png") no-repeat center bottom;
+    background: url("../images/m-caseHead-icon-6.png") no-repeat center bottom;
     background-size: 0.9rem auto;
 }
 .caseHead-icon-05 {
-    background: url("../image/m-caseHead-icon-5.png") no-repeat center bottom;
+    background: url("../images/m-caseHead-icon-5.png") no-repeat center bottom;
     background-size: 0.68rem auto;
 }
 .caseHead-icon-08 {
-    background: url("../image/m-caseHead-icon-8.png") no-repeat center bottom;
+    background: url("../images/m-caseHead-icon-8.png") no-repeat center bottom;
     background-size: 0.8rem auto;
 }
 .caseHead-icon-02 {
-    background: url("../image/m-caseHead-icon-2.png") no-repeat center bottom;
+    background: url("../images/m-caseHead-icon-2.png") no-repeat center bottom;
     background-size: 0.8rem auto;
 }
 .caseHead-icon-04 {
-    background: url("../image/m-caseHead-icon-4.png") no-repeat center bottom;
+    background: url("../images/m-caseHead-icon-4.png") no-repeat center bottom;
     background-size: 0.8rem auto;
 }
 .caseHead-icon-01 {
-    background: url("../image/m-caseHead-icon-1.png") no-repeat center bottom;
+    background: url("../images/m-caseHead-icon-1.png") no-repeat center bottom;
     background-size: 0.72rem auto;
 }
 .caseHead-icon-03 {
-    background: url("../image/m-caseHead-icon-3.png") no-repeat center bottom;
+    background: url("../images/m-caseHead-icon-3.png") no-repeat center bottom;
     background-size: 0.96rem auto;
 }
 .caseHead-icon-07 {
-    background: url("../image/caseHead-icon-7.png") no-repeat center bottom;
+    background: url("../images/caseHead-icon-7.png") no-repeat center bottom;
     background-size: 0.84rem auto;
 }
 .caseHead-tit {
@@ -2025,7 +2025,7 @@
 }
 .technical-date-dow span {
     padding-left: 0.58rem;
-    background: url("../image/m-dow-logo.png") no-repeat left center;
+    background: url("../images/m-dow-logo.png") no-repeat left center;
     background-size: 0.36rem 0.32rem;
 }
 .technical-det-date {
@@ -2050,7 +2050,7 @@
 }
 .technical-det-dow span {
     padding-left: 0.58rem;
-    background: url("../image/m-dow-logo.png") no-repeat left center;
+    background: url("../images/m-dow-logo.png") no-repeat left center;
     background-size: 0.36rem 0.32rem;
 }
 .technical-det .pdEdit-main {
@@ -2101,7 +2101,7 @@
     vertical-align: middle;
     width: 0.16rem;
     height: 0.48rem;
-    background: url("../image/arr-blue.png") no-repeat right 0.12rem;
+    background: url("../images/arr-blue.png") no-repeat right 0.12rem;
     background-size: 0.16rem 0.25rem;
     padding-left: 0.2rem;
 }
@@ -2146,7 +2146,7 @@
 }
 .caseDet-foot {
     width: 100%;
-    background: url("../image/m-case-det-foot-bg.jpg") no-repeat center top;
+    background: url("../images/m-case-det-foot-bg.jpg") no-repeat center top;
     background-size: cover;
 }
 .caseDet-foot .wrap {
@@ -2165,7 +2165,7 @@
     line-height: 0.48rem;
     margin-top: 0.5rem;
     padding-left: 0.84rem;
-    background: url("../image/caseDet-foot-hf_03.png") no-repeat left center;
+    background: url("../images/caseDet-foot-hf_03.png") no-repeat left center;
 }
 .caseDet-center {
     width: 100%;
@@ -2184,7 +2184,7 @@
 .caseDet-center .swiper-next  {
     width: 0.6rem;
     height: 1.2rem;
-    background: url("../image/m-case-swiper-prev.png") no-repeat center top;
+    background: url("../images/m-case-swiper-prev.png") no-repeat center top;
     background-size: 0.6rem 1.2rem;
     left: 0.4rem;
     margin-top: -0.6rem;
@@ -2195,13 +2195,13 @@
     width: 0.17rem;
     height: 0.25rem;
     display: inline-block;
-    background: url("../image/m-case-prev.png") no-repeat center center;
+    background: url("../images/m-case-prev.png") no-repeat center center;
     background-size: 0.17rem 0.25rem;
 }
 .caseDet-center .swiper-prev  {
     width: 0.6rem;
     height: 1.2rem;
-    background: url("../image/m-case-swiper-next.png") no-repeat center top;
+    background: url("../images/m-case-swiper-next.png") no-repeat center top;
     background-size: 0.6rem 1.2rem;
     left: 6.5rem;
     margin-top: -0.6rem;
@@ -2212,7 +2212,7 @@
     width: 0.17rem;
     height: 0.25rem;
     display: inline-block;
-    background: url("../image/m-case-next.png") no-repeat center center;
+    background: url("../images/m-case-next.png") no-repeat center center;
     background-size: 0.17rem 0.25rem;
 }
 
@@ -2230,7 +2230,7 @@
 }
 
 .newsMedia {
-    background: url("../image/m-newsMedia-bg.jpg") no-repeat center top;
+    background: url("../images/m-newsMedia-bg.jpg") no-repeat center top;
     background-size: cover;
     padding: 0.5rem 0.3rem;
 }
@@ -2241,7 +2241,7 @@
     color: #f6f6f6;
 }
 .newsMedia .rTit .rTitMore span {
-    background: url(../image/m-news-more_03.png) no-repeat right center;
+    background: url(../images/m-news-more_03.png) no-repeat right center;
     background-size: 0.3rem auto;
 }
 .newsMedia-main {
@@ -2286,7 +2286,7 @@
 }
 .newsHot-main .list-time{
     color: #fff;
-    background: url(../image/m-news-hot-time.png) no-repeat left center;
+    background: url(../images/m-news-hot-time.png) no-repeat left center;
     background-size: 0.32rem 0.32rem;
 }
 
@@ -2309,7 +2309,7 @@
 }
 .newsReport-main .list-time {
     color: #999;
-    background: url(../image/m-technical-date-icon1.png) no-repeat left center;
+    background: url(../images/m-technical-date-icon1.png) no-repeat left center;
     background-size: 0.32rem 0.32rem;
 }
 .news-item .pd-main{
@@ -2386,15 +2386,15 @@
     margin: 0 0.1rem;
 }
 .questions-det-ev .share-tw {
-    background: url("../image/m-news-tw.png") no-repeat center center;
+    background: url("../images/m-news-tw.png") no-repeat center center;
     background-size: 0.32rem 0.26rem;
 }
 .questions-det-ev .share-fb {
-    background: url("../image/m-news-fb.png") no-repeat center center;
+    background: url("../images/m-news-fb.png") no-repeat center center;
     background-size: 0.14rem 0.28rem;
 }
 .questions-det-ev .share-ins {
-    background: url("../image/m-news-ins.png") no-repeat center center;
+    background: url("../images/m-news-ins.png") no-repeat center center;
     background-size: 0.24rem 0.25rem;
 }
 .wsc-detlink {
@@ -2427,14 +2427,14 @@
     float: left;
     height: 1rem;
     width: 0.74rem;
-    background: url(../image/m-news-pagePrev.png) no-repeat left center;
+    background: url(../images/m-news-pagePrev.png) no-repeat left center;
     background-size: 0.5rem 0.5rem;
 }
 .dl-next a i {
     float: right;
     height: 1rem;
     width: 0.74rem;
-    background: url(../image/m-news-pageNext.png) no-repeat right center;
+    background: url(../images/m-news-pageNext.png) no-repeat right center;
     background-size: 0.5rem 0.5rem;
 }
 .wsc-detlink i {
@@ -2527,34 +2527,34 @@
     line-height: 0.52rem;
 }
 .sol-type .icon-sh{
-    background: url(../image/soltype-sh.png) no-repeat center 0.36rem;
+    background: url(../images/soltype-sh.png) no-repeat center 0.36rem;
     background-size: 0.88rem auto;
 }
 .sol-type .icon-gr{
-    background: url(../image/soltype-gr.png) no-repeat center 0.46rem;
+    background: url(../images/soltype-gr.png) no-repeat center 0.46rem;
     background-size: 0.68rem auto;
 }
 .sol-type .icon-sp{
-    background: url(../image/soltype-sp.png) no-repeat center 0.44rem;
+    background: url(../images/soltype-sp.png) no-repeat center 0.44rem;
     background-size: 0.76rem auto;
 }
 .sol-type .icon-jy{
-    background: url(../image/soltype-jy.png) no-repeat center 0.4rem;
+    background: url(../images/soltype-jy.png) no-repeat center 0.4rem;
     background-size: 0.61rem auto;
 }
 .sol-type .icon-fz{
-    background: url(../image/soltype-fz.png) no-repeat center 0.36rem;
+    background: url(../images/soltype-fz.png) no-repeat center 0.36rem;
     background-size: 0.73rem auto;
 }
 .sol-type .icon-gd{
-    background: url(../image/soltype-gd.png) no-repeat center 0.36rem;
+    background: url(../images/soltype-gd.png) no-repeat center 0.36rem;
     background-size: 0.61rem auto;
 }
 .sol-type .icon-zy{
-    background: url(../image/soltype-zy.png) no-repeat center 0.38rem;
+    background: url(../images/soltype-zy.png) no-repeat center 0.38rem;
     background-size: 0.69rem auto;
 }
 .sol-type .icon-gl{
-    background: url(../image/soltype-gl.png) no-repeat center 0.38rem;
+    background: url(../images/soltype-gl.png) no-repeat center 0.38rem;
     background-size: 0.83rem auto;
 }
