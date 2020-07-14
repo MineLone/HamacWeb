@@ -585,7 +585,7 @@
     background-color: $clSkyBlue;
     ul:first-child {
       box-sizing: border-box;
-      height: 21.1852rem; //572
+      height: 22.5rem; //572
       background-color: $clWhite;
       text-align: center;
       li:first-child {
@@ -603,15 +603,32 @@
       }
       li:nth-child(3) {
         display: flex;
+        justify-content: space-around;
         font-size: $font30;
         font-weight: 700;
-        p {
+        padding:0 1.2rem;
+        div{
+          margin-top: 2rem;
+          width: 7.4815rem;
+          position: relative;
+          img{
+            width: 100%;
+          }
+          p {
+            position: absolute;
+            top: 3rem;
+            right: 0;
+            color: white;
+          }
         }
+
       }
       li:last-child {
         color: $clDarkBlue;
         font-size: $font30;
         position: relative;
+        // margin: 1.4815rem 0;
+        padding-top: 0.2rem;
 
         &::after {
           content: '';
@@ -653,4 +670,8 @@
       }
     }
   }
+}
+
+.foot{
+
 }

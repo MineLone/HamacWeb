@@ -1165,16 +1165,17 @@ button.swiper-pagination-bullet {
     position: relative;
 }
 
-.fb-lx {
-    background: #e03b3b url(../images/fix-lx.png) no-repeat center 0.2rem;
-    background-size: 0.39rem auto;
-}
-
 .fb-online {
     background: #e03b3b url(../images/fix-online.png) no-repeat center 0.26rem;
     background-size: 0.39rem auto;
 }
-
+.fb-em {
+    display: none;
+}
+.fb-lx {
+    background: #e03b3b url(../images/fix-lx.png) no-repeat center 0.2rem;
+    background-size: 0.39rem auto;
+}
 .fb-top {
     background: #e03b3b url(../images/fix-top.png) no-repeat center center;
     background-size: 0.48rem auto;

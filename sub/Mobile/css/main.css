@@ -630,7 +630,7 @@ div {
 
 .main .survey ul:first-child {
   box-sizing: border-box;
-  height: 21.1852rem;
+  height: 22.5rem;
   background-color: #ffffff;
   text-align: center;
 }
@@ -652,14 +652,34 @@ div {
 
 .main .survey ul:first-child li:nth-child(3) {
   display: flex;
+  justify-content: space-around;
   font-size: 1.1111rem;
   font-weight: 700;
+  padding: 0 1.2rem;
+}
+
+.main .survey ul:first-child li:nth-child(3) div {
+  margin-top: 2rem;
+  width: 7.4815rem;
+  position: relative;
+}
+
+.main .survey ul:first-child li:nth-child(3) div img {
+  width: 100%;
+}
+
+.main .survey ul:first-child li:nth-child(3) div p {
+  position: absolute;
+  top: 3rem;
+  right: 0;
+  color: white;
 }
 
 .main .survey ul:first-child li:last-child {
   color: #002b45;
   font-size: 1.1111rem;
   position: relative;
+  padding-top: 0.2rem;
 }
 
 .main .survey ul:first-child li:last-child::after {
